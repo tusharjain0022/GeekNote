@@ -15,7 +15,7 @@ This project provides a single platform with a attractive user interface to orga
 
 ### congratulation!! 🥇 You have Run the server in your local machine!!
 
-## PR rules:
+### PR rules:
 
 - Every PR should accompany an issue.
 - Make a relevant PR title and mention the issue in the description.
