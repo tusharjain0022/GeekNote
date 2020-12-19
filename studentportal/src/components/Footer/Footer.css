@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+=======
+.main-footer{
+    background: #0B0D17;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+.container{
+    color: white;
+}
+.Option{
+    padding: 4px;
+    /* font-family: Verdana; */
+    font-size: 20px;
+    line-height: 30px;
+}
+.Contents{
+    padding: 4px;
+    /* font-family: Segoe UI; */
+    font-size: 16px;
+    line-height: 26px;
+}
+.list-unstyled{
+    padding: 1px;
+}
+.sp{
+    margin: 7px;
+    padding: 1px;
+}
+.sp-contents{
+    text-align: center;
+    background-color: #3C3D45;
+    bottom: 10pt;
+    top: 10pt;
+    left:200pt;
+    border-radius: 8px;
+}
+.text
+{
+    left: 0%;
+    right: 0%;
+    top: 57.45%;
+    bottom: 0%;
+}
+a {
+    color: #FFF;
+  }
+  a::hover
+  {
+    color: #FFF;
+  }
+  .Links{
+      padding:5px;
+  }
+>>>>>>> bb6ad15... Created Footer

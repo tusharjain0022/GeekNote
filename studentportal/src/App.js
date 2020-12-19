@@ -11,7 +11,8 @@ import Documentation from "./components/Documentation/Documentation";
 
 function App() {
   return (
-    <div className="app-component">
+    <div className="page-container">
+      <div className="content-wrap">
       <Router>
         <Navbar />
         <Switch>
@@ -66,6 +67,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
+    </div>
     </div>
   );
 }
