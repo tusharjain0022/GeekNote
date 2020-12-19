@@ -1,7 +1,6 @@
 import "./Navbar.css";
-import 'C:/Users/Lenovo/Desktop/3001/studentportal/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 
 function Navbar_Top() {
   return (
