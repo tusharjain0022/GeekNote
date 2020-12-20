@@ -2,7 +2,7 @@ import "./Documentation.css";
 
 function Documentation(props) {
   return (
-    <div>
+    <div className="documentation">
       <h1>This is a {props.name} Page</h1>
     </div>
   );
