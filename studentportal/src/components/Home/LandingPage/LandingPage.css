@@ -1,0 +1,38 @@
+.slack-button {
+    z-index: 99999999;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: none;
+    align-items: center;
+}
+.slack-button .svg-container {
+    align-items: center;
+}
+
+.slack-button .svg-container:before {
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    height: 20px;
+    width: 20px;
+    background-color: #333;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.slack-button .svg-container:after {
+    content: "Join us on Slack";
+    position: absolute;
+    top: -20%;
+    left: -122%;
+    height: 20px;
+    width: 120px;
+    padding: 4px;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    line-height: 20px;
+}
