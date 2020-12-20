@@ -1,75 +1,47 @@
 import "./Navbar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
-function Navbar() {
+function Navbar_Top() {
   return (
     <div>
-<ul>
-  <li><a href="#logo">Logo</a></li>
-  <li><a href="#home">Project 3001</a></li>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <div className="dropdown">
-    <button className="dropbtn">Resources 
-      <i className="fa fa-caret-down"></i>
-    </button>
-    <div className="dropdown-content">
-      <div className="dropdown">
-      <button className="dropbtn"> 1st year 
-      <i className="fa fa-caret-down"></i>
-      </button>
-        <div className="dropdown-content">
-          <a href="#">CSE</a>
-          <a href="#">ECE</a>
-        </div>
-      </div>
-    <div className="dropdown">
-      <button className="dropbtn"> 2nd year 
-      <i className="fa fa-caret-down"></i>
-      </button>
-        <div className="dropdown-content">
-        <a href="#">CSE</a>
-        <a href="#">ECE</a>
-        </div>
+      <>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+          <Navbar.Brand href="/">Logo 3001</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/" className="ml-3">Home</Nav.Link>
+              <Nav.Link href="" className="ml-3 mr-3">About</Nav.Link>
+              <NavDropdown title="Resources" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="/first-year-cse">First Year CSE</NavDropdown.Item>
+                <NavDropdown.Item href="/first-year-ece">First Year ECE</NavDropdown.Item>
+                <NavDropdown.Item href="/second-year-cse">Second Year CSE</NavDropdown.Item>
+                <NavDropdown.Item href="/second-year-ece">Second Year ECE</NavDropdown.Item>
+                <NavDropdown.Item href="/third-year-cse">Third Year CSE</NavDropdown.Item>
+                <NavDropdown.Item href="/third-year-ece">Third Year ECE</NavDropdown.Item>
+                <NavDropdown.Item href="/fourth-year-cse">Fourth Year CSE</NavDropdown.Item>
+                <NavDropdown.Item href="/fourth-year-ece">Fourth Year ECE</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="">Terms and Policy</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="/blog" className="ml-3">Blog</Nav.Link>
+              <Nav.Link href="" className="ml-3 mr-3">Calender</Nav.Link>
+              <NavDropdown title="Contact us" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="">Person 1</NavDropdown.Item>
+                <NavDropdown.Item href="">Person 2</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+            <Nav>
+              <div>
+                <Button variant="secondary" size="sm" className="ml-3 pl-3 pr-3">Log In</Button>
+                <Button variant="secondary" size="sm" className="ml-3 pl-3 pr-3" style={{backgroundColor: "rgb(32, 38, 82)"}}>Sign Up</Button>
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </>
     </div>
-    <div className="dropdown">
-      <button className="dropbtn"> 3rd year 
-      <i className="fa fa-caret-down"></i>
-      </button>
-        <div className="dropdown-content">
-        <a href="#">CSE</a>
-        <a href="#">ECE</a>
-        </div>
-     </div>
-     <div className="dropdown">
-      <button className="dropbtn"> 4th year 
-      <i className="fa fa-caret-down"></i>
-      </button>
-        <div className="dropdown-content">
-        <a href="#">CSE</a>
-        <a href="#">ECE</a>
-        </div>
-     </div> 
-      
-    </div>
-  </div>
-  <li><a href="#blog">Blog</a></li>
-  <li><a href="#calender">Calender</a></li>
-  <div className="dropdown">
-      <button className="dropbtn"> Contact Us 
-      <i className="fa fa-caret-down"></i>
-      </button>
-        <div className="dropdown-content">
-          <a href="#">Call us</a>
-          <a href="#">Via E-mail</a>
-        </div>
-   </div>
-   <div className="login"><li><a href="#about">Login</a></li></div>
-  <div className="signup"><li><a href="#about">Signup</a></li></div>
-</ul>
-</div>
   );
 }
-export default Navbar;
-
-
-
+export default Navbar_Top;

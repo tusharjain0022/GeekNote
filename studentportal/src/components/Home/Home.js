@@ -7,7 +7,7 @@ import Contact from "./Contact/Contact";
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>This is a Home Page</h1>
       <LandingPage />
       <About />
