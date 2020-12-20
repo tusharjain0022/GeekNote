@@ -11,10 +11,10 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="main-footer">
-      <div className="container">
+      <div className="container containerclass">
         <div className="row">
           {/* Column1 */}
-          <div className="col-4">
+          <div className="col-6 col-sm-4">
             <div className="Option">
               <h4>Project 3001</h4>
             </div>
@@ -40,9 +40,9 @@ function Footer() {
             </div>
           </div>
           {/*Column2*/}
-          <div className="col-2">
+          <div className="col-6 col-sm-2">
             <div className="Option">
-              <h4>Links</h4>
+              <h5>Links</h5>
             </div>
             <div className="Contents">
               <ui className="list-unstyled">
@@ -50,10 +50,10 @@ function Footer() {
                   <Link to="/">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/resources">Resources</Link>
+                  <Link to="/">Resources</Link>
                 </li>
                 <li>
                   <Link to="/">Home</Link>
@@ -65,23 +65,23 @@ function Footer() {
             </div>
           </div>
           {/*Column3*/}
-          <div className="col-3">
+          <div className="col-4 col-sm-2">
             <div className="Option">
-              <h4>Support</h4>
+              <h5>Support</h5>
             </div>
             <div className="Contents">
               <ui className="list-unstyled">
                 <li>
-                  <Link to="/contactus">Contact CR</Link>
+                  <Link to="/">Contact CR</Link>
                 </li>
                 <li>
-                  <Link to="/contactus">Contact Page admins</Link>
+                  <Link to="/">Contact Page admins</Link>
                 </li>
                 <li>
-                  <Link to="/developers">Developers</Link>
+                  <Link to="/">Developers</Link>
                 </li>
                 <li>
-                  <Link to="/terms-and-policy">Terms and Policy</Link>
+                  <Link to="/">Terms and Policy</Link>
                 </li>
                 <li>
                   <Link to="/">Login/SignUp</Link>
@@ -90,9 +90,9 @@ function Footer() {
             </div>
           </div>
           {/*Column4*/}
-          <div className="col-3">
+          <div className="col-8 col-sm-4">
             <div className="sp">
-              <h4>Stay Up to Date</h4>
+              <h5>Stay Up to Date</h5>
             </div>
             <div className="sp-contents">
               <Form>
@@ -102,7 +102,7 @@ function Footer() {
               </Form>
             </div>
             <div className="sp">
-              <h4>Want to Contribute?</h4>
+              <h5>Want to Contribute?</h5>
             </div>
             <div className="sp-contents">
               <div className="text">
@@ -115,7 +115,6 @@ function Footer() {
         </div>
       </div>
     </div>
-
   );
 }
 export default Footer;
