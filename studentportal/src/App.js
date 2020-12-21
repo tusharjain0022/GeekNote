@@ -11,11 +11,12 @@ import Documentation from "./components/Documentation/Documentation";
 
 function App() {
   return (
-    <div className="app-component">
+    <div className="page-container">
+      <div className="content-wrap">
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/blog" component={Blog} />
           <Route exact path="/" component={Home} />
           <Route
             exact
@@ -66,6 +67,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
+    </div>
     </div>
   );
 }
