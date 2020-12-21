@@ -24,12 +24,12 @@
     transform: rotate(45deg);
 }
 .slack-button .svg-container:after {
-    content: "Join us on Slack";
+    content: ". Join us on Slack";
     position: absolute;
     top: -20%;
-    left: -122%;
-    height: 20px;
-    width: 120px;
+    left: -130%;
+    height: 25px;
+    width: 138px;
     padding: 4px;
     border-radius: 20px;
     background-color: #333;
