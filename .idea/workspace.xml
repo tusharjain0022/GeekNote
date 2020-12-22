@@ -24,11 +24,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a3309b11-5b0e-4010-8ec8-c136a1e4b75b" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="fb249801-8dce-4f1a-bce4-0ddf98638244" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/studentportal/src/components/Footer/line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentportal/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentportal/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentportal/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/src/components/Footer/Footer.js" afterDir="false" />
+    </list>
+>>>>>>> f972409... Footer modified for mobile view
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,11 +103,31 @@
     <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608627899154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608627899154" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608627567173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608627567173" />
+=======
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608534877729" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1608646894535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608646894535" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1608646894535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608646894535" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1608646894535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608646894535" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1608646894535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608646894535" />
+>>>>>>> f972409... Footer modified for mobile view
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1607499331901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

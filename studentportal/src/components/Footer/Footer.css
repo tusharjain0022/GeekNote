@@ -25,14 +25,16 @@
 .sp {
   margin: 7px;
   padding: 1px;
+  /*text-align: left;*/
 }
 .sp-contents {
   text-align: center;
   background-color: #3c3d45;
-  bottom: 10pt;
-  top: 10pt;
+  bottom: 20pt;
+  top: 20pt;
   left: 200pt;
   border-radius: 8px;
+  overflow: hidden;
 }
 .text {
   left: 0%;
@@ -48,4 +50,44 @@ a:hover {
 }
 .Links {
   padding: 5px;
+}
+.col-12{
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.forbg{
+  background-color: #3c3d45;
+}
+.divider{
+  flex-grow: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 1px solid white;
+}
+.baseLine
+{
+  font-size: 10px;
+  text-align: center;
+}
+.spdivider {
+  flex-grow: 1;
+  border-bottom: 1px solid white;
+  margin: 5px
+}
+.form{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.spcontents{
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  background-color: #3c3d45;
+  bottom: 20pt;
+  top: 20pt;
+  left: 200pt;
+  border-radius: 8px;
+  overflow: hidden;
 }
