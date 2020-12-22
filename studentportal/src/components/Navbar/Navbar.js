@@ -4,7 +4,7 @@ import { Button, Nav, Form, Navbar, NavDropdown, Modal } from 'react-bootstrap';
 import { useState } from 'react';
 import Signup_img from './svg_nav/Signup_img.svg';
 import Google_logo from './svg_nav/Google_logo.svg';
-import './Sign_up.css';
+import './sign_up.css';
 
 function Navbar_Top() {
 
