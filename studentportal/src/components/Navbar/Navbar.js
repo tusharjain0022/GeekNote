@@ -2,9 +2,9 @@ import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Nav, Form, Navbar, NavDropdown, Modal } from 'react-bootstrap';
 import { useState } from 'react';
-import signup_img from './svg_nav/signup_img.svg';
-import google_logo from './svg_nav/google_logo.svg';
-import './sign_up.css';
+import Signup_img from './svg_nav/Signup_img.svg';
+import Google_logo from './svg_nav/Google_logo.svg';
+import './Sign_up.css';
 
 function Navbar_Top() {
 
@@ -51,12 +51,12 @@ function Navbar_Top() {
                 {/* code for Sign up modal starts here */}
                   <Modal size="lg" centered show={show} onHide={handleClose}>
                         <div className="main_div">
-                          <div className="disappear"><img className="for_img" src={signup_img} /></div>
+                          <div className="disappear"><img className="for_img" src={Signup_img} alt="register here"/></div>
                           <hr></hr>
                           <div className="container mt-4">
                             <Form className="form_css">
-                              <Button className=" goggle_button font-weight-bold" style={{color: "black", background: "#FFFFFF", border:"#FFFFFF", color:"#0E3854", borderRadius:"1cm"}} type="submit">
-                                <img src={google_logo} />  SignUp with Google
+                              <Button className=" goggle_button font-weight-bold" style={{ background: "#FFFFFF", border:"#FFFFFF", color:"#0E3854", borderRadius:"1cm"}} type="submit">
+                                <img src={Google_logo} alt="google logo" />  SignUp with Google
                               </Button>
 
                               <Form.Group controlId="formBasicEmail">
