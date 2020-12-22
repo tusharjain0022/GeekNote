@@ -25,8 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3309b11-5b0e-4010-8ec8-c136a1e4b75b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/studentportal/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentportal/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentportal/src/components/Home/LandingPage/LandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/src/components/Home/LandingPage/LandingPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentportal/src/components/Home/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/studentportal/src/components/Home/LandingPage/LandingPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
