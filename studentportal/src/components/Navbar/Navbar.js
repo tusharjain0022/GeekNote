@@ -1,8 +1,19 @@
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Nav, Form, Navbar, NavDropdown, Modal } from 'react-bootstrap';
+import { useState } from 'react';
+import Signup_img from './svg_nav/signup_img.svg';
+import Google_logo from './svg_nav/google_logo.svg';
+import './sign_up.css';
 
 function Navbar_Top() {
+
+  // following use states are for sign up modal
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+
   return (
     <div>
       <>
@@ -35,7 +46,45 @@ function Navbar_Top() {
             <Nav>
               <div>
                 <Button variant="secondary" size="sm" className="ml-3 pl-3 pr-3">Log In</Button>
-                <Button variant="secondary" size="sm" className="ml-3 pl-3 pr-3" style={{backgroundColor: "rgb(32, 38, 82)"}}>Sign Up</Button>
+
+                <Button variant="secondary" onClick={handleShow} size="sm" className="ml-3 pl-3 pr-3" style={{ backgroundColor: "rgb(32, 38, 82)" }}>Sign Up</Button>
+                {/* code for Sign up modal starts here */}
+                  <Modal size="lg" centered show={show} onHide={handleClose}>
+                        <div className="main_div">
+                          <div className="disappear"><img className="for_img" src={Signup_img} alt="register here"/></div>
+                          <hr></hr>
+                          <div className="container mt-4">
+                            <Form className="form_css">
+                              <Button className=" goggle_button font-weight-bold" style={{ background: "#FFFFFF", border:"#FFFFFF", color:"#0E3854", borderRadius:"1cm"}} type="submit">
+                                <img src={Google_logo} alt="google logo" />  SignUp with Google
+                              </Button>
+
+                              <Form.Group controlId="formBasicEmail">
+                                <Form.Label className="font-weight-bold">Email address</Form.Label>
+                                <Form.Control type="email" placeholder="Enter email" />
+                              </Form.Group>
+
+                              <Form.Group controlId="formBasicEmail">
+                                <Form.Label className="font-weight-bold">Username</Form.Label>
+                                <Form.Control type="text" placeholder="Enter Username" />
+                              </Form.Group>
+
+                              <Form.Group controlId="formBasicPassword">
+                                <Form.Label className="font-weight-bold">Password</Form.Label>
+                                <Form.Control type="password" placeholder="Password" />
+
+                              </Form.Group>
+                              <Form.Group style={{display:"flex"}} controlId="formBasicCheckbox">
+                                <Form.Check type="checkbox" className="txt_policy_conditions" label="I Agree to all the Terms and condition and Privacy Policy" />
+                              </Form.Group>
+
+                              <Button className="text-light" style={{ backgroundColor: "rgba(14, 56, 84, 0.79)", width: "100%", borderRadius:"1cm"}} type="submit">Continue</Button>
+                              <p className="text-center">Already have an account ? Login here</p>
+                            </Form>
+                          </div>
+                        </div>
+                      </Modal>
+                {/* sign up modal code ends here */}
               </div>
             </Nav>
           </Navbar.Collapse>
