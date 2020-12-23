@@ -72,7 +72,7 @@ function Navbar_Top() {
                           <hr></hr>
                           <div className="container mt-4">
                             <Form className="form_css">
-                              <Button className=" goggle_button font-weight-bold mb-0" style={{color: "black", background: "#FFFFFF", border:"#FFFFFF", color:"#0E3854", borderRadius:"1cm"}} type="submit">
+                              <Button className=" goggle_button font-weight-bold mb-0" style={{color: "black", background: "#FFFFFF", border:"#FFFFFF", borderRadius:"1cm"}} type="submit">
                                 <img className="mr-3" src={google_logo} alt="Google" />  SignUp with Google
                               </Button>
 
@@ -111,7 +111,7 @@ function Navbar_Top() {
                           <hr></hr>
                           <div className="container mt-4">
                             <Form className="form_css_login">
-                              <Button className=" google_button_login font-weight-bold" style={{color: "black", background: "#FFFFFF", border:"#FFFFFF", color:"#0E3854", borderRadius:"1cm"}} type="submit">
+                              <Button className=" google_button_login font-weight-bold" style={{color: "black", background: "#FFFFFF", border:"#FFFFFF",  borderRadius:"1cm"}} type="submit">
                                 <img className="mr-3" src={google_logo} alt="google" />Login with Google
                               </Button>
                               <Form.Group controlId="formBasicEmail">
@@ -130,7 +130,7 @@ function Navbar_Top() {
 
                               </Form.Group>
 
-                              <Button className="text-light" className="mt-3" style={{ backgroundColor: "rgba(14, 56, 84, 0.79)", width: "100%", borderRadius:"1cm"}} type="submit">Login</Button>
+                              <Button className="text-light mt-3"  style={{ backgroundColor: "rgba(14, 56, 84, 0.79)", width: "100%", borderRadius:"1cm"}} type="submit">Login</Button>
                               <p className="text-center">Don't have an account ?<button type="button" onClick={for_signup_modal} className="btn btn-link">Signup</button></p>
                             </Form>
                           </div>
