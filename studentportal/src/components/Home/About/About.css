@@ -1,5 +1,5 @@
 .main-container{
-    margin: 50px;
+    margin: 25px;
 }
 .text
 {
@@ -13,4 +13,7 @@
     width: max-content;
     font-size: 15px;
     text-align: left;
+}
+.row{
+    margin-top: 10px;
 }
