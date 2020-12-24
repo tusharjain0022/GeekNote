@@ -23,7 +23,7 @@
     border: #C4C4C4;
 }
 
-@media (max-width: 766px){
+@media (max-width: 986px){
     .final_deck{
         display: inline-block !important;
     }
@@ -33,9 +33,9 @@
     }
 }
 
-@media (max-width: 360px)
+/* @media (max-width: 360px)
 {
     .head{
         font: 100;
     }
-}
+} */
