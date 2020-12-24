@@ -8,7 +8,7 @@ function About() {
         <div className="main-container">
             <div className="row">
                 <div className="col-12 col-sm-4 align-self-center ">
-                    <img src={logo} alt="Picture" height="320px" length="240px"/>
+                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
                 </div>
                 <div className="d-none d-sm-block col-12 col-sm text">
                     <h1>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h1>
@@ -25,7 +25,7 @@ function About() {
             </div>
             <div className="row">
                 <div className="d-block d-sm-none">
-                    <img src={logo} alt="Picture" height="320px" length="240px"/>
+                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
                 </div>
                 <div className="d-none d-sm-block col-12 col-sm-8 text">
                     <h1>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h1>
@@ -39,8 +39,8 @@ function About() {
                         In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
                         Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
                 </div>
-                <div className="d-none d-sm-block col-12 col-sm-4 image">
-                    <img src={logo} alt="Picture" height="320px" length="240px"/>
+                <div className="d-none d-sm-block col-12 col-sm-4">
+                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
                 </div>
             </div>
         </div>
