@@ -1,0 +1,41 @@
+.card_contact{
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    box-shadow: 2px 7px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.card_contact:hover{
+    transform: scale(1.07);
+    margin-top: -15px;
+}
+
+.head{
+    border-bottom: 2px solid #C4C4C4;
+    width: 35%;
+}
+
+.button_contact{
+    width: 100%;
+    border-radius: 35px;
+    background-color: #C4C4C4;
+    border: #C4C4C4;
+}
+
+@media (max-width: 766px){
+    .final_deck{
+        display: inline-block !important;
+    }
+    .card_contact{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 360px)
+{
+    .head{
+        font: 100;
+    }
+}
