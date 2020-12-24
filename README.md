@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/3001/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/GeekNote/deploys)
 
-# 3001
+# GeekNote
 
 This project provides a single platform with a attractive user interface to organize all your study materials and classworks you also get reminder later at the right time. Members of IIIT RANCHI(email-xyz@iiitranchi.ac.in) can deliver their thoughts as well as study materials with everyone by publishing the blog posts and also interested people can discuss it.
 
@@ -8,7 +8,7 @@ This project provides a single platform with a attractive user interface to orga
 
 - Fork the repository.
 - Clone it to your machine.
-- Open your terminal/cmd in the `3001/studentportal` folder.
+- Open your terminal/cmd in the `GeekNote/studentportal` folder.
 - Run `npm install` there.
 - wait for sometime it may take little bit of time.
 - After completion run `npm start` to start the development server.
@@ -23,4 +23,4 @@ This project provides a single platform with a attractive user interface to orga
 
 ### Contributing Guilines
 
-For more details kindly go through our [Contributing Guidelines](https://github.com/tusharjain0022/3001/blob/main/CONTRIBUTING.md).
+For more details kindly go through our [Contributing Guidelines](https://github.com/tusharjain0022/GeekNote/blob/main/CONTRIBUTING.md).
