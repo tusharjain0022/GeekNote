@@ -8,9 +8,9 @@ function About() {
         <div className="main-container">
             <div className="row">
                 <div className="col-12 col-sm-4 align-self-center ">
-                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
+                    <img src={logo} alt="Helping Hand" height="320px" length="120px" width="240px"/>
                 </div>
-                <div className="d-none d-sm-block col-12 col-sm text">
+                <div className="d-none d-sm-block col-12 col-sm text textSp">
                     <h1>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
@@ -40,7 +40,7 @@ function About() {
                         Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
                 </div>
                 <div className="d-none d-sm-block col-12 col-sm-4">
-                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
+                    <img src={logo} alt="Helping Hand" height="320px" length="120px" width="240px"/>
                 </div>
             </div>
         </div>
