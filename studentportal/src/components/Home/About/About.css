@@ -1,0 +1,16 @@
+.main-container{
+    margin: 50px;
+}
+.text
+{
+    padding: 5px;
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+}
+.text2
+{
+    width: max-content;
+    font-size: 15px;
+    text-align: left;
+}
