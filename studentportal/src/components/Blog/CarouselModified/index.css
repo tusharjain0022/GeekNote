@@ -1,0 +1,32 @@
+.carousel-root{
+    height: 60vh !important;
+}
+
+.carousel, .carousel-slider
+{
+    height: 55vh !important;
+}
+
+@media (max-width:942px)
+{
+.carousel > button
+    {
+    top: 35% !important;
+    }
+}
+@media(max-width:520px)
+{
+    .carousel > button
+    {
+    top: 22% !important;
+    }
+}
+
+@media(min-width:1000px)
+{
+    .carousel > button
+    {
+    top: 37% !important;
+    }
+}
+
