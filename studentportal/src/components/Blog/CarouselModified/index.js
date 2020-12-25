@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import CarouselCard from "../CarouselCard";
 import "./index.css";
@@ -38,14 +37,14 @@ const CarouselModified = (props) => {
     color: "#000000",
   };
 
-  const indicatorStyles = {
-    background: "#fff",
-    width: 8,
-    height: 8,
-    display: "inline-block",
-    margin: "0 8px",
-    color: "blue",
-  };
+  // const indicatorStyles = {
+  //   background: "#fff",
+  //   width: 8,
+  //   height: 8,
+  //   display: "inline-block",
+  //   margin: "0 8px",
+  //   color: "blue",
+  // };
 
   return (
     <>
