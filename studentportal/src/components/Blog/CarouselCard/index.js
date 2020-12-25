@@ -8,7 +8,7 @@ const CarouselCard = (props)=>{
         <div className="card" style={{width: "100%"}}>
         <div className="container-fluid">
             <img className="card-img-top" src="https://source.unsplash.com/user/erondu/1600x1000" alt="Card image cap"/>
-            <div className="bottom-text"><h2>hello everyone</h2></div>
+            <div className="bottom-text"><dt>Hello everyone</dt></div>
         </div>
             
             <div className="card-body">
@@ -17,7 +17,6 @@ const CarouselCard = (props)=>{
               <Link to="#" style={{fontWeight: "700", fontSize:"smaller"}}>Read More</Link>
             </div>
           </div>
-          {/* <p className="legend">Legend 2</p> */}
         </>
     );
 };

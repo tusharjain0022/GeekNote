@@ -79,14 +79,7 @@ const CarouselModified = (props) => {
         {categroisedData.map((groupedItem, index) => {
           return (
             <div className="carousel-slider " key={index}>
-              
-                
-                  
-                        <CarouselCard data={groupedItem}/>
-                        
-
-                
-             
+              <CarouselCard data={groupedItem} />
             </div>
           );
         })}

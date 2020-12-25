@@ -19,15 +19,8 @@
 
 .bottom-text {
     position: absolute;
-    top: 10%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: blue;
   }
-/* .legend{
-    width: 40% !important;
-
-}
-.carousel .slide .legend{
-    left : 75% !important
-} */
