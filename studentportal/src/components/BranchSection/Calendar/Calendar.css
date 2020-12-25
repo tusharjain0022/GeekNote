@@ -1,5 +1,8 @@
 .Calendar{
     text-align: center;
-    margin: 50px;
-    padding:20px;
+}
+.bigScreen{
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
