@@ -37,15 +37,6 @@ const CarouselModified = (props) => {
     color: "#000000",
   };
 
-  // const indicatorStyles = {
-  //   background: "#fff",
-  //   width: 8,
-  //   height: 8,
-  //   display: "inline-block",
-  //   margin: "0 8px",
-  //   color: "blue",
-  // };
-
   return (
     <>
       <Carousel
