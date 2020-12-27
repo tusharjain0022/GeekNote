@@ -8,7 +8,7 @@
         "credits": 20
     },
     {
-        "id": 1,
+        "id": 2,
         "year": "first year",
         "dep": "ECE",
         "theory": 4,
@@ -16,7 +16,7 @@
         "credits": 20
     },
     {
-        "id": 1,
+        "id": 3,
         "year": "second year",
         "dep": "CSE",
         "theory": 0,
@@ -24,7 +24,7 @@
         "credits": 0
     },
     {
-        "id": 1,
+        "id": 4,
         "year": "second year",
         "dep": "ECE",
         "theory": 0,
@@ -32,7 +32,7 @@
         "credits": 0
     },
     {
-        "id": 1,
+        "id": 5,
         "year": "third year",
         "dep": "CSE",
         "theory": 0,
@@ -40,7 +40,7 @@
         "credits": 0
     },
     {
-        "id": 1,
+        "id": 6,
         "year": "third year",
         "dep": "ECE",
         "theory": 0,
@@ -48,7 +48,7 @@
         "credits": 0
     },
     {
-        "id": 1,
+        "id": 7,
         "year": "fourth year",
         "dep": "CSE",
         "theory": 0,
@@ -56,7 +56,7 @@
         "credits": 0
     },
     {
-        "id": 1,
+        "id": 8,
         "year": "Fourth year",
         "dep": "ECE",
         "theory": 0,
