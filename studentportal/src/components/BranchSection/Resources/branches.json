@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "year": "first year",
+        "dep": "CSE",
+        "theory": 5,
+        "prac": 2,
+        "credits": 20
+    },
+    {
+        "id": 2,
+        "year": "first year",
+        "dep": "ECE",
+        "theory": 4,
+        "prac": 2,
+        "credits": 20
+    },
+    {
+        "id": 3,
+        "year": "second year",
+        "dep": "CSE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    },
+    {
+        "id": 4,
+        "year": "second year",
+        "dep": "ECE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    },
+    {
+        "id": 5,
+        "year": "third year",
+        "dep": "CSE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    },
+    {
+        "id": 6,
+        "year": "third year",
+        "dep": "ECE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    },
+    {
+        "id": 7,
+        "year": "fourth year",
+        "dep": "CSE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    },
+    {
+        "id": 8,
+        "year": "Fourth year",
+        "dep": "ECE",
+        "theory": 0,
+        "prac": 0,
+        "credits": 0
+    }
+]
