@@ -20,6 +20,7 @@
     background-color: #C4C4C4;
     width: 100%;
     display: flex;
+    margin-bottom: -9px;
 }
 
 .button_of_div_2{
@@ -45,8 +46,8 @@
     margin-top: -25px;
 }
 .rd_bottom_most_text{
+    margin-bottom: -4px;
     margin-top: -20px;
-    margin-bottom: -15px;
 }
 
 @media (max-width: 775px){
