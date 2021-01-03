@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/GeekNote/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/geeknote/deploys)
 
 # GeekNote
 
