@@ -15,8 +15,12 @@
 
 .Student_blog{
     margin-bottom: 20px;
+    background: #E5E5E5;
+    border-radius: 17px
 }
-
+.block {
+    padding: 33px;
+}
 @media(max-width: 760px)
 {
     .heading_and_button{

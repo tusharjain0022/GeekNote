@@ -1,6 +1,6 @@
 import "./Student.css";
 import { Accordion, Card } from 'react-bootstrap';
-import student_blog_data from './student_blog_data.json';
+import student_blog_data from '../../../data/student_blog_data.json';
 import clock from './svg_img/clock.svg';
 import left_arrow from './svg_img/left_arrow.svg';
 import right_arrow from './svg_img/right_arrow.svg';
@@ -39,7 +39,7 @@ function StudentBlog() {
 	const [final_state,set_final_state] =useState(total_blogs-3);
 
 	return (
-		<div className="Student_blog container">
+		<div className="Student_blog container block">
 			<div className="heading_and_button">
 				<h1 className="heading" style={{fontFamily: "Robot Slab"}}> By Student <img style={{marginLeft: "5px"}} src={graph_design} alt="logo" /></h1>
 				{/* Buttons Block */}
