@@ -1,15 +1,13 @@
 import "./Admin.css";
-<<<<<<< HEAD
-=======
 import { Accordion, Card } from 'react-bootstrap';
-import admin_blog_data from './admin_blog_data.json';
+import admin_blog_data from '../../../data/admin_blog_data.json';
 import clock from "./svg_img/clock.svg"
 import left_arrow from "./svg_img/left_arrow.svg";
 import right_arrow from "./svg_img/right_arrow.svg";
 import { useState } from "react";
 import admin_logo from "./svg_img/Vector.svg";
 
-const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info }) => {
+const CardofAdminBlock = ({ title, intro_para, author, posting_date, brief_info }) => {
 	return (
 		<Accordion className="main_compo_card" defaultActiveKey="1">
 			<Card style={{ backgroundColor: "#FFFFFF" }}>
@@ -33,15 +31,15 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
 
 var but_arr = [];
 for (var i = 0; i < admin_blog_data.length / 4 ; i++) but_arr.push(i+1);
->>>>>>> 045671a... Admin Blog added
 
 function AdminBlog() {
+
+	const total_blogs=admin_blog_data.length;
+	const [initial_state,set_initial_state] = useState(total_blogs);
+	const [final_state,set_final_state] =useState(total_blogs-3);
+
 	return (
-<<<<<<< HEAD
-		<div className="blog">
-			<h1>This is a Admin's Blog Section</h1>
-=======
-		<div className="Student_blog container">
+		<div className="Admin_blog container">
 			<div className="heading_and_button">
 				<h1 className="heading" style={{fontFamily: "Robot Slab"}}> By Admin <img style={{marginLeft: "5px"}} src={admin_logo} alt="logo" /></h1>
 				{/* Buttons Block */}
@@ -75,14 +73,13 @@ function AdminBlog() {
 			{
 				admin_blog_data.map((blog_info) => {
 					if(blog_info.id>=final_state && blog_info.id<=initial_state ){
-						return <CardofStudentblog key={blog_info.id} {...blog_info} />
+						return <CardofAdminBlock key={blog_info.id} {...blog_info} />
 					}
 					else{
 						return null;
 					}
 				})
 			}
->>>>>>> 045671a... Admin Blog added
 		</div>
 	);
 }
