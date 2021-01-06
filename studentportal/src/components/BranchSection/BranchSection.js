@@ -14,6 +14,7 @@ function BranchSection(props) {
 			<LinkedBlog />
 			<Calendar />
 			<CRDetails />
+			
 		</div>
 	);
 }
