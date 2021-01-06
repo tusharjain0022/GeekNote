@@ -20,7 +20,7 @@ function Footer() {
             </div>
             <div className="Contents">
               <ul className="d-none d-sm-block list-unstyled">
-                <li>Copyright&copy;3001</li>
+                <li>Copyright &copy; GeekNote</li>
                 <li>All rights reserved</li>
               </ul>
             </div>
@@ -124,15 +124,15 @@ function Footer() {
             </div>
             <div className="d-none d-sm-block sp-contents">
               <div className="text">
-                <a href="https://github.com/tusharjain0022/3001">
-                  github.com/tusharjain0022/3001
+                <a href="https://github.com/tusharjain0022/GeekNote">
+                  github.com/tusharjain0022/GeekNote
                 </a>
               </div>
             </div>
             <div className="d-block d-sm-none spcontents">
               <div className="text">
-                <a href="https://github.com/tusharjain0022/3001">
-                  github.com/tusharjain0022/3001
+                <a href="https://github.com/tusharjain0022/GeekNote">
+                  github.com/tusharjain0022/GeekNote
                 </a>
               </div>
             </div>
@@ -140,7 +140,7 @@ function Footer() {
           <span className=" d-block d-sm-none spdivider" />
           {/*Column5*/}
           <div className="col-12 d-block d-sm-none baseLine">
-            <p>All Rights Reserved Copyright&copy;3001</p>
+            <p>All Rights Reserved Copyright &copy; GeekNote</p>
           </div>
         </div>
       </div>
