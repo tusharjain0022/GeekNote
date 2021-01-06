@@ -1,0 +1,26 @@
+.card{
+    border: solid white 2px;
+    
+}
+.card-meta{
+    font-size: small;
+    font-style: italic;
+}
+.title{
+    font-size: medium;
+    font-weight: 700;
+}
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color:black;
+    
+  }
+
+.bottom-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+  }

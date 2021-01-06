@@ -1,0 +1,22 @@
+.main-container{
+    margin: 25px;
+}
+.text
+{
+    padding: 5px;
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+}
+.text2
+{
+    width: max-content;
+    font-size: 15px;
+    text-align: left;
+}
+.row{
+    margin-top: 10px;
+}
+.textSp{
+    margin-left: 50px;
+}

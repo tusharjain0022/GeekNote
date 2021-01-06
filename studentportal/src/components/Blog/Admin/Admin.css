@@ -1,0 +1,29 @@
+.main_compo_card{
+    margin-top: 25px;
+}
+
+.clock_logo{
+    margin-right: 5px;
+}
+
+.heading_and_button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.Admin_blog{
+    margin-bottom: 20px;
+}
+
+@media(max-width: 760px)
+{
+    .heading_and_button{
+        display: inline-block;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
+}
