@@ -65,11 +65,25 @@
   height: 100%;
   margin: 0px;
 }
+.pos-hold {
+  height: 213.33vw;
+}
 .pic-div {
   width: 38vw;
   height: 48.8vw;
   display: inline-block;
   margin: 0px;
+}
+.mob-pic-div {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  overflow: hidden;
+}
+.m-landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .text-box {
   width: auto;

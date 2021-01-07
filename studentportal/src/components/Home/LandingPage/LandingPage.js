@@ -1,12 +1,13 @@
 import "./LandingPage.css";
 import landing from "./landing.svg";
+import mlanding from "./mob-landing.svg";
 // import SlackButton from "./slackButton";
 
 function LandingPage() {
   return (
     <div>
       {/* <SlackButton /> */}
-      <div className="container l">
+      <div className="container l d-none d-md-block">
         <div className="row landing_page">
           <div className="text-intro">
             <div className="text-box align-middle">
@@ -29,6 +30,12 @@ function LandingPage() {
           <div className="pic-div">
             <img src={landing} className="pic" alt="default landing page"></img>
           </div>
+        </div>
+      </div>
+      <div className="pos-hold d-md-none"></div>
+      <div className="d-md-none m-landing">
+        <div className="mob-pic-div">
+          <img src={mlanding} className="pic" alt="default landing page"></img>
         </div>
       </div>
     </div>
