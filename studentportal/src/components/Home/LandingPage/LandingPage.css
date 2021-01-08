@@ -1,38 +1,131 @@
 .slack-button {
-    z-index: 99999999;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    border-radius: 50%;
-    padding: 12px;
-    background-color: transparent;
-    align-items: center;
+  z-index: 99999999;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: transparent;
+  align-items: center;
 }
 .slack-button .svg-container {
-    align-items: center;
+  align-items: center;
 }
 
 .slack-button .svg-container:before {
-    content: "";
-    position: absolute;
-    top: -10%;
-    left: -10%;
-    height: 20px;
-    width: 20px;
-    background-color: #333;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  height: 20px;
+  width: 20px;
+  background-color: #333;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .slack-button .svg-container:after {
-    content: ". Join us on Slack";
-    position: absolute;
-    top: -20%;
-    left: -130%;
-    height: 27px;
-    width: 139px;
-    padding: 4px;
-    border-radius: 20px;
-    background-color: #333;
-    color: #fff;
-    line-height: 20px;
+  content: ". Join us on Slack";
+  position: absolute;
+  top: -20%;
+  left: -130%;
+  height: 27px;
+  width: 139px;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  line-height: 20px;
+}
+.l {
+  position: relative;
+  height: 48.8vw;
+  margin: 0px;
+  margin-top: -10px;
+}
+.landing_page {
+  margin-left: calc(49% - 48vw);
+  width: 98vw;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #a0dcff 0%,
+    rgba(160, 220, 255, 0.549385) 0%,
+    rgba(160, 220, 255, 0) 108.72%
+  );
+}
+.text-intro {
+  width: 60vw;
+  height: 48.8vw;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+}
+.pic {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.pos-hold {
+  height: 213.33vw;
+}
+.pic-div {
+  width: 38vw;
+  height: 48.8vw;
+  display: inline-block;
+  margin: 0px;
+}
+.mob-pic-div {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  overflow: hidden;
+}
+.m-landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.text-box {
+  width: auto;
+  align-self: center;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.small-head {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.528vw;
+  line-height: 2.222vw;
+  color: #18191f;
+  margin: 0px 1.111vw;
+}
+.main-head {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vw;
+  line-height: 6.806vw;
+  color: #18191f;
+  text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+  margin: 1.111vw 1.111vw;
+}
+.explore-button {
+  background: #132743;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 2.778vw 1.111vw;
+  width: 10.278vw;
+  color: #fff;
+  font-size: 1vw;
+}
+.explore-button:hover {
+  color: #fff;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.45);
+}
+.explore-button:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: translateY(1px);
 }
