@@ -38,6 +38,14 @@
 
 @media(max-width:297px){
     .text_land{
-        padding-top: 50px ;
+        padding-top: 0 ;
     }
+    .left_button{
+        margin-right: 0;
+    }
+    
+    .right_button{
+        margin-left: 0;
+    }
+    
 }
