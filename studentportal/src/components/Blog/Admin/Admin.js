@@ -58,65 +58,72 @@ function AdminBlog() {
   const [final_state, set_final_state] = useState(total_blogs - 3);
 
   return (
-    <div className="Admin_blog container">
-      <div className="heading_and_button">
-        <h1 className="heading" style={{ fontFamily: "Robot Slab" }}>
-          {" "}
+
+
+    <div className="container">
+      <div className="row">
+        <div className="col-md-7 col-sm-11 Admin_blog block">
+          <div className="heading_and_button">
+            <h1 className="heading" style={{ fontFamily: "Robot Slab" }}>
+              {" "}
           By Admin{" "}
-          <img style={{ marginLeft: "5px" }} src={admin_logo} alt="logo" />
-        </h1>
-        {/* Buttons Block */}
-        <div
-          className="heading"
-          style={{ marginBottom: "10px", marginTop: "10px" }}
-        >
-          <button
-            type="submit"
-            onClick={() => {
-              if (initial_state !== total_blogs) {
-                set_initial_state(initial_state + 4);
-                set_final_state(final_state + 4);
-              }
-            }}
-          >
-            <img src={left_arrow} alt="left" />
-          </button>
-          {but_arr.map((but_number) => {
-            return (
+              <img style={{ marginLeft: "5px" }} src={admin_logo} alt="logo" />
+            </h1>
+            {/* Buttons Block */}
+            <div
+              className="heading"
+              style={{ marginBottom: "10px", marginTop: "10px" }}
+            >
               <button
                 type="submit"
                 onClick={() => {
-                  set_initial_state(total_blogs - 4 * (but_number - 1));
-                  set_final_state(total_blogs - 4 * (but_number - 1) - 3);
+                  if (initial_state !== total_blogs) {
+                    set_initial_state(initial_state + 4);
+                    set_final_state(final_state + 4);
+                  }
                 }}
               >
-                {but_number}
+                <img src={left_arrow} alt="left" />
               </button>
-            );
-          })}
-          <button
-            type="submit"
-            onClick={() => {
-              if (final_state > 1) {
-                set_initial_state(initial_state - 4);
-                set_final_state(final_state - 4);
-              }
-            }}
-          >
-            <img src={right_arrow} alt="right" />
-          </button>
-        </div>
-      </div>
+              {but_arr.map((but_number) => {
+                return (
+                  <button
+                    type="submit"
+                    onClick={() => {
+                      set_initial_state(total_blogs - 4 * (but_number - 1));
+                      set_final_state(total_blogs - 4 * (but_number - 1) - 3);
+                    }}
+                  >
+                    {but_number}
+                  </button>
+                );
+              })}
+              <button
+                type="submit"
+                onClick={() => {
+                  if (final_state > 1) {
+                    set_initial_state(initial_state - 4);
+                    set_final_state(final_state - 4);
+                  }
+                }}
+              >
+                <img src={right_arrow} alt="right" />
+              </button>
+            </div>
+          </div>
 
-      {/* Rendering blog's here */}
-      {admin_blog_data.map((blog_info) => {
-        if (blog_info.id >= final_state && blog_info.id <= initial_state) {
-          return <CardofAdminBlock key={blog_info.id} {...blog_info} />;
-        } else {
-          return null;
-        }
-      })}
-    </div>
+          {/* Rendering blog's here */}
+          {admin_blog_data.map((blog_info) => {
+            if (blog_info.id >= final_state && blog_info.id <= initial_state) {
+              return <CardofAdminBlock key={blog_info.id} {...blog_info} />;
+            } else {
+              return null;
+            }
+          })}
+        </div>
+
+      </div>
+   </div>
   );
 }
 export default AdminBlog;

@@ -36,4 +36,21 @@ function Links() {
     </section>
   );
 }
+// function Links(){
+//     return (
+//         <section>
+//           <h1 className="headdd" >RESOURCES</h1>
+          
+//           <div className="allcards">
+//             <div className="cards">
+//               {
+//                   branches.map((branch) => {
+//                       return <Branch key={branch.id} {...branch} />
+//                   })
+//               }
+//               </div>
+//           </div>
+//         </section>
+//     )
+// }
 export default Links;

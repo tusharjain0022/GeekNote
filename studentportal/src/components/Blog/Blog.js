@@ -12,8 +12,8 @@ function Blog() {
   return (
     <div className="blog">
       <CarouselModified data={Carousel_data} />
-      <AdminBlog />
       <SearchStats />
+      <AdminBlog />
       <CRBlog />
       <StudentBlog />
       <BlogFooter />
