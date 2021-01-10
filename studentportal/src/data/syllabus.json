@@ -5,6 +5,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -53,6 +54,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -101,6 +103,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -149,6 +152,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -197,6 +201,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -251,6 +256,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -299,6 +305,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -347,6 +354,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -395,6 +403,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -443,6 +452,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -497,6 +507,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -545,6 +556,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -593,6 +605,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -641,6 +654,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -689,6 +703,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -743,6 +758,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -791,6 +807,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -839,6 +856,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -887,6 +905,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -935,6 +954,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -989,6 +1009,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -1037,6 +1058,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -1085,6 +1107,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -1133,6 +1156,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -1181,6 +1205,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -1235,6 +1260,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -1283,6 +1309,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -1331,6 +1358,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -1379,6 +1407,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -1427,6 +1456,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -1481,6 +1511,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -1529,6 +1560,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -1577,6 +1609,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -1625,6 +1658,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -1673,6 +1707,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
@@ -1727,6 +1762,7 @@
         "subjects": [
                         {
                             "id":1,
+                            "sem":1,
                             "sub_name": "Data Structure and Algorithm",
                             "learning_notes":[
                                                 {
@@ -1775,6 +1811,7 @@
                         },
                         {
                             "id": 2,
+                            "sem":1,
                             "sub_name": "Discrete Mathematics",
                             "learning_notes":[
                                                     {
@@ -1823,6 +1860,7 @@
                         },
                         {
                             "id": 3,
+                            "sem":1,
                             "sub_name": "Professional Communication",
                             "learning_notes":[
                                                     {
@@ -1871,6 +1909,7 @@
                         },
                         {
                             "id": 4,
+                            "sem":2,
                             "sub_name": "Computer Organization",
                             "learning_notes":[
                                                     {
@@ -1919,6 +1958,7 @@
                         },
                         {
                             "id": 5,
+                            "sem":2,
                             "sub_name": "Digital Design",
                             "learning_notes":[
                                                     {
