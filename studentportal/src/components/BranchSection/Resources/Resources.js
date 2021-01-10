@@ -9,6 +9,7 @@ import speaker from './svg_img/speaker.svg';
 // Styling to be done in SubjectCard Component
 
 const SubjectCard = (props) => {
+
     return (
         <>
             <Accordion defaultActiveKey="1">
@@ -46,19 +47,25 @@ const SubjectCard = (props) => {
 }
 
 const CallMe = (props) => {
-    console.log(props.subjects)
     return (
         <>
             {
                 props.subjects.map((sub_prop)=>{
-                    return <SubjectCard id={sub_prop.id} {...sub_prop}/>
+                    if(sub_prop.sem===props.sem)
+                    {
+                        return <SubjectCard id={sub_prop.id} sem={props.sem} {...sub_prop}/>
+                    }
+                    else
+                    {
+                        return null
+                    }
                 })
             }
         </>
     );
 }
 
-function Landing(props_name) {
+function Resources(props_name) {
     return (
         <>
             <div className="resource_heading">
@@ -69,7 +76,7 @@ function Landing(props_name) {
             {
                 syllabus.map((props) => {
                     if (props.name === props_name.name) {
-                        return <CallMe key={props.id} {...props} />
+                        return <CallMe key={props.id} sem={props_name.sem} {...props} />
                     }
                     else {
                         return null;
@@ -79,4 +86,4 @@ function Landing(props_name) {
         </>
     );
 }
-export default Landing;
+export default Resources;
