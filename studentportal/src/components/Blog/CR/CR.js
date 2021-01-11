@@ -60,7 +60,7 @@ function CRBlog() {
     <div className="Student_blog container block">
       <div className="heading_and_button">
         <h1 className="heading" style={{ fontFamily: "Robot Slab" }}>
-          By Student
+          By CR
           <img style={{ marginLeft: "5px" }} src={vector} alt="logo" />
         </h1>
         {/* Buttons Block */}
