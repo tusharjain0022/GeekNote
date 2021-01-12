@@ -68,7 +68,7 @@ const CallMe = (props) => {
 function Resources(props_name) {
     return (
         <>
-            <div className="resource_heading">
+            <div className="resource_heading ">
                 <h1 className="sub_resource_heading">
                     <img src={pin} alt="logo"/> <div className="ml-3">Resources</div> 
                 </h1>
