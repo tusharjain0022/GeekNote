@@ -8,7 +8,7 @@ function BranchSection(props) {
   return (
     <div className="branchsection">
       <Landing name={props.name} />
-      <LinkedBlog />
+      <LinkedBlog name={props.name} />
       <Calendar />
       <CRDetails />
     </div>
