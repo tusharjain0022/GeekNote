@@ -14,16 +14,12 @@
 }
 
 .Admin_blog{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    background: #E5E5E5;
+    border-radius: 17px;
+}
+.block{
+    padding: 40px;
 }
 
-@media(max-width: 760px)
-{
-    .heading_and_button{
-        display: inline-block;
-    }
-    .heading{
-        display: flex;
-        justify-content: center;
-    }
-}
+
