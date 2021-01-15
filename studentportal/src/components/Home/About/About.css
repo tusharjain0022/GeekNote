@@ -1,22 +1,43 @@
-.main-container{
-    margin: 25px;
+.Aboutus .heading {
+  color: #ccd6f6;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
 }
-.text
-{
-    padding: 5px;
-    position: relative;
-    font-size: 20px;
-    text-align: left;
+.Aboutus {
+  position: relative;
+  min-height: 200px;
+  margin-bottom: 40px;
 }
-.text2
-{
-    width: max-content;
-    font-size: 15px;
-    text-align: left;
+.line {
+  position: absolute;
+  height: 95%;
+  left: 18.5px;
+  top: 57px;
+  overflow: hidden;
 }
-.row{
-    margin-top: 10px;
+.line-pic {
+  height: 1000px;
 }
-.textSp{
-    margin-left: 50px;
+.hline {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+  max-width: 60vw;
+  overflow: hidden;
+}
+.Aboutus .about-content p {
+  padding: 0px 60px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ccd6f6;
+  text-align: justify;
+  margin-top: 30px;
+}
+.Aboutus .about-content .highlight {
+  color: #64ffda;
 }
