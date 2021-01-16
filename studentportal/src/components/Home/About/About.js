@@ -1,50 +1,51 @@
 import "./About.css";
-import logo from "../../../images/aboutLogo.svg"
 import React from "react";
+import line from "../../../images/line.svg";
+import hline from "../../../images/horline.svg";
 import "bootstrap/dist/css/bootstrap.css";
 
 function About() {
-    return (
-        <div className="main-container">
-            <div className="row">
-                <div className="col-12 col-sm-4 align-self-center ">
-                    <img src={logo} alt="Helping Hand" height="320px" length="120px" width="240px"/>
-                </div>
-                <div className="d-none d-sm-block col-12 col-sm text textSp">
-                    <h1>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
-                        Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
-                </div>
-                <div className="d-block d-sm-none col-12 col-sm text2">
-                    <h2>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
-                        Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="d-block d-sm-none">
-                    <img src={logo} alt="Helping Hand" height="320px" length="240px"/>
-                </div>
-                <div className="d-none d-sm-block col-12 col-sm-8 text">
-                    <h1>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
-                        Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
-                </div>
-                <div className="d-block d-sm-none col-12 col-sm text2">
-                    <h2>About us heading - lorep ipsum lorep ipsum lorep ipsum lorep ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In diam purus, sollicitudin a mauris et, vestibulum tincidunt turpis.
-                        Sed non nibh massa. Vivamus urna eros, blandit in volutpat sed</p>
-                </div>
-                <div className="d-none d-sm-block col-12 col-sm-4">
-                    <img src={logo} alt="Helping Hand" height="320px" length="120px" width="240px"/>
-                </div>
-            </div>
+  return (
+    <div className="Aboutus container">
+      <div className="row">
+        <div className="line">
+          <img src={line} alt="line" className="line-pic"></img>
         </div>
-    );
+        <div className="hline">
+          <img src={hline} alt="hline" className="hline-pic"></img>
+        </div>
+        <div className="col-12">
+          <h1 className="heading">&#9679; &#160; About us</h1>
+        </div>
+        <div className="col-12 about-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam
+            purus, sollicitudin a mauris et,{" "}
+            <span className="highlight">Resources</span> tincidunt turpis. Sed
+            non nibh massa. Vivamus urna eros, blandit in volutpat sed
+          </p>
+          <p>
+            <span className="highlight">Blog</span> ipsum dolor sit amet,
+            consectetur adipiscing elit. In diam purus, sollicitudin a mauris
+            et, vestibulum tincidunt turpis. Sed non nibh massa. Vivamus urna
+            eros, blandit in volutpat sedLorem ipsum dolor sit amet, consectetur
+            adipiscing elit. In diam purus, sollicitudin a mauris et, vestibulum
+            tincidunt turpis. Sed non nibh massa. Vivamus urna eros, blandit in
+            volutpat sedLorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In diam purus, sollicitudin a mauris et, vestibulum tincidunt
+            turpis. Sed non nibh massa. Vivamus urna eros, blandit in volutpat
+            sed
+          </p>
+          <p>
+            <span className="highlight">Organised notes</span> ipsum dolor sit
+            amet, consectetur adipiscing elit. In diam purus, sollicitudin a
+            mauris et,tincidunt turpis. Sed non nibh massa. Vivamus urna eros,
+            blandit in volutpat sed
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default About;

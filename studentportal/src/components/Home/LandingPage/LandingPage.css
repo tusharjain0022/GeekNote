@@ -38,7 +38,7 @@
 }
 .l {
   position: relative;
-  height: 48.8vw;
+  height: 45.8vw;
   margin: 0px;
   margin-top: -10px;
 }
@@ -46,15 +46,9 @@
   margin-left: calc(49% - 48vw);
   width: 98vw;
   overflow: hidden;
-  background: linear-gradient(
-    180deg,
-    #a0dcff 0%,
-    rgba(160, 220, 255, 0.549385) 0%,
-    rgba(160, 220, 255, 0) 108.72%
-  );
 }
 .text-intro {
-  width: 60vw;
+  width: 50vw;
   height: 48.8vw;
   margin: 0px;
   display: inline-block;
@@ -69,7 +63,7 @@
   height: 213.33vw;
 }
 .pic-div {
-  width: 38vw;
+  width: 48vw;
   height: 48.8vw;
   display: inline-block;
   margin: 0px;
@@ -99,7 +93,7 @@
   font-weight: normal;
   font-size: 1.528vw;
   line-height: 2.222vw;
-  color: #18191f;
+  color: #bec4d6;
   margin: 0px 1.111vw;
 }
 .main-head {
@@ -108,7 +102,7 @@
   font-weight: bold;
   font-size: 5vw;
   line-height: 6.806vw;
-  color: #18191f;
+  color: #ccd6f6;
   text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
   margin: 1.111vw 1.111vw;
 }

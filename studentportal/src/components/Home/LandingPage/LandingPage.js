@@ -1,5 +1,5 @@
 import "./LandingPage.css";
-import landing from "./landing.svg";
+import landing from "../../../images/Blocklanding.svg";
 import mlanding from "./mob-landing.svg";
 // import SlackButton from "./slackButton";
 
