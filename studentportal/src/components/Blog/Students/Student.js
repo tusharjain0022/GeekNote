@@ -15,7 +15,7 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
           as={Card.Header}
           eventKey="0"
           className="text-light chage_rad"
-          style={{ backgroundColor: "#293C5A", marginBottom: "-25px" }}
+          style={{ backgroundColor: "#293C5A"}}
         >
           <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
 
@@ -29,14 +29,14 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
           </div>
 
 
-          <p style={{ fontFamily: "Robot Slab",fontSize: "15px" }}>{intro_para}</p>
+          <p style={{ fontFamily: "Robot Slab",fontSize: "16px" }}>{intro_para}</p>
 
           <div className="row end_of_card">
-            <p style={{ fontFamily: "Robot Slab", fontSize: "12px" }} className="bold col-sm">
+            <p style={{ fontFamily: "Robot Slab", fontSize: "14px" }} className="bold col-sm">
               BY: {author}
             </p>
             <p
-              style={{ fontFamily: "Robot Slab", fontSize: "12px" }}
+              style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
               className="posted_date col-sm"
             >
               <img className="clock_logo" src={clock} alt="clock logo" />
@@ -45,7 +45,7 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
           </div>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
-          <Card.Body style={{ backgroundColor: "greenyellow" }}>
+          <Card.Body style={{ backgroundColor: "#ECECEC" }}>
             <p style={{ fontFamily: "Robot Slab" }}>{brief_info}</p>
           </Card.Body>
         </Accordion.Collapse>
@@ -78,7 +78,7 @@ function StudentBlog(props_tag_name) {
   return (
     <div className="Student_blog block">
       <div className="heading_and_button">
-        <h3 className="heading text-light" style={{ fontFamily: "Robot Slab" }}>
+        <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
           By Students
           <img className="head_logo" src={graph_design} alt="logo" />
         </h3>

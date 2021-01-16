@@ -11,12 +11,7 @@
     border: 2px solid #0A192F;
 }
 .render_card:hover{
-    border: 2px solid #49dbf5;
-}
-
-.end_of_card{
-    margin-bottom: 0;
-    margin-top: -5px;
+    border: 2px solid #64FFDA;
 }
 
 .heading_and_button{
@@ -35,10 +30,15 @@
     padding: 33px;
 }
 
+.end_of_card{
+    margin-bottom: -5px;
+}
+
 .for_tags{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .render_tag{
     font-size: smaller;

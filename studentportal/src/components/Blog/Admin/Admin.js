@@ -15,7 +15,7 @@ const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags}) => {
           as={Card.Header}
           eventKey="0"
           className="text-light chage_rad"
-          style={{ backgroundColor: "#293C5A", marginBottom: "-25px" }}
+          style={{ backgroundColor: "#293C5A" }}
         >
           <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
 
@@ -27,9 +27,6 @@ const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags}) => {
               })
             }
           </div>
-
-
-          {/* <p style={{ fontFamily: "Robot Slab",fontSize: "15px" }}>{intro_para}</p> */}
 
           <div className="row end_of_card">
             <p style={{ fontFamily: "Robot Slab", fontSize: "12px" }} className="bold col-sm">
@@ -45,7 +42,7 @@ const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags}) => {
           </div>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
-          <Card.Body style={{ backgroundColor: "greenyellow" }}>
+          <Card.Body style={{ backgroundColor: "#ECECEC" }}>
             <p style={{ fontFamily: "Robot Slab" }}>{brief_info}</p>
           </Card.Body>
         </Accordion.Collapse>
@@ -81,7 +78,7 @@ function AdminBlog(props_tag_name) {
       <div className="row">
         <div className="col-md-7 col-sm-11 Admin_blog block">
           <div className="heading_and_button">
-            <h3 className="heading text-light" style={{ fontFamily: "Robot Slab" }}>
+            <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
             By Admin
             <img className="head_logo" src={admin_logo} alt="logo" />
             </h3>
