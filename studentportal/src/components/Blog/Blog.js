@@ -13,9 +13,9 @@ function Blog() {
     <div className="blog">
       <CarouselModified data={Carousel_data} />
       <SearchStats />
-      <AdminBlog />
-      <CRBlog />
-      <StudentBlog />
+      <AdminBlog tag={"all"}/>
+      <CRBlog tag={"all"}/>
+      <StudentBlog tag={"all"}/>
       <BlogFooter />
     </div>
   );

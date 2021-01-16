@@ -6,20 +6,59 @@
     margin-right: 5px;
 }
 
+.render_card{
+    background-color: #293C5A;
+    border: 2px solid #0A192F;
+}
+.render_card:hover{
+    border: 2px solid #49dbf5;
+}
+
+.end_of_card{
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
 .heading_and_button{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #CCD6F6 !important;
 }
 
-.Cr_blog{
-    margin-bottom: 55px;
-    background: #E5E5E5;
-    border-radius: 17px;
+.Student_blog{
+    margin-bottom: 20px;
+    background: #0A192F;
+    border-radius: 17px
 }
-.block{
-    padding: 40px;
+.block {
+    padding: 33px;
+}
+
+.for_tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.render_tag{
+    font-size: smaller;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+}
+
+.head_logo{
+    margin-left: 25px;
+}
+
+@media(max-width: 295px){
+    .head_logo{
+        margin-left: 5px;
+    }
 }
 
 @media(max-width: 760px)
