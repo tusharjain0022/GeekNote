@@ -1,0 +1,27 @@
+.Navbar .navbar-brand {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  color: #64ffda;
+}
+
+.Navbar .nav-item {
+  width: auto;
+  min-width: 80px;
+  padding: 2px;
+  border: 0.6px solid #eeeeee;
+  border-radius: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0px 5px;
+}
+.Navbar .nav-link {
+  padding: 0px;
+}
+
+.Navbar .active {
+  border: 0.6px solid #64ffda;
+}
