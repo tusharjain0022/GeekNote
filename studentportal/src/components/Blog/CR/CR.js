@@ -76,6 +76,10 @@ function CRBlog(props_tag_name) {
   const [end, set_end] = useState(3);
 
   return (
+
+    <div className="row">
+    <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
+
     <div className="CR_blog block">
       <div className="heading_and_button">
         <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6"  }}>
@@ -121,6 +125,8 @@ function CRBlog(props_tag_name) {
           }
         })
       }
+    </div>
+    </div>
     </div>
   );
 }

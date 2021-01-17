@@ -61,6 +61,7 @@ function AdminBlog(props_tag_name) {
       for(ele of blog_data[i].tags)
         if(ele===props_tag_name.tag)
           blogs_to_show.push(blog_data[i]);
+
     }
   }
 
@@ -76,7 +77,7 @@ function AdminBlog(props_tag_name) {
 
     <div className="container">
       <div className="row">
-        <div className="col-md-7 col-sm-11 Admin_blog block">
+        <div className="col-md-8 col-sm-11 Admin_blog block">
           <div className="heading_and_button">
             <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
             By Admin

@@ -7,24 +7,35 @@ import right_arrow from "./svg_img/right_arrow.svg";
 import { useState } from "react";
 import vector from "./svg_img/Vector.svg";
 
-const CardofLinkedblog = ({ title, intro_para, author, posting_date, brief_info, }) => {
+const CardofLinkedblog = ({ title, intro_para, author, posting_date, brief_info,tags  }) => {
   return (
     <Accordion className="main_compo_card" defaultActiveKey="1">
-      <Card style={{ backgroundColor: "#FFFFFF" }}>
+      <Card className="render_card">
         <Accordion.Toggle
           as={Card.Header}
           eventKey="0"
-          className="text-dark chage_rad"
-          style={{ backgroundColor: "#FFFFFF" }}
+          className="text-light chage_rad"
+          style={{ backgroundColor: "#293C5A" }}
         >
           <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
-          <p style={{ fontFamily: "Robot Slab" }}>{intro_para}</p>
-          <div className="row">
-            <p style={{ fontFamily: "Robot Slab" }} className="bold col-sm">
-              By: {author}
+
+          {/* render tag's here */}
+          <div className="for_tags">
+            {
+              tags.map((tag_name)=>{
+                return <p className="render_tag">{tag_name}</p>
+              })
+            }
+          </div>
+
+
+          <p style={{ fontFamily: "Robot Slab",fontSize: "16px" }}>{intro_para}</p>
+          <div className="row end_of_card">
+            <p style={{ fontFamily: "Robot Slab", fontSize: "14px" }} className="bold col-sm">
+              BY: {author}
             </p>
             <p
-              style={{ fontFamily: "Robot Slab" }}
+              style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
               className="posted_date col-sm"
             >
               <img className="clock_logo" src={clock} alt="clock logo" />
@@ -33,7 +44,7 @@ const CardofLinkedblog = ({ title, intro_para, author, posting_date, brief_info,
           </div>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
-          <Card.Body style={{ backgroundColor: "gray" }}>
+          <Card.Body style={{ backgroundColor: "#ECECEC" }}>
             <p style={{ fontFamily: "Robot Slab" }}>{brief_info}</p>
           </Card.Body>
         </Accordion.Collapse>
@@ -48,8 +59,10 @@ function LinkedBlog(props) {
 	
 const blogs_to_show = [];
 for (var i = 0; i < blog_data.length; i++) {
-  if (blog_data[i][props.name] === true)
-	blogs_to_show.push(blog_data[i]);
+  var ele;
+  for(ele of blog_data[i].tags)
+    if(ele===props.name)
+      blogs_to_show.push(blog_data[i]);
 }
 
 var but_arr = [];
@@ -60,15 +73,19 @@ for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
 
 
   return (
-    <div className="Linked_blog container block">
+    <div className="row">
+      <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
+
+        
+    <div className="Linked_blog  block">
       <div className="heading_and_button">
-        <h1 className="heading" style={{ fontFamily: "Robot Slab" }}>
+        <h1 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6"  }}>
           Linked Blog
-          <img style={{ marginLeft: "5px" }} src={vector} alt="logo" />
+          <img className="head_logo" src={vector} alt="logo" />
         </h1>
         {/* Buttons Block */}
         <div className="heading" style={{ marginBottom: "10px", marginTop: "10px" }}>
-          <button type="submit" onClick={() => {
+          <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit" onClick={() => {
             if (start > 0) {
               set_start(start - 4);
               set_end(end - 4);
@@ -79,13 +96,13 @@ for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
           {
             but_arr.map((but_number) => {
               return (
-                <button type="submit" onClick={() => {
+                <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit"  onClick={() => {
                   set_start(4 * (but_number - 1));
                   set_end(4 * (but_number - 1) + 3);
                 }}>{but_number}</button>
               );
             })}
-          <button type="submit" onClick={() => {
+          <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit" onClick={() => {
             if (end < total_blogs) {
               set_start(start + 4);
               set_end(end + 4);
@@ -106,6 +123,10 @@ for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
         })
       }
     </div>
+
+      </div>
+    </div>
+
   );
 }
 export default LinkedBlog;
