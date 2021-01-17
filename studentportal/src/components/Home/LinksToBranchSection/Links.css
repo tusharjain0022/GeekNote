@@ -6,8 +6,26 @@
   text-align: left;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 6.228373702422146vh;
 }
+@media (max-width: 500px) {
+  /* .Aboutus .about-content p {
+    font-weight: 350;
+    font-size: 2.1522491349480966vh;
+    line-height: 3.536332179930795vh;
+  } */
+  .resource-section .heading {
+    text-align: center;
+    font-size: 5.228373702422146vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .resource-section .heading {
+    text-align: center;
+  }
+}
+
 .resource-section .hline {
   position: absolute;
   left: 240px;
@@ -68,9 +86,14 @@
   padding-left: 0px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 962px) {
+  .cards {
+    grid-column: 2 / span 12;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+  }
   .resource-card {
-    grid-column-end: span 6;
+    grid-column-end: span 12;
   }
 }
 
@@ -78,11 +101,12 @@
   .allcards {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
     grid-gap: 10px;
+    padding-top: 0px;
   }
 
   .cards {
     grid-column: 2 / span 6;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
 

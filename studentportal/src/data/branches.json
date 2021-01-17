@@ -5,7 +5,8 @@
         "dep": "CSE",
         "theory": 5,
         "prac": 2,
-        "credits": 20
+        "credits": 20,
+        "link":"/first-year-cse"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "dep": "ECE",
         "theory": 4,
         "prac": 2,
-        "credits": 20
+        "credits": 20,
+        "link":"/first-year-ece"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "dep": "CSE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+        "link":"/second-year-cse"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "dep": "ECE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+        "link":"/second-year-ece"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "dep": "CSE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+        "link":"/third-year-cse"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "dep": "ECE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+         "link":"/third-year-ece"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "dep": "CSE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+         "link":"/fourth-year-cse"
     },
     {
         "id": 8,
@@ -61,6 +68,7 @@
         "dep": "ECE",
         "theory": 0,
         "prac": 0,
-        "credits": 0
+        "credits": 0,
+        "link":"/fourth-year-ece"
     }
 ]
