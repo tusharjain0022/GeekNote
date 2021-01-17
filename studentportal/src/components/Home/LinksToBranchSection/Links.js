@@ -1,6 +1,7 @@
 import "./Links.css";
 import branches from "../../../data/branches.json";
 import hline from "../../../images/horline.svg";
+import attachment from "../../../images/attatchment.svg";
 
 const Branch = ({ year, dep, theory, prac, credits }) => {
   return (
@@ -27,11 +28,25 @@ function Links() {
   return (
     <section className="resource-section container">
       <div className="row">
-        <div className="hline">
+        <div className="hline d-none d-lg-block">
           <img src={hline} alt="hline" className="hline-pic"></img>
         </div>
         <div className="col-12">
-          <h1 className="heading">&#9679; &#160; Resources</h1>
+          <h1 className="heading">
+            <img
+              src={attachment}
+              alt="logo"
+              style={{
+                width: "6.228373702422146vh",
+                height: "6.228373702422146vh",
+              }}
+            />{" "}
+            Resources
+          </h1>
+          <hr
+            className="d-lg-none"
+            style={{ borderTop: "1px solid #ccd6f6", width: "70%" }}
+          ></hr>
         </div>
         <div className="col-12">
           <div className="allcards">

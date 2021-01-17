@@ -1,4 +1,4 @@
-.slack-button {
+/* .slack-button {
   z-index: 99999999;
   position: fixed;
   bottom: 50px;
@@ -35,49 +35,44 @@
   background-color: #333;
   color: #fff;
   line-height: 20px;
-}
-.l {
-  position: relative;
+} */
+
+.landing_page {
+  width: 100%;
   height: 45.8vw;
   margin: 0px;
   margin-top: -10px;
-}
-.landing_page {
-  margin-left: calc(49% - 48vw);
-  width: 98vw;
   overflow: hidden;
 }
 .text-intro {
-  width: 50vw;
+  width: 50%;
   height: 48.8vw;
   margin: 0px;
-  display: inline-block;
   position: relative;
+  float: left;
 }
 .pic {
   width: 100%;
   height: 100%;
   margin: 0px;
 }
-.pos-hold {
-  height: 213.33vw;
-}
+
 .pic-div {
-  width: 48vw;
+  width: 50%;
   height: 48.8vw;
   display: inline-block;
-  margin: 0px;
+  margin: 0px 0px;
 }
 .mob-pic-div {
-  margin-left: calc(50% - 50vw);
   width: 100vw;
   overflow: hidden;
-}
-.m-landing {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   z-index: -1;
+}
+.m-landing {
+  height: 200.33vw;
 }
 .text-box {
   width: auto;
