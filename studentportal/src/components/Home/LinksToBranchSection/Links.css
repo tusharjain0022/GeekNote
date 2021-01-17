@@ -8,6 +8,18 @@
   font-weight: 400;
   font-size: 6.228373702422146vh;
 }
+@media (max-width: 500px) {
+  /* .Aboutus .about-content p {
+    font-weight: 350;
+    font-size: 2.1522491349480966vh;
+    line-height: 3.536332179930795vh;
+  } */
+  .resource-section .heading {
+    text-align: center;
+    font-size: 5.228373702422146vh;
+  }
+}
+
 @media (max-width: 992px) {
   .resource-section .heading {
     text-align: center;

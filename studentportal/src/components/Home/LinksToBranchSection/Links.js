@@ -3,7 +3,7 @@ import branches from "../../../data/branches.json";
 import hline from "../../../images/horline.svg";
 import attachment from "../../../images/attatchment.svg";
 
-const Branch = ({ year, dep, theory, prac, credits }) => {
+const Branch = ({ year, dep, theory, prac, credits, link }) => {
   return (
     <div className="card resource-card">
       <div className="cardContent">
@@ -15,7 +15,7 @@ const Branch = ({ year, dep, theory, prac, credits }) => {
           <li>Theory Subjects: {theory}</li>
           <li>Practical Subjects: {prac}</li>
           <li>
-            <a href="location" className="stretched-link">
+            <a href={link} className="stretched-link">
               Credits: {credits}
             </a>
           </li>
@@ -37,8 +37,9 @@ function Links() {
               src={attachment}
               alt="logo"
               style={{
-                width: "6.228373702422146vh",
-                height: "6.228373702422146vh",
+                width: "5.228373702422146vh",
+                height: "5.228373702422146vh",
+                margin: "5px 5px",
               }}
             />{" "}
             Resources

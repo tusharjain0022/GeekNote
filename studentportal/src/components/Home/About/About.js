@@ -21,8 +21,9 @@ function About() {
               src={info}
               alt="logo"
               style={{
-                width: "6.2vh",
-                height: "6.2vh",
+                width: "5.2vh",
+                height: "5.2vh",
+                margin: "5px 5px",
               }}
             ></img>{" "}
             About us
