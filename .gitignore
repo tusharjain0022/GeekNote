@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 node_modules
 .idea
+=======
+.vscode
+.idea
+.github
+node_modules
+>>>>>>> 12c6020... Search Bar added

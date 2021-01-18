@@ -1,0 +1,34 @@
+[
+    {
+        "id":"0",
+        "tag":"all"
+    },
+    {
+        "id":"1",
+        "tag":"competitive programming"
+    },
+    {
+        "id":"2",
+        "tag":"robotics"
+    },
+    {
+        "id":"3",
+        "tag":"machine learning"
+    },
+    {
+        "id":"4",
+        "tag":"web development"
+    },
+    {
+        "id":"5",
+        "tag":"app development"
+    },
+    {
+        "id":"6",
+        "tag":"First Year CSE"
+    },
+    {
+        "id":"7",
+        "tag":"First Year ECE"
+    }
+]

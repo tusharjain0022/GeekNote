@@ -1,0 +1,17 @@
+.admin_container{
+     align-self: auto;
+    /* margin-left: 10px  ; */
+}
+.search_stats{
+    margin-top: 50px;
+    align-items: left;
+}
+.styleAdmin{
+    margin-left: 100px;
+}
+.styleSearch{
+    margin-right: 50px;
+}
+.mobileContainer{
+    margin-left: 5px;
+}

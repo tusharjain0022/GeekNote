@@ -73,11 +73,7 @@ function AdminBlog(props_tag_name) {
   const [end, set_end] = useState(3);
 
   return (
-
-
-    <div className="container">
-      <div className="row">
-        <div className="col-md-8 col-sm-11 Admin_blog block">
+        <div className="col-md-9 col-sm-11 Admin_blog block">
           <div className="heading_and_button">
             <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
             By Admin
@@ -123,9 +119,6 @@ function AdminBlog(props_tag_name) {
             })
           }
         </div>
-
-      </div>
-    </div>
   );
 }
 export default AdminBlog;
