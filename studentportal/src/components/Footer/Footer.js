@@ -110,7 +110,7 @@ function Footer() {
             </div>
             <div className="d-block d-sm-none form">
               <Form>
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formEmail">
                   <Form.Control
                     className="forbg"
                     type="email"
