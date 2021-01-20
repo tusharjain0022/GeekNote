@@ -12,10 +12,28 @@ function Blog() {
   return (
     <div className="blog">
       <CarouselModified data={Carousel_data} />
-      <SearchStats />
-      <AdminBlog tag={"all"}/>
-      <CRBlog tag={"all"}/>
-      <StudentBlog tag={"all"}/>
+      <div className="row">
+        <div className="col-8 d-none d-xl-block admin_container">
+          <div className="col-12 styleAdmin">
+            <AdminBlog tag={"all"} />
+          </div>
+        </div>
+        <div className="col-4 d-none d-xl-block search_stats">
+          <div className="styleSearch">
+            <SearchStats />
+          </div>
+        </div>
+      </div>
+      <div className="mobileContainer">
+        <div className=" col-12 d-xl-none row">
+          <SearchStats />
+        </div>
+        <div className="col-12 d-xl-none row">
+          <AdminBlog tag={"all"} />
+        </div>
+      </div>
+      <CRBlog tag={"all"} />
+      <StudentBlog tag={"all"} />
       <BlogFooter />
     </div>
   );
