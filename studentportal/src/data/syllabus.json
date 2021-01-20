@@ -1,12 +1,11 @@
 [
     {
         "id": 1,
-        "name": "First Year CSE",
+        "name": "Web Development",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -54,8 +53,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -103,8 +101,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -152,57 +149,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -252,12 +199,11 @@
     },
     {
         "id": 2,
-        "name": "First Year ECE",
+        "name": "App Development",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -305,8 +251,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -354,8 +299,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -403,57 +347,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -503,12 +397,11 @@
     },
     {
         "id": 3,
-        "name": "Second Year CSE",
+        "name": "Robotics and IoT",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -556,8 +449,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -605,8 +497,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -654,57 +545,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -754,12 +595,11 @@
     },
     {
         "id": 4,
-        "name": "Second Year ECE",
+        "name": "Machine Learning",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -807,8 +647,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -856,8 +695,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -905,57 +743,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1005,12 +793,11 @@
     },
     {
         "id": 5,
-        "name": "Third Year CSE",
+        "name": "Competitive Programming",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -1058,8 +845,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1107,8 +893,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1156,57 +941,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1256,12 +991,11 @@
     },
     {
         "id": 6,
-        "name": "Third Year ECE",
+        "name": "AR/VR",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -1309,8 +1043,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1358,8 +1091,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1407,57 +1139,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1507,12 +1189,11 @@
     },
     {
         "id": 7,
-        "name": "Fourth Year CSE",
+        "name": "3D Modelling",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -1560,8 +1241,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1609,8 +1289,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1658,57 +1337,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1758,12 +1387,11 @@
     },
     {
         "id": 8,
-        "name": "Fourth Year ECE",
+        "name": "Cloud Computing",
         "subjects": [
                         {
                             "id":1,
-                            "sem":1,
-                            "sub_name": "Data Structure and Algorithm",
+                            "sub_name": "Basics",
                             "learning_notes":[
                                                 {
                                                     "id":1,
@@ -1811,8 +1439,7 @@
                         },
                         {
                             "id": 2,
-                            "sem":1,
-                            "sub_name": "Discrete Mathematics",
+                            "sub_name": "Intermediate",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1860,8 +1487,7 @@
                         },
                         {
                             "id": 3,
-                            "sem":1,
-                            "sub_name": "Professional Communication",
+                            "sub_name": "Advance",
                             "learning_notes":[
                                                     {
                                                         "id":1,
@@ -1909,57 +1535,7 @@
                         },
                         {
                             "id": 4,
-                            "sem":2,
-                            "sub_name": "Computer Organization",
-                            "learning_notes":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                                ],
-                            "learning_videos":[
-                                                    {
-                                                        "id":1,
-                                                        "title":"calculus",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":2,
-                                                        "title":"co-ordinate",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":3,
-                                                        "title":"trigonometry",
-                                                        "ref_link": "dummylink"
-                                                    },
-                                                    {
-                                                        "id":4,
-                                                        "title":"kitna padega",
-                                                        "ref_link": "dummylink"
-                                                    }
-                                            ]
-                        },
-                        {
-                            "id": 5,
-                            "sem":2,
-                            "sub_name": "Digital Design",
+                            "sub_name": "Important Links",
                             "learning_notes":[
                                                     {
                                                         "id":1,

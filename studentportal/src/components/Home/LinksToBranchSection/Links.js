@@ -3,24 +3,17 @@ import branches from "../../../data/branches.json";
 import hline from "../../../images/horline.svg";
 import attachment from "../../../images/attatchment.svg";
 
-const Branch = ({ year, dep, theory, prac, credits, link }) => {
+const Branch = ({ dep, intro, link }) => {
   return (
     <div className="card resource-card">
-      <div className="cardContent">
-        <div>
-          <h3 className="year">{year}</h3>
-          <h2>{dep}</h2>
+      <a href={link}>
+        <div className="cardContent">
+          <div>
+            <h3>{dep}</h3>
+          </div>
+          <p>{intro}</p>
         </div>
-        <ul className="academics list-style-none">
-          <li>Theory Subjects: {theory}</li>
-          <li>Practical Subjects: {prac}</li>
-          <li>
-            <a href={link} className="stretched-link">
-              Credits: {credits}
-            </a>
-          </li>
-        </ul>
-      </div>
+      </a>
     </div>
   );
 };

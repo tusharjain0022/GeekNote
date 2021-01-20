@@ -68,29 +68,29 @@ function Navbar_Top() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a className="dropdown-item" href="/first-year-cse">
-                  First Year CSE
+                <a className="dropdown-item" href="/web-development">
+                  Web Development
                 </a>
-                <a className="dropdown-item" href="/first-year-ece">
-                  First Year ECE
+                <a className="dropdown-item" href="/app-development">
+                  App Development
                 </a>
-                <a className="dropdown-item" href="/second-year-cse">
-                  Second Year CSE
+                <a className="dropdown-item" href="/robotics">
+                  Robotics and IoT
                 </a>
-                <a className="dropdown-item" href="/Second-year-ece">
-                  Second Year ECE
+                <a className="dropdown-item" href="/machine-learning">
+                  Machine Learning
                 </a>
-                <a className="dropdown-item" href="/third-year-cse">
-                  Third Year CSE
+                <a className="dropdown-item" href="/competitive-programming">
+                  Competitive Programing
                 </a>
-                <a className="dropdown-item" href="/third-year-ece">
-                  Third Year ECE
+                <a className="dropdown-item" href="/ar-vr">
+                  AR/VR
                 </a>
-                <a className="dropdown-item" href="/fourth-year-cse">
-                  Fourth Year CSE
+                <a className="dropdown-item" href="/3d-modelling">
+                  3D Modelling
                 </a>
-                <a className="dropdown-item" href="/fourth-year-ece">
-                  Fourth Year ECE
+                <a className="dropdown-item" href="/cloud-computing">
+                  Cloud Computing
                 </a>
               </div>
             </li>

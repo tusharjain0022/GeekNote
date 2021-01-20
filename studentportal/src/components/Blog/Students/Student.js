@@ -7,7 +7,14 @@ import right_arrow from "./svg_img/right_arrow.svg";
 import { useState } from "react";
 import graph_design from "./svg_img/graph_design.svg";
 
-const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info, tags }) => {
+const CardofStudentblog = ({
+  title,
+  intro_para,
+  author,
+  posting_date,
+  brief_info,
+  tags,
+}) => {
   return (
     <Accordion className="main_compo_card" defaultActiveKey="1">
       <Card className="render_card">
@@ -15,25 +22,27 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
           as={Card.Header}
           eventKey="0"
           className="text-light chage_rad"
-          style={{ backgroundColor: "#293C5A"}}
+          style={{ backgroundColor: "#293C5A" }}
         >
           <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
 
           {/* render tag's here */}
           <div className="for_tags">
-          return <p className="render_tag">{tags}</p>
-            {
-              tags.map((tag_name)=>{
-                return <p className="render_tag">{tag_name}</p>
-              })
-            }
+            return <p className="render_tag">{tags}</p>
+            {tags.map((tag_name) => {
+              return <p className="render_tag">{tag_name}</p>;
+            })}
           </div>
 
-
-          <p style={{ fontFamily: "Robot Slab",fontSize: "16px" }}>{intro_para}</p>
+          <p style={{ fontFamily: "Robot Slab", fontSize: "16px" }}>
+            {intro_para}
+          </p>
 
           <div className="row end_of_card">
-            <p style={{ fontFamily: "Robot Slab", fontSize: "14px" }} className="bold col-sm">
+            <p
+              style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
+              className="bold col-sm"
+            >
               BY: {author}
             </p>
             <p
@@ -55,17 +64,13 @@ const CardofStudentblog = ({ title, intro_para, author, posting_date, brief_info
   );
 };
 
-
 function StudentBlog(props_tag_name) {
-
   var blogs_to_show = [];
   for (var i = 0; i < blog_data.length; i++) {
-    if (blog_data[i].by_student === true)
-    {
+    if (blog_data[i].by_student === true) {
       var ele;
-      for(ele of blog_data[i].tags)
-        if(ele===props_tag_name.tag)
-          blogs_to_show.push(blog_data[i]);
+      for (ele of blog_data[i].tags)
+        if (ele === props_tag_name.tag) blogs_to_show.push(blog_data[i]);
     }
   }
 
@@ -77,56 +82,72 @@ function StudentBlog(props_tag_name) {
   const [end, set_end] = useState(3);
 
   return (
-
     <div className="row">
-    <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
-    <div className="Student_blog block">
-      <div className="heading_and_button">
-        <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
-          By Students
-          <img className="head_logo" src={graph_design} alt="logo" />
-        </h3>
-        {/* Buttons Block */}
-        <div className="heading" style={{ marginBottom: "10px", marginTop: "10px" }}>
-          <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit" onClick={() => {
-            if (start > 0) {
-              set_start(start - 4);
-              set_end(end - 4);
+      <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
+        <div className="Student_blog block">
+          <div className="heading_and_button">
+            <h3
+              className="heading"
+              style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}
+            >
+              By TechGeeks
+              <img className="head_logo" src={graph_design} alt="logo" />
+            </h3>
+            {/* Buttons Block */}
+            <div
+              className="heading"
+              style={{ marginBottom: "10px", marginTop: "10px" }}
+            >
+              <button
+                style={{ background: "#293C5A", color: "#CCD6F6" }}
+                type="submit"
+                onClick={() => {
+                  if (start > 0) {
+                    set_start(start - 4);
+                    set_end(end - 4);
+                  }
+                }}
+              >
+                <img src={left_arrow} alt="left" />
+              </button>
+              {but_arr.map((but_number) => {
+                return (
+                  <button
+                    style={{ background: "#293C5A", color: "#CCD6F6" }}
+                    type="submit"
+                    onClick={() => {
+                      set_start(4 * (but_number - 1));
+                      set_end(4 * (but_number - 1) + 3);
+                    }}
+                  >
+                    {but_number}
+                  </button>
+                );
+              })}
+              <button
+                style={{ background: "#293C5A", color: "#CCD6F6" }}
+                type="submit"
+                onClick={() => {
+                  if (end < total_blogs) {
+                    set_start(start + 4);
+                    set_end(end + 4);
+                  }
+                }}
+              >
+                <img src={right_arrow} alt="right" />
+              </button>
+            </div>
+          </div>
+
+          {blogs_to_show.map((blog_info, iteration_number) => {
+            if (iteration_number >= start && iteration_number <= end) {
+              return <CardofStudentblog key={blog_info.id} {...blog_info} />;
+            } else {
+              return null;
             }
-          }}>
-            <img src={left_arrow} alt="left" />
-          </button>
-          {
-            but_arr.map((but_number) => {
-              return (
-                <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit" onClick={() => {
-                  set_start(4 * (but_number - 1));
-                  set_end(4 * (but_number - 1) + 3);
-                }}>{but_number}</button>
-              );
-            })}
-          <button style={{background: "#293C5A", color: "#CCD6F6"}} type="submit" onClick={() => {
-            if (end < total_blogs) {
-              set_start(start + 4);
-              set_end(end + 4);
-            }
-          }}>
-            <img src={right_arrow} alt="right" /></button>
+          })}
         </div>
       </div>
-
-      {
-        blogs_to_show.map((blog_info, iteration_number) => {
-          if (iteration_number >= start && iteration_number <= end) {
-            return <CardofStudentblog key={blog_info.id} {...blog_info} />;
-          }
-          else {
-            return null;
-          }
-        })
-      }
-    </div>
-    </div>
     </div>
   );
 }

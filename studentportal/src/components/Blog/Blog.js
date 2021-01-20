@@ -4,7 +4,6 @@ import CarouselModified from "./CarouselModified";
 import Carousel_data from "../../data/carouselData.json";
 import AdminBlog from "./Admin/Admin";
 import SearchStats from "./SearchAndStats/SearchStats";
-import CRBlog from "./CR/CR";
 import StudentBlog from "./Students/Student";
 import BlogFooter from "./BlogFooter/BlogFooter";
 
@@ -32,7 +31,6 @@ function Blog() {
           <AdminBlog tag={"all"} />
         </div>
       </div>
-      <CRBlog tag={"all"} />
       <StudentBlog tag={"all"} />
       <BlogFooter />
     </div>

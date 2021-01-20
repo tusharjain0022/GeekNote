@@ -13,61 +13,61 @@ function App() {
   return (
     <div className="page-container">
       <div className="content-wrap">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/" component={Home} />
-          <Route
-            exact
-            path="/first-year-cse"
-            component={() => <BranchSection name="First Year CSE" />}
-          />
-          <Route
-            exact
-            path="/first-year-ece"
-            component={() => <BranchSection name="First Year ECE" />}
-          />
-          <Route
-            exact
-            path="/second-year-cse"
-            component={() => <BranchSection name="Second Year CSE" />}
-          />
-          <Route
-            exact
-            path="/second-year-ece"
-            component={() => <BranchSection name="Second Year ECE" />}
-          />
-          <Route
-            exact
-            path="/third-year-cse"
-            component={() => <BranchSection name="Third Year CSE" />}
-          />
-          <Route
-            exact
-            path="/third-year-ece"
-            component={() => <BranchSection name="Third Year ECE" />}
-          />
-          <Route
-            exact
-            path="/fourth-year-cse"
-            component={() => <BranchSection name="Fourth Year CSE" />}
-          />
-          <Route
-            exact
-            path="/fourth-year-ece"
-            component={() => <BranchSection name="Fourth Year ECE" />}
-          />
-          <Route
-            exact
-            path="/terms-and-policy"
-            component={() => <Documentation name="Terms and Policy" />}
-          />
-          <Route path="/" component={Error} />
-        </Switch>
-        <Footer />
-      </Router>
-    </div>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/" component={Home} />
+            <Route
+              exact
+              path="/web-development"
+              component={() => <BranchSection name="Web Development" />}
+            />
+            <Route
+              exact
+              path="/app-development"
+              component={() => <BranchSection name="App Development" />}
+            />
+            <Route
+              exact
+              path="/robotics"
+              component={() => <BranchSection name="Robotics and IoT" />}
+            />
+            <Route
+              exact
+              path="/machine-learning"
+              component={() => <BranchSection name="Machine Learning" />}
+            />
+            <Route
+              exact
+              path="/competitive-programming"
+              component={() => <BranchSection name="Competitive Programming" />}
+            />
+            <Route
+              exact
+              path="/ar-vr"
+              component={() => <BranchSection name="AR/VR" />}
+            />
+            <Route
+              exact
+              path="/3d-modelling"
+              component={() => <BranchSection name="3D Modelling" />}
+            />
+            <Route
+              exact
+              path="/cloud-computing"
+              component={() => <BranchSection name="Cloud Computing" />}
+            />
+            <Route
+              exact
+              path="/terms-and-policy"
+              component={() => <Documentation name="Terms and Policy" />}
+            />
+            <Route path="/" component={Error} />
+          </Switch>
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }

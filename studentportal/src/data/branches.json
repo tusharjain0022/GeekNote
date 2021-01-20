@@ -1,74 +1,50 @@
 [
     {
         "id": 1,
-        "year": "First Year",
-        "dep": "CSE",
-        "theory": 5,
-        "prac": 2,
-        "credits": 20,
-        "link":"/first-year-cse"
+        "dep": "Web Development",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/web-development"
     },
     {
         "id": 2,
-        "year": "First year",
-        "dep": "ECE",
-        "theory": 4,
-        "prac": 2,
-        "credits": 20,
-        "link":"/first-year-ece"
+        "dep": "App Development",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/app-development"
     },
     {
         "id": 3,
-        "year": "Second Year",
-        "dep": "CSE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-        "link":"/second-year-cse"
+        "dep": "Robotics and IoT",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/robotics"
     },
     {
         "id": 4,
-        "year": "Second Year",
-        "dep": "ECE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-        "link":"/second-year-ece"
+        "dep": "Machine Leanrning",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/machine-learning"
     },
     {
         "id": 5,
-        "year": "Third Year",
-        "dep": "CSE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-        "link":"/third-year-cse"
+        "dep": "Competetive Programming",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/competitive-programming"
     },
     {
         "id": 6,
-        "year": "Third Year",
-        "dep": "ECE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-         "link":"/third-year-ece"
+        "dep": "AR/VR",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/ar-vr"
     },
     {
         "id": 7,
-        "year": "Fourth Year",
-        "dep": "CSE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-         "link":"/fourth-year-cse"
+        "dep": "3D Modelling",
+        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/3d-modelling"
     },
     {
         "id": 8,
-        "year": "Fourth Year",
-        "dep": "ECE",
-        "theory": 0,
-        "prac": 0,
-        "credits": 0,
-        "link":"/fourth-year-ece"
+       "dep": "Cloud Computing",
+       "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link":"/cloud-computing"
     }
 ]
