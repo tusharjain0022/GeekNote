@@ -28,7 +28,7 @@ function SearchStats({ transfer_data_tag }) {
 							<Dropdown.Menu>
 								{
 									tagDetails.map((tag_name) => {
-										return <Dropdown.Item variant="dark" onClick={
+										return <Dropdown.Item className="dropdown_item" onClick={
 											(e) => {
 												setInput(tag_name.tag);
 												transfer_data_tag(tag_name.tag);

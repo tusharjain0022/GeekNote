@@ -18,9 +18,8 @@
 .bar-style{
     background-color: #3C3D45;
 }
-.change_size{
-    width:40px !important;
-    height:40px !important;
-    border-top-right-radius: 10px !important;
-    border-bottom-right-radius: 10px !important;
+
+.dropdown_item{
+    background-color: #3C3D45;
+    color: aliceblue;
 }
