@@ -44,7 +44,12 @@ function SearchStats({ transfer_data_tag }) {
 				<div className="for_tags col-sm-12">
 					{
 						tagDetails.map((tag_name) => {
-							return <p className="render_tag">{tag_name.tag}</p>
+							return <p className="render_tag" style={{cursor: "pointer"}} onClick={
+								(e) => {
+										setInput(tag_name.tag);
+										transfer_data_tag(tag_name.tag);
+								}
+							}>{tag_name.tag}</p>
 						})
 					}
 				</div>
