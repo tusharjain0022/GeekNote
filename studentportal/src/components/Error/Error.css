@@ -4,30 +4,21 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(125deg, #0984e3, #55efc4);
   text-align: center;
+  color: #c6e2ff;
+  font-family: 'Chakra Petch',sans-serif;
 }
 
 .error h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 160px;
+  font-size: 200px;
   margin: 0;
   font-weight: 900;
   letter-spacing: 30px;
-  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/01/highway-wallpapers-15.jpg");
-  background-size: 100% 100%;
-  color: transparent;
-}
-
-.error h2 {
-  font-family: "Comfortaa", cursive;
-  margin: 40px 0;
-  font-size: 2.5rem;
 }
 
 .error p {
   margin: 40px 0 20px;
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -36,5 +27,9 @@
     font-size: 100px;
     font-weight: 550;
     letter-spacing: 10px;
+  }
+  .error p {
+    font-size: 20px;
+    font-weight: 300;
   }
 }
