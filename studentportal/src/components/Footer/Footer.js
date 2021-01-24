@@ -74,19 +74,19 @@ function Footer() {
             <div className="Contents">
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/">Contact CR</Link>
+                  <Link to="/">Sign up</Link>
                 </li>
                 <li>
-                  <Link to="/">Contact Page admins</Link>
+                  <Link to="/">Login</Link>
                 </li>
                 <li>
                   <Link to="/">Developers</Link>
                 </li>
                 <li>
-                  <Link to="/">Terms and Policy</Link>
+                  <Link to="/">Page admins</Link>
                 </li>
                 <li>
-                  <Link to="/">Login/SignUp</Link>
+                  <Link to="/">Terms and Policy</Link>
                 </li>
               </ul>
             </div>

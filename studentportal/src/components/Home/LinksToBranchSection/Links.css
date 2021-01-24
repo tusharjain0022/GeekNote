@@ -8,6 +8,9 @@
   font-weight: 400;
   font-size: 6.228373702422146vh;
 }
+.resource-section a {
+  text-decoration: none;
+}
 @media (max-width: 500px) {
   /* .Aboutus .about-content p {
     font-weight: 350;
