@@ -2,24 +2,32 @@ import "./Contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
 import contact_logo from "./svg_img/contact_logo.svg";
+import hline from "../../../images/horline.svg";
 
 function Contact() {
   return (
     <div className="contactus-section container mb-5">
       <div className="row">
+        <div className="hline d-none d-lg-block">
+          <img src={hline} alt="hline" className="hline-pic"></img>
+        </div>
         <div className="col-12">
-          <h2 className="text-center mb-3">
+          <h1 className="heading">
             <img
               src={contact_logo}
-              alt="contact_logo"
-              className="mr-3 center"
-              style={{ width: "35px" }}
+              alt="logo"
+              style={{
+                width: "5.228373702422146vh",
+                height: "5.228373702422146vh",
+                margin: "5px 5px",
+              }}
             />{" "}
-            Contact Us
-            <hr
-              style={{ borderTop: "1px solid  #ccd6f6", width: "46.875vw" }}
-            ></hr>
-          </h2>
+            Contact us
+          </h1>
+          <hr
+            className="d-lg-none"
+            style={{ borderTop: "1px solid #ccd6f6", width: "70%" }}
+          ></hr>
         </div>
         <div className="col-12 col-md-6">
           <Card className=" page-admin">

@@ -10,6 +10,24 @@
   border-radius: 20px;
   margin: 30px 2.34375vw;
 }
+.contactus-section {
+  position: relative;
+  margin-top: 40px;
+}
+.contactus-section .heading {
+  color: #ccd6f6;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.028373702422146vh;
+}
+.contactus-section .hline {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+  max-width: 65vw;
+  overflow: hidden;
+}
 @media (min-width: 768px) {
   .contactus-section .page-admin {
     float: right;
@@ -23,6 +41,9 @@
     margin: 30px auto;
     width: 83.333vw;
     height: auto;
+  }
+  .contactus-section .heading {
+    font-size: 5.228373702422146vh;
   }
 }
 
@@ -54,4 +75,9 @@
 }
 .contactus-section h2 {
   color: #ccd6f6;
+}
+@media (max-width: 992px) {
+  .contactus-section .heading {
+    text-align: center;
+  }
 }
