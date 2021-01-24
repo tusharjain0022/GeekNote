@@ -28,7 +28,6 @@ const CardofStudentblog = ({
 
           {/* render tag's here */}
           <div className="for_tags">
-            return <p className="render_tag">{tags}</p>
             {tags.map((tag_name) => {
               return <p className="render_tag">{tag_name}</p>;
             })}
