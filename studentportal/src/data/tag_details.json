@@ -1,34 +1,42 @@
 [
     {
         "id":"0",
-        "tag":"all"
+        "tag":"All"
     },
     {
         "id":"1",
-        "tag":"competitive programming"
+        "tag":"Competitive Programming"
     },
     {
         "id":"2",
-        "tag":"robotics"
+        "tag":"Robotics"
     },
     {
         "id":"3",
-        "tag":"machine learning"
+        "tag":"Machine Learning"
     },
     {
         "id":"4",
-        "tag":"web development"
+        "tag":"Web Development"
     },
     {
         "id":"5",
-        "tag":"app development"
+        "tag":"App Development"
     },
     {
         "id":"6",
-        "tag":"First Year CSE"
+        "tag":"3D Modelling"
     },
     {
         "id":"7",
-        "tag":"First Year ECE"
+        "tag":"Robotics and IoT"
+    },
+    {
+        "id":"8",
+        "tag":"Cloud Computing"
+    },
+    {
+        "id":"9",
+        "tag":"AR/VR"
     }
 ]
