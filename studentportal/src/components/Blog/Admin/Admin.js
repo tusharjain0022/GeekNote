@@ -108,6 +108,10 @@ function AdminBlog(props_tag_name) {
             </div>
           </div>
 
+          <p style={{ color: 'greenyellow' }}>showing results for:- {props_tag_name.tag}</p>
+          {blogs_to_show.length === 0? <p className="no_result">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p>: null }
+            
+
           {
             blogs_to_show.map((blog_info, iteration_number) => {
               if (iteration_number >= start && iteration_number <= end) {
