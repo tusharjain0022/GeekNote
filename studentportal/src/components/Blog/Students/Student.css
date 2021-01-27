@@ -1,11 +1,3 @@
-.no_result{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-
 .main_compo_card{
     margin-top: 25px;
 }
@@ -43,7 +35,7 @@
 }
 .downvote{
     margin-bottom: 22px;
-    margin-left: -5px;
+    margin-left: -5px !important;
 }
 .Upvote{
     margin-right: 10px !important;

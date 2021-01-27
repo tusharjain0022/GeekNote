@@ -25,6 +25,22 @@
     background: #0A192F;
     border-radius: 17px;
 }
+/* .whole{
+    display: flex;
+} */
+.upvote_downvote{
+    margin-right: 14px;
+    margin-top: -8px;
+}
+.downvote{
+    margin-bottom: 22px;
+    margin-left: -5px !important;
+}
+.Upvote{
+    margin-right: 10px !important;
+    margin-left: -6px !important;
+}
+
 .block {
     padding: 33px;
 }

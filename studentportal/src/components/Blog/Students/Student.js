@@ -36,52 +36,52 @@ const CardofStudentblog = ({
           style={{ backgroundColor: "#293C5A" }}
         >
 
-        <div className="whole">
- 
-        <div className="upvote_downvote">
-         <img className="Upvote" src={Upvote} onClick={(e)=> {set_initial(initial+1)}} alt="upvote logo"></img> 
-            <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px",marginLeft: "-7px" }}>{initial}</h1>
-            <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px",marginLeft: "-7px" }}>{final}</h1>
-            <img className="downvote" src={Downvote} onClick={(e)=>{set_final(final-1)}} alt="downvote logo" />
+          <div className="whole">
 
-          </div>
+            <div className="upvote_downvote">
+              <img className="Upvote" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
+              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{initial}</h1>
+              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{final}</h1>
+              <img className="downvote" src={Downvote} onClick={(e) => { set_final(final - 1) }} alt="downvote logo" />
 
-        <div>
-        <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
-          {/* render tag's here */}
-          <div className="for_tags">
-            {tags.map((tag_name) => {
-              return <p className="render_tag">{tag_name}</p>;
-            })}
-            
-          </div>
+            </div>
 
-          <p style={{ fontFamily: "Robot Slab", fontSize: "16px" }}>
-            {intro_para}
-          </p>
+            <div>
+              <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
+              {/* render tag's here */}
+              <div className="for_tags">
+                {tags.map((tag_name) => {
+                  return <p className="render_tag">{tag_name}</p>;
+                })}
+
+              </div>
+
+              <p style={{ fontFamily: "Robot Slab", fontSize: "16px" }}>
+                {intro_para}
+              </p>
 
 
-          <div className="row end_of_card">
-            <p
-              style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
-              className="bold col-sm"
-            >
-              BY: {author}
-            </p>
-            <p
-              style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
-              className="posted_date col-sm"
-            >
-              <img className="clock_logo" src={clock} alt="clock logo" />
+              <div className="row end_of_card">
+                <p
+                  style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
+                  className="bold col-sm"
+                >
+                  BY: {author}
+                </p>
+                <p
+                  style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
+                  className="posted_date col-sm"
+                >
+                  <img className="clock_logo" src={clock} alt="clock logo" />
               Posted at: {posting_date}
-            </p>
+                </p>
+              </div>
+
+            </div>
+
           </div>
 
-        </div>
 
-        </div>
-
-          
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body style={{ backgroundColor: "#ECECEC" }}>
@@ -122,13 +122,11 @@ function StudentBlog(props_tag_name) {
               By TechGeeks
               <img className="head_logo" src={graph_design} alt="logo" />
             </h3>
-
-
             {/* Buttons Block */}
 
             <div
               className="heading"
-          
+
               style={{ marginBottom: "10px", marginTop: "10px" }}
             >
               <button
@@ -172,20 +170,13 @@ function StudentBlog(props_tag_name) {
             </div>
           </div>
 
-
-          <p style={{ color: 'greenyellow', display:'flex', justifyContent:'center' }}>showing results for:- {props_tag_name.tag}</p>
-          {blogs_to_show.length === 0? <p className="no_result">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p>: null }
-
-          {
-            blogs_to_show.map((blog_info, iteration_number) => {
-              if (iteration_number >= start && iteration_number <= end) {
-                return <CardofStudentblog key={blog_info.id} {...blog_info} />;
-              } else {
-                return null;
-              }
-            })
-          }
-
+          {blogs_to_show.map((blog_info, iteration_number) => {
+            if (iteration_number >= start && iteration_number <= end) {
+              return <CardofStudentblog key={blog_info.id} {...blog_info} />;
+            } else {
+              return null;
+            }
+          })}
         </div>
       </div>
     </div>
