@@ -170,6 +170,10 @@ function StudentBlog(props_tag_name) {
             </div>
           </div>
 
+          
+          <p style={{ color: 'greenyellow', display:'flex', justifyContent:'center' }}>showing results for:- {props_tag_name.tag}</p>
+          {blogs_to_show.length === 0? <p className="no_result">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p>: null }
+
           {blogs_to_show.map((blog_info, iteration_number) => {
             if (iteration_number >= start && iteration_number <= end) {
               return <CardofStudentblog key={blog_info.id} {...blog_info} />;
