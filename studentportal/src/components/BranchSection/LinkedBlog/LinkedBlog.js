@@ -40,7 +40,7 @@ const CardofLinkedblog = ({
               <img className="Upvote" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{initial}</h1>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{final}</h1>
-              <img className="downvote" src={Downvote} onClick={(e) => { set_final(final - 1) }} alt="downvote logo" />
+              <img className="downvote" src={Downvote} onClick={(e) => { set_final(final + 1) }} alt="downvote logo" />
 
             </div>
 

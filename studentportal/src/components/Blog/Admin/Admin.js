@@ -30,7 +30,7 @@ const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags, upvot
               <img className="Upvote_admin" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-15px" }}>{initial}</h1>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-15px" }}>{final}</h1>
-              <img className="downvote_admin" src={Downvote} onClick={(e) => { set_final(final - 1) }} alt="downvote logo" />
+              <img className="downvote_admin" src={Downvote} onClick={(e) => { set_final(final + 1) }} alt="downvote logo" />
 
             </div>
             <div>
