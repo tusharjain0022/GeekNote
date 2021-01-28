@@ -13,7 +13,7 @@ function loadNow(opacity) {
 
 function displayContent() {
     loader.style.display = 'none';
-    document.getElementById('content').style.display = 'block';
+    document.getElementById('root').style.display = 'block';
 }
 
 document.addEventListener("DOMContentLoaded", function() {
