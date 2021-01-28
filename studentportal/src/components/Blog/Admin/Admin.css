@@ -26,6 +26,12 @@
     margin-bottom: -5px;
 }
 
+.Student_blog{
+    margin-bottom: 20px;
+    background: #0A192F;
+    border-radius: 17px
+}
+
 .heading_and_button_admin{
     width: 100%;
     display: flex;
