@@ -32,10 +32,10 @@ function Features() {
           ></hr>
         </div>
         <div className="col-12">
-          <iframe
+          {/* <iframe
             title="getting started"
             src="https://www.youtube.com/embed/jOYR3k1VhUQ?controls=0&start=41&loop=1"
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </div>
