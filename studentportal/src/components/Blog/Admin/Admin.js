@@ -8,14 +8,21 @@ import Upvote from "./svg_img/upvote.svg";
 import Downvote from "./svg_img/downvote.svg";
 import { useState } from "react";
 import admin_logo from "./svg_img/admin_logo.svg";
+import tag_details from "../../../data/tag_details.json";
+
+
 
 const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags, upvote, downvote }) => {
+
+  var color_code = {};
+  for(var i=0;i<tag_details.length;i++) color_code[tag_details[i].tag]=tag_details[i].color;
+
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
 
   return (
-    <Accordion className="main_compo_card" defaultActiveKey="1">
-      <Card className="render_card">
+    <Accordion className="main_compo_card_admin" defaultActiveKey="1">
+      <Card className="render_card_admin">
         <Accordion.Toggle
           as={Card.Header}
           eventKey="0"
@@ -37,15 +44,13 @@ const CardofAdminBlock = ({ title, author, posting_date, brief_info, tags, upvot
               <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
 
               {/* render tag's here */}
-              <div className="for_tags">
-                {
-                  tags.map((tag_name) => {
-                    return <p className="render_tag">{tag_name}</p>
-                  })
-                }
+              <div className="for_tags_admin">
+                {tags.map((tag_name) => {
+                  return <p className="render_tag_admin" style={{ border: `2px solid ${color_code[tag_name]}` }}>{tag_name}</p>;
+                })}
               </div>
 
-              <div className="row end_of_card">
+              <div className="row end_of_card_admin">
                 <p style={{ fontFamily: "Robot Slab", fontSize: "12px" }} className="bold col-sm">
                   BY: {author}
                 </p>
@@ -92,10 +97,10 @@ function AdminBlog(props_tag_name) {
 
   return (
     <div className="col-md-9 col-sm-11 Admin_blog block">
-      <div className="heading_and_button">
+      <div className="heading_and_button_admin">
         <h3 className="heading" style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}>
           By Admin
-            <img className="head_logo" src={admin_logo} alt="logo" />
+            <img className="head_logo_admin" src={admin_logo} alt="logo" />
         </h3>
         {/* Buttons Block */}
         <div className="heading" style={{ marginBottom: "10px", marginTop: "10px" }}>
@@ -127,7 +132,7 @@ function AdminBlog(props_tag_name) {
       </div>
 
       <p style={{ color: 'greenyellow' }}>showing results for:- {props_tag_name.tag}</p>
-      {blogs_to_show.length === 0 ? <p className="no_result">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p> : null}
+      {blogs_to_show.length === 0 ? <p className="no_result_admin">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p> : null}
 
 
       {

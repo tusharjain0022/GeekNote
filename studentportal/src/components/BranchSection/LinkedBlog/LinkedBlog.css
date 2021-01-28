@@ -25,9 +25,9 @@
     background: #0A192F;
     border-radius: 17px;
 }
-/* .whole{
+.whole{
     display: flex;
-} */
+}
 .upvote_downvote{
     margin-right: 14px;
     margin-top: -8px;

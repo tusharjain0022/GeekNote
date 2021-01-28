@@ -8,6 +8,7 @@ import Upvote from "./svg_img/upvote.svg";
 import Downvote from "./svg_img/downvote.svg";
 import { useState } from "react";
 import graph_design from "./svg_img/graph_design.svg";
+import tag_details from "../../../data/tag_details.json";
 
 const CardofStudentblog = ({
   title,
@@ -22,13 +23,17 @@ const CardofStudentblog = ({
 
 }) => {
 
+  var color_code = {};
+  for (var i = 0; i < tag_details.length; i++) color_code[tag_details[i].tag] = tag_details[i].color;
+
+
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
 
 
   return (
     <Accordion className="main_compo_card" defaultActiveKey="1">
-      <Card className="render_card ">
+      <Card className="render_card_student">
         <Accordion.Toggle
           as={Card.Header}
           eventKey="0"
@@ -36,9 +41,9 @@ const CardofStudentblog = ({
           style={{ backgroundColor: "#293C5A" }}
         >
 
-          <div className="whole">
+          <div className="whole_student">
 
-            <div className="upvote_downvote">
+            <div className="upvote_downvote_student">
               <img className="Upvote" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{initial}</h1>
               <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{final}</h1>
@@ -49,11 +54,10 @@ const CardofStudentblog = ({
             <div>
               <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
               {/* render tag's here */}
-              <div className="for_tags">
+              <div className="for_tags_student">
                 {tags.map((tag_name) => {
-                  return <p className="render_tag">{tag_name}</p>;
+                  return <p className="render_tag_student" style={{ border: `2px solid ${color_code[tag_name]}` }}>{tag_name}</p>;
                 })}
-
               </div>
 
               <p style={{ fontFamily: "Robot Slab", fontSize: "16px" }}>
@@ -61,7 +65,7 @@ const CardofStudentblog = ({
               </p>
 
 
-              <div className="row end_of_card">
+              <div className="row end_of_card_student">
                 <p
                   style={{ fontFamily: "Robot Slab", fontSize: "14px" }}
                   className="bold col-sm"
@@ -114,18 +118,18 @@ function StudentBlog(props_tag_name) {
     <div className="row">
       <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
         <div className="Student_blog block">
-          <div className="heading_and_button">
+          <div className="heading_and_button_student">
             <h3
-              className="heading"
+              className="heading_student"
               style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}
             >
               By TechGeeks
-              <img className="head_logo" src={graph_design} alt="logo" />
+              <img className="head_logo_student" src={graph_design} alt="logo" />
             </h3>
             {/* Buttons Block */}
 
             <div
-              className="heading"
+              className="heading_student"
 
               style={{ marginBottom: "10px", marginTop: "10px" }}
             >

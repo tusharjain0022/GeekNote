@@ -31,9 +31,9 @@ function SearchStats({ transfer_data_tag }) {
 
 			</div>
 			<div className="for_tags col-sm-12">
-				{
+			{
 					tagDetails.map((tag_name) => {
-						return <p className="render_tag" style={{ cursor: "pointer" }} onClick={
+						return <p className="render_tag" style={{ cursor: "pointer", border: `2px solid ${tag_name.color}` }} onClick={
 							() => {
 								transfer_data_tag(tag_name.tag);
 							}

@@ -6,15 +6,15 @@
     margin-right: 5px;
 }
 
-.render_card{
+.render_card_student{
     background-color: #293C5A;
     border: 2px solid #0A192F;
 }
-.render_card:hover{
+.render_card_student:hover{
     border: 2px solid #64FFDA;
 }
 
-.heading_and_button{
+.heading_and_button_student{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,10 +26,10 @@
     background: #0A192F;
     border-radius: 17px
 }
-.whole{
+.whole_student{
     display: flex;
 }
-.upvote_downvote{
+.upvote_downvote_student{
     margin-right: 14px;
     margin-top: -8px;
 }
@@ -45,43 +45,42 @@
     padding: 33px;
 }
 
-.end_of_card{
+.end_of_card_student{
     margin-bottom: -5px;
 }
 
-.for_tags{
+.for_tags_student{
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.render_tag{
+.render_tag_student{
     font-size: smaller;
     margin-right: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid greenyellow;
     border-radius: 20px;
 }
 
-.head_logo{
+.head_logo_student{
     margin-left: 25px;
 }
 
 @media(max-width: 295px){
-    .head_logo{
+    .head_logo_student{
         margin-left: 5px;
     }
 }
 
 @media(max-width: 760px)
 {
-    .heading_and_button{
+    .heading_and_button_student{
         display: inline-block;
     }
-    .heading{
+    .heading_student{
         display: flex;
         justify-content: center;
     }

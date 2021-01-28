@@ -8,6 +8,7 @@ import Upvote from "./svg_img/upvote.svg";
 import Downvote from "./svg_img/downvote.svg";
 import { useState } from "react";
 import vector from "./svg_img/Vector.svg";
+import tag_details from "../../../data/tag_details.json";
 
 const CardofLinkedblog = ({
   title,
@@ -20,6 +21,9 @@ const CardofLinkedblog = ({
   downvote
 
 }) => {
+
+  var color_code = {};
+  for (var i = 0; i < tag_details.length; i++) color_code[tag_details[i].tag] = tag_details[i].color;
 
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
@@ -51,7 +55,7 @@ const CardofLinkedblog = ({
               {/* render tag's here */}
               <div className="for_tags">
                 {tags.map((tag_name) => {
-                  return <p className="render_tag">{tag_name}</p>;
+                  return <p className="render_tag" style={{ border: `2px solid ${color_code[tag_name]}` }}>{tag_name}</p>;
                 })}
               </div>
 
