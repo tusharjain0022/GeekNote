@@ -18,18 +18,14 @@ const CardofStudentblog = ({
   brief_info,
   tags,
   upvote,
-  downvote
-
-
+  downvote,
 }) => {
-
   var color_code = {};
-  for (var i = 0; i < tag_details.length; i++) color_code[tag_details[i].tag] = tag_details[i].color;
-
+  for (var i = 0; i < tag_details.length; i++)
+    color_code[tag_details[i].tag] = tag_details[i].color;
 
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
-
 
   return (
     <Accordion className="main_compo_card" defaultActiveKey="1">
@@ -40,15 +36,42 @@ const CardofStudentblog = ({
           className="text-light chage_rad"
           style={{ backgroundColor: "#293C5A" }}
         >
-
           <div className="whole_student">
-
             <div className="upvote_downvote_student">
-              <img className="Upvote" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
-              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{initial}</h1>
-              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{final}</h1>
-              <img className="downvote" src={Downvote} onClick={(e) => { set_final(final + 1) }} alt="downvote logo" />
-
+              <img
+                className="Upvote"
+                src={Upvote}
+                onClick={(e) => {
+                  set_initial(initial + 1);
+                }}
+                alt="upvote logo"
+              ></img>
+              <h1
+                style={{
+                  fontFamily: "Robot Slab",
+                  fontSize: "20px",
+                  marginLeft: "-7px",
+                }}
+              >
+                {initial}
+              </h1>
+              <h1
+                style={{
+                  fontFamily: "Robot Slab",
+                  fontSize: "20px",
+                  marginLeft: "-7px",
+                }}
+              >
+                {final}
+              </h1>
+              <img
+                className="downvote"
+                src={Downvote}
+                onClick={(e) => {
+                  set_final(final + 1);
+                }}
+                alt="downvote logo"
+              />
             </div>
 
             <div>
@@ -56,14 +79,20 @@ const CardofStudentblog = ({
               {/* render tag's here */}
               <div className="for_tags_student">
                 {tags.map((tag_name) => {
-                  return <p className="render_tag_student" style={{ border: `2px solid ${color_code[tag_name]}` }}>{tag_name}</p>;
+                  return (
+                    <p
+                      className="render_tag_student"
+                      style={{ border: `1.5px solid ${color_code[tag_name]}` }}
+                    >
+                      {tag_name}
+                    </p>
+                  );
                 })}
               </div>
 
               <p style={{ fontFamily: "Robot Slab", fontSize: "16px" }}>
                 {intro_para}
               </p>
-
 
               <div className="row end_of_card_student">
                 <p
@@ -77,15 +106,11 @@ const CardofStudentblog = ({
                   className="posted_date col-sm"
                 >
                   <img className="clock_logo" src={clock} alt="clock logo" />
-              Posted at: {posting_date}
+                  Posted at: {posting_date}
                 </p>
               </div>
-
             </div>
-
           </div>
-
-
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body style={{ backgroundColor: "#ECECEC" }}>
@@ -124,13 +149,16 @@ function StudentBlog(props_tag_name) {
               style={{ fontFamily: "Robot Slab", color: "#CCD6F6" }}
             >
               By TechGeeks
-              <img className="head_logo_student" src={graph_design} alt="logo" />
+              <img
+                className="head_logo_student"
+                src={graph_design}
+                alt="logo"
+              />
             </h3>
             {/* Buttons Block */}
 
             <div
               className="heading_student"
-
               style={{ marginBottom: "10px", marginTop: "10px" }}
             >
               <button
@@ -174,9 +202,20 @@ function StudentBlog(props_tag_name) {
             </div>
           </div>
 
-          
-          <p style={{ color: 'greenyellow', display:'flex', justifyContent:'center' }}>showing results for:- {props_tag_name.tag}</p>
-          {blogs_to_show.length === 0? <p className="no_result">NO RESULTS FOUND FOR :- "{props_tag_name.tag}"</p>: null }
+          <p
+            style={{
+              color: "greenyellow",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            showing results for:- {props_tag_name.tag}
+          </p>
+          {blogs_to_show.length === 0 ? (
+            <p className="no_result">
+              NO RESULTS FOUND FOR :- "{props_tag_name.tag}"
+            </p>
+          ) : null}
 
           {blogs_to_show.map((blog_info, iteration_number) => {
             if (iteration_number >= start && iteration_number <= end) {
@@ -188,7 +227,6 @@ function StudentBlog(props_tag_name) {
         </div>
       </div>
     </div>
-
   );
 }
 export default StudentBlog;
