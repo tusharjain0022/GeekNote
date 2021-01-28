@@ -22,6 +22,7 @@ function Landing(props) {
               {props.name} Section
             </h1>
           </div>
+
         </div>
       </div>
 

@@ -8,6 +8,11 @@
     margin-top: auto;
     padding-top: 110px;
 }
+.small_text{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+}
 
 .button_block{
     margin-top: 50px;
