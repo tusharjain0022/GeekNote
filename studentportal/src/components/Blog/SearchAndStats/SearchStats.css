@@ -1,8 +1,11 @@
 .for_tags{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #293C5A;
 }
 .render_tag{
     color:white;
@@ -12,7 +15,6 @@
     margin-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid greenyellow;
     border-radius: 20px;
 }
 .bar-style{

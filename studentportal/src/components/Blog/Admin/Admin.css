@@ -1,4 +1,4 @@
-.no_result{
+.no_result_admin{
     color: red;
     font-size: 20px;
     font-weight: bold;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.main_compo_card{
+.main_compo_card_admin{
     margin-top: 25px;
 }
 
@@ -14,29 +14,29 @@
     margin-right: 5px;
 }
 
-.render_card{
+.render_card_admin{
     background-color: #293C5A;
     border: 2px solid #0A192F;
 }
-.render_card:hover{
+.render_card_admin:hover{
     border: 2px solid #64FFDA;
 }
 
-.end_of_card{
+.end_of_card_admin{
     margin-bottom: -5px;
-}
-
-.heading_and_button{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid #CCD6F6 !important;
 }
 
 .Student_blog{
     margin-bottom: 20px;
     background: #0A192F;
     border-radius: 17px
+}
+
+.heading_and_button_admin{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #CCD6F6 !important;
 }
 
 .whole_admin{
@@ -58,35 +58,34 @@
     padding: 33px;
 }
 
-.for_tags{
+.for_tags_admin{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5px;
 }
-.render_tag{
+.render_tag_admin{
     font-size: smaller;
     margin-right: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid greenyellow;
     border-radius: 20px;
 }
 
-.head_logo{
+.head_logo_admin{
     margin-left: 25px;
 }
 
 @media(max-width: 295px){
-    .head_logo{
+    .head_logo_admin{
         margin-left: 5px;
     }
 }
 
 @media(max-width: 760px)
 {
-    .heading_and_button{
+    .heading_and_button_admin{
         display: inline-block;
     }
     .heading{
