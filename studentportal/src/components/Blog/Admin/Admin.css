@@ -50,9 +50,17 @@
     margin-bottom: 22px;
     margin-left: -14px !important;
 }
+.downvote_admin:hover{
+    filter: brightness(2);
+    transform: scale(1.5);
+}
 .Upvote_admin{
     margin-right: 10px !important;
     margin-left: -6px !important;
+}
+.Upvote_admin:hover{
+    filter: brightness(2);
+    transform: scale(1.5);
 }
 .block {
     padding: 33px;
