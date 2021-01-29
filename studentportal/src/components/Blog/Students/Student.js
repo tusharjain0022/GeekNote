@@ -43,6 +43,7 @@ const CardofStudentblog = ({
                 src={Upvote}
                 onClick={(e) => {
                   set_initial(initial + 1);
+                  e.stopPropagation();
                 }}
                 alt="upvote logo"
               ></img>
@@ -69,6 +70,7 @@ const CardofStudentblog = ({
                 src={Downvote}
                 onClick={(e) => {
                   set_final(final + 1);
+                  e.stopPropagation();
                 }}
                 alt="downvote logo"
               />
