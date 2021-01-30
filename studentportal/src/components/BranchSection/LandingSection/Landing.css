@@ -45,7 +45,7 @@
 
 @media(max-width:336px) {
     .text_land {
-        padding-top: 0;
+        padding-top: 10px;
     }
 
     .text_land h1 {
