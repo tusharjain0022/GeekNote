@@ -7,7 +7,7 @@ import CRDetails from "./CRDetails/CRDetails";
 function BranchSection(props) {
   return (
     <div className="branchsection">
-      <Landing name={props.name} />
+      <Landing name={props.name} intro={props.intro}/>
       <LinkedBlog name={props.name} />
       <Calendar />
       <CRDetails />
