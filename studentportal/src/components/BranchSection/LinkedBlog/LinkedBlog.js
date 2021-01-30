@@ -123,16 +123,20 @@ const CardofLinkedblog = ({
 };
 
 function LinkedBlog(props) {
-  const blogs_to_show = [];
-  for (var i = 0; i < blog_data.length; i++) {
-    var ele;
-    for (ele of blog_data[i].tags)
-      if (ele === props.name) blogs_to_show.push(blog_data[i]);
-  }
+
+ const blogs_to_show=[];
+ for(var i=0;i<blog_data.length;i++){
+   var ele;
+   for(ele of blog_data[i].tags)
+    if(ele===props.name){
+      blogs_to_show.push(blog_data[i]);
+      break;
+    }
+ }
 
   var but_arr = [];
   for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
-  const total_blogs = blogs_to_show.length;
+  const total_blogs = blogs_to_show.length-1;
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 

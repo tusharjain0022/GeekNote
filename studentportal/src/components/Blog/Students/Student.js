@@ -130,7 +130,10 @@ function StudentBlog(props_tag_name) {
     if (blog_data[i].by_student === true) {
       var ele;
       for (ele of blog_data[i].tags)
-        if (ele === props_tag_name.tag) blogs_to_show.push(blog_data[i]);
+        if (ele === props_tag_name.tag){
+           blogs_to_show.push(blog_data[i]);
+           break;
+        }
     }
   }
 
