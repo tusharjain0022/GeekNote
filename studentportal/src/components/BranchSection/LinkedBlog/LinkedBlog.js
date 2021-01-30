@@ -140,10 +140,6 @@ function LinkedBlog(props) {
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 
-  console.log("len: "+total_blogs)
-  console.log("sdtat: "+start)
-  console.log("ensd: "+end)
-
   return (
     <div className="row">
       <div className="col-md-11 col-xs-12 col-sm-12 mx-auto  ">
