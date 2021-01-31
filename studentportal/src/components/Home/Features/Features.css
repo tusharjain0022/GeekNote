@@ -23,15 +23,17 @@
   overflow: hidden;
 }
 
-.feature-section iframe {
+.feature-section .iframe-home {
   width: 74.803vw;
   height: 43.307vw;
   border: 0px;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 520px) {
-  .feature-section iframe {
-    width: 99vw;
+  .feature-section .iframe-home {
+    width: 90vw;
     height: 57.3vw;
     border: 0px;
   }
