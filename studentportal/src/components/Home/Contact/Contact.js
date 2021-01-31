@@ -3,10 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
 import contact_logo from "./svg_img/contact_logo.svg";
 import hline from "../../../images/horline.svg";
+import DevModal from "./DevModal/DevModal.js";
+import PageAdminModal from "./PageAdmin/PageAdmin.js";
 
 function Contact() {
   return (
-    <div className="contactus-section container mb-5">
+    <div className="contactus-section container mb-5" id="contact">
       <div className="row">
         <div className="hline d-none d-lg-block">
           <img src={hline} alt="hline" className="hline-pic"></img>
@@ -45,13 +47,19 @@ function Contact() {
                   longer.
                 </Card.Text>
                 <hr style={{ borderTop: "1px solid white" }} />
-                <button type="button " className="btn button_contact">
+                <button
+                  type="button "
+                  className="btn button_contact"
+                  data-toggle="modal"
+                  data-target="#adminModal"
+                >
                   Contact Info
                 </button>
               </div>
             </Card.Body>
           </Card>
         </div>
+        <DevModal />
 
         <div className="col-12 col-md-6">
           <Card className=" developer">
@@ -67,12 +75,18 @@ function Contact() {
                   content than the first to show that equal height action.
                 </Card.Text>
                 <hr style={{ borderTop: "1px solid white" }} />
-                <button type="button " className="btn button_contact">
+                <button
+                  type="button "
+                  className="btn button_contact"
+                  data-toggle="modal"
+                  data-target="#devModal"
+                >
                   Contact Info
                 </button>
               </div>
             </Card.Body>
           </Card>
+          <PageAdminModal />
         </div>
         <div className="col-12">
           <div className="text-center text-white">

@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function About() {
   return (
-    <div className="Aboutus container">
+    <div className="Aboutus container" id="about">
       <div className="row">
         <div className="line d-none d-lg-block">
           <img src={line} alt="line" className="line-pic"></img>

@@ -4,30 +4,30 @@
   bottom: 0;
   width: 100%;
 }
-.containerclass {
+.main-footer .containerclass {
   color: white;
 }
-.Option {
+.main-footer .Option {
   padding: 4px;
   /* font-family: Verdana; */
   font-size: 20px;
   line-height: 30px;
 }
-.Contents {
+.main-footer .Contents {
   padding: 4px;
   /* font-family: Segoe UI; */
   font-size: 16px;
   line-height: 26px;
 }
-.list-unstyled {
+.main-footer .list-unstyled {
   padding: 1px;
 }
-.sp {
+.main-footer .sp {
   margin: 7px;
   padding: 1px;
   /*text-align: left;*/
 }
-.sp-contents {
+.main-footer .sp-contents {
   text-align: center;
   background-color: #3c3d45;
   bottom: 20pt;
@@ -36,7 +36,7 @@
   border-radius: 8px;
   overflow: hidden;
 }
-.text {
+.main-footer .text {
   left: 0%;
   right: 0%;
   top: 57.45%;
@@ -48,39 +48,38 @@ a {
 a:hover {
   color: #fff;
 }
-.Links {
+.main-footer .Links {
   padding: 5px;
 }
-.col-12{
+.main-footer .col-12 {
   padding: 10px;
   align-content: center;
   align-items: center;
   text-align: center;
 }
-.forbg{
+.main-footer .forbg {
   background-color: #3c3d45;
 }
-.divider{
+.main-footer .divider {
   flex-grow: 1;
   margin-left: 100px;
   margin-right: 100px;
   border-bottom: 1px solid white;
 }
-.baseLine
-{
+.baseLine {
   font-size: 10px;
   text-align: center;
 }
-.spdivider {
+.main-footer .spdivider {
   flex-grow: 1;
   border-bottom: 1px solid white;
-  margin: 5px
+  margin: 5px;
 }
-.form{
+.main-footer .form {
   margin-left: 100px;
   margin-right: 100px;
 }
-.spcontents{
+.main-footer .spcontents {
   margin-left: 75px;
   margin-right: 75px;
   text-align: center;
