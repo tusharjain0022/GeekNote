@@ -3,48 +3,48 @@
         "id": 1,
         "dep": "Web Development",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/web-development"
+        "link":"web-development"
     },
     {
         "id": 2,
         "dep": "App Development",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/app-development"
+        "link":"app-development"
     },
     {
         "id": 3,
         "dep": "Robotics and IoT",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/robotics"
+        "link":"robotics"
     },
     {
         "id": 4,
-        "dep": "Machine Leanrning",
+        "dep": "Machine Learning",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/machine-learning"
+        "link":"machine-learning"
     },
     {
         "id": 5,
-        "dep": "Competetive Programming",
+        "dep": "Competitive Programming",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/competitive-programming"
+        "link":"competitive-programming"
     },
     {
         "id": 6,
         "dep": "AR/VR",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/ar-vr"
+        "link":"ar-vr"
     },
     {
         "id": 7,
         "dep": "3D Modelling",
         "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/3d-modelling"
+        "link":"3d-modelling"
     },
     {
         "id": 8,
        "dep": "Cloud Computing",
        "intro":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
-        "link":"/cloud-computing"
+        "link":"cloud-computing"
     }
 ]
