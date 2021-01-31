@@ -6,8 +6,8 @@ import signup_img from "./svg_nav/signup_img.svg";
 import { Link, useLocation } from "react-router-dom";
 import google_logo from "./svg_nav/google_logo.svg";
 import login_img from "./svg_nav/login_img.svg";
-// import "./sign_up.css";
-// import "./login.css";
+import "./sign_up.css";
+import "./login.css";
 
 function Navbar_Top() {
   const location = useLocation();
