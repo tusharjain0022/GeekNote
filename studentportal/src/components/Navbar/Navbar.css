@@ -1,9 +1,15 @@
+.navbar {
+  background-color: rgba(10, 25, 47, 0.9);
+  padding: 0px;
+  height: 50px;
+}
 .Navbar .navbar-brand {
   font-family: Manrope;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
   color: #64ffda;
+  margin-left: 1.667vw;
 }
 @media (max-width: 768px) {
   .Navbar .navbar-collapse {
