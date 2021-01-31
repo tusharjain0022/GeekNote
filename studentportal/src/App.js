@@ -21,47 +21,59 @@ function App() {
             <Route
               exact
               path="/web-development"
-              component={() => <BranchSection name="Web Development" />}
+              component={() => <BranchSection 
+                                        name="Web Development" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris." />}
             />
             <Route
               exact
               path="/app-development"
-              component={() => <BranchSection name="App Development" />}
+              component={() => <BranchSection 
+                                        name="App Development"
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris." />}
             />
             <Route
               exact
               path="/robotics"
-              component={() => <BranchSection name="Robotics and IoT" />}
+              component={() => <BranchSection 
+                                        name="Robotics and IoT"
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris." />}
             />
             <Route
               exact
               path="/machine-learning"
-              component={() => <BranchSection name="Machine Learning" />}
+              component={() => <BranchSection name="Machine Learning" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route
               exact
               path="/competitive-programming"
-              component={() => <BranchSection name="Competitive Programming" />}
+              component={() => <BranchSection name="Competitive Programming" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route
               exact
               path="/ar-vr"
-              component={() => <BranchSection name="AR/VR" />}
+              component={() => <BranchSection name="AR/VR" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route
               exact
               path="/3d-modelling"
-              component={() => <BranchSection name="3D Modelling" />}
+              component={() => <BranchSection name="3D Modelling" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route
               exact
               path="/cloud-computing"
-              component={() => <BranchSection name="Cloud Computing" />}
+              component={() => <BranchSection name="Cloud Computing" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route
               exact
               path="/terms-and-policy"
-              component={() => <Documentation name="Terms and Policy" />}
+              component={() => <Documentation name="Terms and Policy" 
+                                        intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris."/>}
             />
             <Route path="/" component={Error} />
           </Switch>
