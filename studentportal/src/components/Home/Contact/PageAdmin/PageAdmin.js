@@ -34,7 +34,7 @@ function PageAdminModal() {
             </div>
             {admins.map((admin, idx) => {
               return (
-                <div className="col-12 px-5" key={`${idx}`}>
+                <div className="col-12 px-5 my-3" key={`${idx}`}>
                   <div className="row">
                     <img
                       className={

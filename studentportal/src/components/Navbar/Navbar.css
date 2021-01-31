@@ -9,6 +9,7 @@
   font-weight: 300;
   font-size: 22px;
   color: #64ffda;
+  margin-left: 1.667vw;
 }
 @media (max-width: 768px) {
   .Navbar .navbar-collapse {
