@@ -81,3 +81,9 @@
     text-align: center;
   }
 }
+.box {
+  background-color: #132743;
+  width: 80%;
+  margin: auto;
+  min-height: 200px;
+}

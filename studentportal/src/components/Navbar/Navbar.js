@@ -1,14 +1,26 @@
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Form, Modal } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import signup_img from "./svg_nav/signup_img.svg";
+import { Link, useLocation } from "react-router-dom";
 import google_logo from "./svg_nav/google_logo.svg";
 import login_img from "./svg_nav/login_img.svg";
-import "./sign_up.css";
-import "./login.css";
+// import "./sign_up.css";
+// import "./login.css";
 
 function Navbar_Top() {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, [location]);
   // following use states are for sign up modal
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -30,10 +42,10 @@ function Navbar_Top() {
   };
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-expand-md ">
-        <a className="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-md fixed-top">
+        <Link className="navbar-brand" to="/">
           GeekNote
-        </a>
+        </Link>
         <button
           className="navbar-toggler "
           type="button"
@@ -48,61 +60,62 @@ function Navbar_Top() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
-                Home
-              </a>
+              <Link className="nav-link" to="/#about">
+                About
+              </Link>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="/"
+                to="/"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                disabled
               >
                 Resources
-              </a>
+              </Link>
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a className="dropdown-item" href="/web-development">
+                <Link className="dropdown-item" to="/web-development">
                   Web Development
-                </a>
-                <a className="dropdown-item" href="/app-development">
+                </Link>
+                <Link className="dropdown-item" to="/app-development">
                   App Development
-                </a>
-                <a className="dropdown-item" href="/robotics">
+                </Link>
+                <Link className="dropdown-item" to="/robotics">
                   Robotics and IoT
-                </a>
-                <a className="dropdown-item" href="/machine-learning">
+                </Link>
+                <Link className="dropdown-item" to="/machine-learning">
                   Machine Learning
-                </a>
-                <a className="dropdown-item" href="/competitive-programming">
+                </Link>
+                <Link className="dropdown-item" to="/competitive-programming">
                   Competitive Programing
-                </a>
-                <a className="dropdown-item" href="/ar-vr">
+                </Link>
+                <Link className="dropdown-item" to="/ar-vr">
                   AR/VR
-                </a>
-                <a className="dropdown-item" href="/3d-modelling">
+                </Link>
+                <Link className="dropdown-item" to="/3d-modelling">
                   3D Modelling
-                </a>
-                <a className="dropdown-item" href="/cloud-computing">
+                </Link>
+                <Link className="dropdown-item" to="/cloud-computing">
                   Cloud Computing
-                </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blog">
+              <Link className="nav-link" to="/blog">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/#contact">
                 Contact us
-              </a>
+              </Link>
             </li>
           </ul>
           <div className=" button-group">

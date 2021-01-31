@@ -48,19 +48,20 @@ function Footer() {
             <div className="Contents">
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/">Blog</Link>
-                </li>
-                <li>
-                  <Link to="/">Resources</Link>
-                </li>
-                <li>
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/">Calendar</Link>
+                  <Link to="/#about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/#contact">Contact</Link>
+                </li>
+
+                <li>
+                  <Link to="/">Terms and Policy</Link>
                 </li>
               </ul>
             </div>
@@ -69,24 +70,34 @@ function Footer() {
           {/*Column3*/}
           <div className="col-12 col-sm-3">
             <div className="Option">
-              <h5>Support</h5>
+              <h5>Resourcse Links</h5>
             </div>
             <div className="Contents">
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/">Sign up</Link>
+                  <Link to="/web-development">&#x26AC; WebD</Link>
+                  &emsp;
+                  <Link to="/app-development">&#x26AC; AppD</Link>
+                </li>
+
+                <li>
+                  <Link to="/machine-learning">&#x26AC; ML</Link>
+                  &emsp;
+                  <Link to="/cloud-computing">&#x26AC; Cloud Computing</Link>
                 </li>
                 <li>
-                  <Link to="/">Login</Link>
+                  <Link to="/ar-vr">&#x26AC; AR/VR</Link>
+                  &emsp;
+                  <Link to="/3d-modelling">&#x26AC; 3D Modelling</Link>
                 </li>
                 <li>
-                  <Link to="/">Developers</Link>
+                  <Link to="/competitive-programming">
+                    &#x26AC; Competitive Programming
+                  </Link>
                 </li>
+
                 <li>
-                  <Link to="/">Page admins</Link>
-                </li>
-                <li>
-                  <Link to="/">Terms and Policy</Link>
+                  <Link to="/robotics">&#x26AC; Robotics and IoT</Link>
                 </li>
               </ul>
             </div>
