@@ -8,6 +8,7 @@ import Upvote from "./svg_img/upvote.svg";
 import Downvote from "./svg_img/downvote.svg";
 import { useState } from "react";
 import vector from "./svg_img/Vector.svg";
+import tag_details from "../../../data/tag_details.json";
 
 const CardofLinkedblog = ({
   title,
@@ -17,9 +18,11 @@ const CardofLinkedblog = ({
   brief_info,
   tags,
   upvote,
-  downvote
-
+  downvote,
 }) => {
+  var color_code = {};
+  for (var i = 0; i < tag_details.length; i++)
+    color_code[tag_details[i].tag] = tag_details[i].color;
 
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
@@ -32,26 +35,59 @@ const CardofLinkedblog = ({
           className="text-light chage_rad"
           style={{ backgroundColor: "#293C5A" }}
         >
-
-
-
           <div className="whole">
             <div className="upvote_downvote">
-              <img className="Upvote" src={Upvote} onClick={(e) => { set_initial(initial + 1) }} alt="upvote logo"></img>
-              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{initial}</h1>
-              <h1 style={{ fontFamily: "Robot Slab", fontSize: "20px", marginLeft: "-7px" }}>{final}</h1>
-              <img className="downvote" src={Downvote} onClick={(e) => { set_final(final + 1) }} alt="downvote logo" />
-
+              <img
+                className="Upvote"
+                src={Upvote}
+                onClick={(e) => {
+                  set_initial(initial + 1);
+                  e.stopPropagation();
+                }}
+                alt="upvote logo"
+              ></img>
+              <h1
+                style={{
+                  fontFamily: "Robot Slab",
+                  fontSize: "20px",
+                  marginLeft: "-7px",
+                }}
+              >
+                {initial}
+              </h1>
+              <h1
+                style={{
+                  fontFamily: "Robot Slab",
+                  fontSize: "20px",
+                  marginLeft: "-7px",
+                }}
+              >
+                {final}
+              </h1>
+              <img
+                className="downvote"
+                src={Downvote}
+                onClick={(e) => {
+                  set_final(final + 1);
+                  e.stopPropagation();
+                }}
+                alt="downvote logo"
+              />
             </div>
 
-            <div >
-
-
+            <div>
               <h4 style={{ fontFamily: "Robot Slab" }}>Blog Title - {title}</h4>
               {/* render tag's here */}
               <div className="for_tags">
                 {tags.map((tag_name) => {
-                  return <p className="render_tag">{tag_name}</p>;
+                  return (
+                    <p
+                      className="render_tag"
+                      style={{ border: `1.5px solid ${color_code[tag_name]}` }}
+                    >
+                      {tag_name}
+                    </p>
+                  );
                 })}
               </div>
 
@@ -70,9 +106,8 @@ const CardofLinkedblog = ({
                   className="posted_date col-sm"
                 >
                   <img className="clock_logo" src={clock} alt="clock logo" />
-              Posted at: {posting_date}
+                  Posted at: {posting_date}
                 </p>
-
               </div>
             </div>
           </div>
@@ -88,16 +123,20 @@ const CardofLinkedblog = ({
 };
 
 function LinkedBlog(props) {
-  const blogs_to_show = [];
-  for (var i = 0; i < blog_data.length; i++) {
-    var ele;
-    for (ele of blog_data[i].tags)
-      if (ele === props.name) blogs_to_show.push(blog_data[i]);
-  }
+
+ const blogs_to_show=[];
+ for(var i=0;i<blog_data.length;i++){
+   var ele;
+   for(ele of blog_data[i].tags)
+    if(ele===props.name){
+      blogs_to_show.push(blog_data[i]);
+      break;
+    }
+ }
 
   var but_arr = [];
   for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
-  const total_blogs = blogs_to_show.length;
+  const total_blogs = blogs_to_show.length-1;
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 

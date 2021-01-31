@@ -25,9 +25,9 @@
     background: #0A192F;
     border-radius: 17px;
 }
-/* .whole{
+.whole{
     display: flex;
-} */
+}
 .upvote_downvote{
     margin-right: 14px;
     margin-top: -8px;
@@ -36,9 +36,17 @@
     margin-bottom: 22px;
     margin-left: -5px !important;
 }
+.downvote:hover{
+    filter: brightness(2);
+    transform: scale(1.5);
+}
 .Upvote{
     margin-right: 10px !important;
     margin-left: -6px !important;
+}
+.Upvote:hover{
+    filter: brightness(2);
+    transform: scale(1.5);
 }
 
 .block {
