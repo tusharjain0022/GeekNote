@@ -43,6 +43,9 @@
     display: flex;
 }
 .upvote_downvote{
+    align-content: center; 
+    align-items: center; 
+    text-align: center;
     margin-right: 14px;
     margin-top: -8px;
 }
