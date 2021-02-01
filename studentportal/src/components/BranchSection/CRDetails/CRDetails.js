@@ -45,6 +45,10 @@ function CRDetails(props) {
 							</div>
 						);
 					}
+					else
+					{
+						return null
+					}
 					})
 				}
 
