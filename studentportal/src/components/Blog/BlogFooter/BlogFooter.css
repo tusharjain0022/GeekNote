@@ -1,53 +1,63 @@
+.outer_div{
+    background-image: url(mountains\ for\ footer.jpg);
+    width: 100%;
+    display: flex;
+    margin-bottom: -9px;
+    color: #ffffff;
+}
+.btn{
+    color:#ffffff;
+    padding-left: 0;
+}
+.btn:hover{
+    color:#ffffff;
+}
+.btn p{
+    margin:0;
+}
 .text_left_div_in{
     text-align: right;
 }
 
 .left_div{
+    margin: 2% 0;
+    padding: 4%;
     width: 70%;
-    border-right: 2px solid black;
+    border-right: 3px solid #ffffff;
 }
 
 .right_div{
     width: 100%;
-}
-
-.left_div_text_out{
-    margin-top: 40px;
-    margin-right: 25px;
-}
-
-.outer_div{
-    background-color: #C4C4C4;
-    width: 100%;
-    display: flex;
-    margin-bottom: -9px;
+    margin: 2% 0;
 }
 
 .button_of_div_2{
-    margin-left: -10px;
-    margin-top: -25px;
+    margin-top: -1%;
+    margin-bottom: 2%;
 }
 
 .right_div_in{
-    margin-top: 15px;
-    margin-left: 45px;
+    padding: 4% 0 ;
+    margin-left: 10%;
+    height: 100%;
 }
 
 .rd_text{
     font-size: 35px;
+    margin: 0;
 }
 
 .rd_bottom{
     font-size: 35px;
-    margin-top: -10px;
+    margin: 0;
 }
 
 .rd_bottom_text{
-    margin-top: -25px;
+    margin-top: 0%;
+    margin-bottom: 0;
 }
 .rd_bottom_most_text{
-    margin-bottom: -4px;
-    margin-top: -20px;
+    margin-top: 2%;
 }
 
 @media (max-width: 775px){
@@ -60,8 +70,10 @@
     }
     .left_div{
         border-right: 0;
-        border-bottom: 2px solid black;
-        width: 100%;
+        margin-right:0 2%;
+        margin: 1%;
+        border-bottom: 2px solid #ffffff;
+        width:98%;
     }
     .rd_text{
         text-align: center;
