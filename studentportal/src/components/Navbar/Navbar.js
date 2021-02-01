@@ -60,7 +60,12 @@ function Navbar_Top() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <Link className="nav-link" to="/#about">
+              <Link
+                className="nav-link"
+                to="/#about"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+              >
                 About
               </Link>
             </li>
@@ -81,39 +86,89 @@ function Navbar_Top() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link className="dropdown-item" to="/web-development">
+                <Link
+                  className="dropdown-item"
+                  to="/web-development"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   Web Development
                 </Link>
-                <Link className="dropdown-item" to="/app-development">
+                <Link
+                  className="dropdown-item"
+                  to="/app-development"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   App Development
                 </Link>
-                <Link className="dropdown-item" to="/robotics">
+                <Link
+                  className="dropdown-item"
+                  to="/robotics"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   Robotics and IoT
                 </Link>
-                <Link className="dropdown-item" to="/machine-learning">
+                <Link
+                  className="dropdown-item"
+                  to="/machine-learning"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   Machine Learning
                 </Link>
-                <Link className="dropdown-item" to="/competitive-programming">
+                <Link
+                  className="dropdown-item"
+                  to="/competitive-programming"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   Competitive Programing
                 </Link>
-                <Link className="dropdown-item" to="/ar-vr">
+                <Link
+                  className="dropdown-item"
+                  to="/ar-vr"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   AR/VR
                 </Link>
-                <Link className="dropdown-item" to="/3d-modelling">
+                <Link
+                  className="dropdown-item"
+                  to="/3d-modelling"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   3D Modelling
                 </Link>
-                <Link className="dropdown-item" to="/cloud-computing">
+                <Link
+                  className="dropdown-item"
+                  to="/cloud-computing"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                >
                   Cloud Computing
                 </Link>
               </div>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/blog">
+              <Link
+                className="nav-link"
+                to="/blog"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+              >
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#contact">
+              <Link
+                className="nav-link"
+                to="/#contact"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+              >
                 Contact us
               </Link>
             </li>
