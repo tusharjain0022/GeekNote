@@ -39,7 +39,7 @@ const CardofStudentblog = ({
           <div className="whole_student">
             <div className="upvote_downvote_student">
               <img
-                className="Upvote"
+                className="Upvote_student"
                 src={Upvote}
                 onClick={(e) => {
                   set_initial(initial + 1);
@@ -51,7 +51,7 @@ const CardofStudentblog = ({
                 style={{
                   fontFamily: "Robot Slab",
                   fontSize: "20px",
-                  marginLeft: "-7px",
+                  marginLeft: "-9px",
                 }}
               >
                 {initial}
@@ -60,13 +60,13 @@ const CardofStudentblog = ({
                 style={{
                   fontFamily: "Robot Slab",
                   fontSize: "20px",
-                  marginLeft: "-7px",
+                  marginLeft: "-9px",
                 }}
               >
                 {final}
               </h1>
               <img
-                className="downvote"
+                className="downvote_student"
                 src={Downvote}
                 onClick={(e) => {
                   set_final(final + 1);
