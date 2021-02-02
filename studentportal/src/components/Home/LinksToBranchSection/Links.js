@@ -3,13 +3,13 @@ import branches from "../../../data/branches.json";
 import hline from "../../../images/horline.svg";
 import attachment from "../../../images/attatchment.svg";
 
-const Branch = ({ dep, intro, link }) => {
+const Branch = ({ name, intro, link }) => {
   return (
     <div className="card resource-card">
       <a href={link}>
         <div className="cardContent">
           <div>
-            <h3>{dep}</h3>
+            <h3>{name}</h3>
           </div>
           <p>{intro}</p>
         </div>

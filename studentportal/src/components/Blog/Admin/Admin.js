@@ -25,7 +25,6 @@ const CardofAdminBlock = ({
 
   const [initial, set_initial] = useState(upvote);
   const [final, set_final] = useState(downvote);
-
   return (
     <Accordion className="main_compo_card_admin" defaultActiveKey="1">
       <Card className="render_card_admin">

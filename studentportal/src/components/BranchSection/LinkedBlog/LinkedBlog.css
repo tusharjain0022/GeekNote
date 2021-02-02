@@ -29,19 +29,22 @@
     display: flex;
 }
 .upvote_downvote{
+    align-content: center; 
+    align-items: center; 
+    text-align: center;
     margin-right: 14px;
     margin-top: -8px;
 }
 .downvote{
     margin-bottom: 22px;
-    margin-left: -5px !important;
+    margin-left: -9px !important;
 }
 .downvote:hover{
     filter: brightness(2);
     transform: scale(1.5);
 }
 .Upvote{
-    margin-right: 10px !important;
+    margin-right: 6px !important;
     margin-left: -6px !important;
 }
 .Upvote:hover{

@@ -10,7 +10,7 @@ function BranchSection(props) {
       <Landing name={props.name} intro={props.intro}/>
       <LinkedBlog name={props.name} />
       <Calendar />
-      <CRDetails />
+      <CRDetails name={props.name} />
     </div>
   );
 }
