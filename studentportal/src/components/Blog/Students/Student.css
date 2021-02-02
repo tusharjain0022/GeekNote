@@ -30,20 +30,23 @@
     display: flex;
 }
 .upvote_downvote_student{
+    align-content: center; 
+    align-items: center; 
+    text-align: center;
     margin-right: 14px;
     margin-top: -8px;
 }
-.downvote{
+.downvote_student{
     margin-bottom: 22px;
-    margin-left: -5px !important;
+    margin-left: -8px !important;
 }
 .downvote:hover{
     filter: brightness(2);
     transform: scale(1.5);
 }
-.Upvote{
+.Upvote_student{
     margin-right: 10px !important;
-    margin-left: -6px !important;
+    margin-left: -2px !important;
 }
 .Upvote:hover{
     filter: brightness(2);

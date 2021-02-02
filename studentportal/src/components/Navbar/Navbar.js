@@ -8,6 +8,7 @@ import google_logo from "./svg_nav/google_logo.svg";
 import login_img from "./svg_nav/login_img.svg";
 import "./sign_up.css";
 import "./login.css";
+import branches from "../../data/branches.json";
 
 function Navbar_Top() {
   const location = useLocation();
@@ -81,30 +82,13 @@ function Navbar_Top() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link className="dropdown-item" to="/web-development">
-                  Web Development
-                </Link>
-                <Link className="dropdown-item" to="/app-development">
-                  App Development
-                </Link>
-                <Link className="dropdown-item" to="/robotics">
-                  Robotics and IoT
-                </Link>
-                <Link className="dropdown-item" to="/machine-learning">
-                  Machine Learning
-                </Link>
-                <Link className="dropdown-item" to="/competitive-programming">
-                  Competitive Programing
-                </Link>
-                <Link className="dropdown-item" to="/ar-vr">
-                  AR/VR
-                </Link>
-                <Link className="dropdown-item" to="/3d-modelling">
-                  3D Modelling
-                </Link>
-                <Link className="dropdown-item" to="/cloud-computing">
-                  Cloud Computing
-                </Link>
+                {branches.map((obj) => {
+                  return (
+                    <Link className="dropdown-item" to={obj.link}>
+                      {obj.name}
+                    </Link>
+                  );
+                })}
               </div>
             </li>
             <li className="nav-item">
