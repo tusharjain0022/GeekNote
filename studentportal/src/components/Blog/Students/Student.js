@@ -213,7 +213,7 @@ function StudentBlog(props_tag_name) {
             showing results for:- {props_tag_name.tag}
           </p>
           {blogs_to_show.length === 0 ? (
-            <p className="no_result_admin">
+            <p className="no_result_techgeek">
               NO RESULTS FOUND FOR :- "{props_tag_name.tag}"
             </p>
           ) : null}
