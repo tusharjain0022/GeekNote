@@ -3,9 +3,10 @@ import mail from "../../../images/mail.svg";
 import github from "../../../images/GitHub_logo.svg";
 import instagram from "../../../images/Instagram_logo.svg";
 import linkedin from "../../../images/LinkedIn_logo.svg";
-import developers from "./DevDetails";
+import dev_adm_contri from "../../../data/dev_adm_contri.json";
 
 function CRDetails(props) {
+
 	return (
 		<>
 			<div className="outer_div">
@@ -17,29 +18,29 @@ function CRDetails(props) {
 					</div>
 				</div>
 
-
-				{developers.map((developer, idx) => {
-					if (developer.branch === props.name) {
+				{/* Contributor's Detail to be add here   */}
+				{dev_adm_contri.map((contributor_info, idx) => {
+					if (contributor_info.contributor_at === props.name) {
 						return (
 							<div className="right_div">
 								<div className="right_div_in" >
-									<span className="rd_text">{developer.name}</span>
+									<span className="rd_text">{contributor_info.name}</span>
 
 									<div className="Links">
-										<a href={developer.githubLink} className="mr-3">
+										<a href={contributor_info.githubLink} className="mr-3">
 											<img src={github} alt="github" />
 										</a>
-										<a href={developer.linkedinLink} className="mr-3">
+										<a href={contributor_info.linkedinLink} className="mr-3">
 											<img src={linkedin} alt="Dribbble" />
 										</a>
-										<a href={"mailto:" + developer.mail} className="mr-3">
+										<a href={"mailto:" + contributor_info.mail} className="mr-3">
 											<img src={mail} alt="mail" />
 										</a>
-										<a href={developer.instaLink} className="mr-3">
+										<a href={contributor_info.instaLink} className="mr-3">
 											<img src={instagram} alt="instagram" />
 										</a>
 									</div>
-									<p className="dev-intro"> {developer.intro}</p>
+									<p className="dev-intro"> {contributor_info.intro}</p>
 									
 								</div>
 							</div>
@@ -51,6 +52,7 @@ function CRDetails(props) {
 					}
 					})
 				}
+				{/* function ends here */}
 
 				
 
