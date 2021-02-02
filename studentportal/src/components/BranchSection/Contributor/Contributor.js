@@ -1,11 +1,11 @@
-import "./CRDetails.css";
+import "./Contributor.css";
 import mail from "../../../images/mail.svg";
 import github from "../../../images/GitHub_logo.svg";
 import instagram from "../../../images/Instagram_logo.svg";
 import linkedin from "../../../images/LinkedIn_logo.svg";
 import dev_adm_contri from "../../../data/dev_adm_contri.json";
 
-function CRDetails(props) {
+function Contributor(props) {
 
 	return (
 		<>
@@ -60,4 +60,4 @@ function CRDetails(props) {
 		</>
 	);
 }
-export default CRDetails;
+export default Contributor;
