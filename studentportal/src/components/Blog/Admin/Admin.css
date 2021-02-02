@@ -65,6 +65,22 @@
     filter: brightness(2);
     transform: scale(1.5);
 }
+
+.whole_admin{
+    display: flex;
+}
+.upvote_downvote{
+    margin-right: 14px;
+    margin-top: -8px;
+}
+.downvote_admin{
+    margin-bottom: 22px;
+    margin-left: -14px !important;
+}
+.Upvote_admin{
+    margin-right: 10px !important;
+    margin-left: -6px !important;
+}
 .block {
     padding: 33px;
 }

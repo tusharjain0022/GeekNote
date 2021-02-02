@@ -50,7 +50,7 @@ const CardofLinkedblog = ({
                 style={{
                   fontFamily: "Robot Slab",
                   fontSize: "20px",
-                  marginLeft: "-7px",
+                  marginLeft: "-10px",
                 }}
               >
                 {initial}
@@ -59,7 +59,7 @@ const CardofLinkedblog = ({
                 style={{
                   fontFamily: "Robot Slab",
                   fontSize: "20px",
-                  marginLeft: "-7px",
+                  marginLeft: "-10px",
                 }}
               >
                 {final}
@@ -208,6 +208,8 @@ function LinkedBlog(props) {
         </div>
       </div>
     </div>
+
+
   );
 }
 export default LinkedBlog;
