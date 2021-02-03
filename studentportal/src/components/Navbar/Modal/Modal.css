@@ -41,6 +41,9 @@
   margin-bottom: 22px;
   height: 45px;
 }
+.loginSignupBox .googleButton:hover {
+  background-color: #0061c9;
+}
 .loginSignupBox .formInput {
   background: rgba(255, 255, 255, 0.79);
   border: 2px solid rgba(14, 56, 84, 0.56);
@@ -68,6 +71,9 @@
   line-height: 20px;
   color: #ffffff;
   height: 45px;
+}
+.loginSignupBox .loginSignupButton:hover {
+  background-color: #0061c9;
 }
 .googleButton img {
   width: 20px;
