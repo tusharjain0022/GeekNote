@@ -1,3 +1,11 @@
+.no_result_techgeek{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
 .main_compo_card{
     margin-top: 25px;
 }

@@ -3,7 +3,7 @@ import github from "../../../../images/GitHub_logo.svg";
 import instagram from "../../../../images/Instagram_logo.svg";
 import linkedin from "../../../../images/LinkedIn_logo.svg";
 import "../DevModal/DevModal.css";
-import admins from "./PageAdminDetails";
+import dev_adm_contri from "../../../../data/dev_adm_contri.json"
 
 function PageAdminModal() {
   return (
@@ -32,47 +32,56 @@ function PageAdminModal() {
                 style={{ borderTop: "1px solid   #ccd6f6", width: "70%" }}
               ></hr>
             </div>
-            {admins.map((admin, idx) => {
-              return (
-                <div className="col-12 px-5 my-3" key={`${idx}`}>
-                  <div className="row">
-                    <img
-                      className={
-                        admin.id % 2 === 0
-                          ? "col-12 col-lg-4  align-self-center dev-images"
-                          : "col-12 col-lg-4  align-self-center dev-images order-lg-2"
-                      }
-                      src={admin.image}
-                      alt="tushar"
-                    ></img>
-                    <div
-                      className={
-                        admin.id % 2 === 0
-                          ? "dev-text-box col-12 col-lg-8"
-                          : "dev-text-box col-12 col-lg-8 order-lg-1"
-                      }
-                    >
-                      <h4 className="mt-3">{admin.name}</h4>
-                      <p className="dev-intro"> {admin.intro}</p>
-                      <div className="Links">
-                        <a href={admin.githubLink} className="mr-3">
-                          <img src={github} alt="GitHub" />
-                        </a>
-                        <a href={admin.linkedinLink} className="mr-3">
-                          <img src={linkedin} alt="LinkedIn" />
-                        </a>
-                        <a href={"mailto:" + admin.mail} className="mr-3">
-                          <img src={mail} alt="mail" />
-                        </a>
-                        <a href={admin.instaLink} className="mr-3">
-                          <img src={instagram} alt="Instagram" />
-                        </a>
+
+            {/* Rendering Page Admin's here */}
+            {dev_adm_contri.map((admin_info, idx) => {
+              if(admin_info.admin===true)
+              {
+                return (
+                  <div className="col-12 px-5 my-3" key={`${idx}`}>
+                    <div className="row">
+                      <img
+                        className={
+                          admin_info.id % 2 === 0
+                            ? "col-12 col-lg-4  align-self-center dev-images"
+                            : "col-12 col-lg-4  align-self-center dev-images order-lg-2"
+                        }
+                        src={admin_info.image}
+                        alt="tushar"
+                      ></img>
+                      <div
+                        className={
+                          admin_info.id % 2 === 0
+                            ? "dev-text-box col-12 col-lg-8"
+                            : "dev-text-box col-12 col-lg-8 order-lg-1"
+                        }
+                      >
+                        <h4 className="mt-3">{admin_info.name}</h4>
+                        <p className="dev-intro"> {admin_info.intro}</p>
+                        <div className="Links">
+                          <a href={admin_info.githubLink} className="mr-3">
+                            <img src={github} alt="GitHub" />
+                          </a>
+                          <a href={admin_info.linkedinLink} className="mr-3">
+                            <img src={linkedin} alt="LinkedIn" />
+                          </a>
+                          <a href={"mailto:" + admin_info.mail} className="mr-3">
+                            <img src={mail} alt="mail" />
+                          </a>
+                          <a href={admin_info.instaLink} className="mr-3">
+                            <img src={instagram} alt="Instagram" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              );
+                );
+              }
+              else{
+                return null;
+              }
             })}
+            {/* function end's here */}
 
             <div className="col-12 mt-5">
               <div className="text-center text-white">
