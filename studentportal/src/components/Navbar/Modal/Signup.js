@@ -1,6 +1,6 @@
 import "./Modal.css";
 import { Button, Form } from "react-bootstrap";
-import google_logo from "../svg_nav/google_logo.svg";
+import google_logo from "../../../images/google_logo.svg";
 
 function SignupBox(props) {
   function handleChange() {
