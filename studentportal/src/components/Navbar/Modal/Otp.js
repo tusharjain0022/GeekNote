@@ -10,7 +10,10 @@ function OtpBox(props) {
   const [verified, setVerified] = useState(0);
   function handleVerified(newValue) {
     setVerified(newValue);
-    console.log(verified);
+  }
+  const [otpStatus, setOtpStatus] = useState(0);
+  function handleOtpStatus(newValue) {
+    setOtpStatus(newValue);
   }
 
   return (
@@ -24,10 +27,22 @@ function OtpBox(props) {
             className="formInput"
             placeholder="Enter Username"
           />
-          <Button className="loginSignupButton mt-3">Send OTP</Button>
-          <p className="small-text font-weight-bolder text-center">
-            An OTP has been sent to your registered email id .
-          </p>
+          <Button
+            className="loginSignupButton mt-3"
+            onClick={() => handleOtpStatus(1)}
+          >
+            Send OTP
+          </Button>
+          {otpStatus === 1 && (
+            <p className="small-text font-weight-bolder text-center">
+              An OTP has been sent to your registered email id .
+            </p>
+          )}
+          {otpStatus === 0 && (
+            <p className="small-text" style={{ visibility: "hidden" }}>
+              An OTP has been sent to your registered email id .
+            </p>
+          )}
         </Form.Group>
       )}
       <Form.Group controlId="otp" className="inputLabel">
