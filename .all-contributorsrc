@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tusharjain0022",
+      "name": "Tushar Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59157988?v=4",
+      "profile": "https://github.com/tusharjain0022",
+      "contributions": [
+        "code",
+        "design",
+        "mentoring"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "GeekNote",
+  "projectOwner": "tusharjain0022",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
