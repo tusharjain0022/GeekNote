@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/geeknote/deploys)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # GeekNote
@@ -40,6 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/tusharjain0022"><img src="https://avatars.githubusercontent.com/u/59157988?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tushar Jain</b></sub></a><br /><a href="https://github.com/tusharjain0022/GeekNote/commits?author=tusharjain0022" title="Code">💻</a> <a href="#design-tusharjain0022" title="Design">🎨</a> <a href="#mentoring-tusharjain0022" title="Mentoring">🧑‍🏫</a></td>
     <td align="center"><a href="https://github.com/Sahil-Gupta582"><img src="https://avatars.githubusercontent.com/u/56026206?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sahil Gupta</b></sub></a><br /><a href="https://github.com/tusharjain0022/GeekNote/commits?author=Sahil-Gupta582" title="Code">💻</a> <a href="#ideas-Sahil-Gupta582" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-Sahil-Gupta582" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/Abhayraj1707"><img src="https://avatars.githubusercontent.com/u/62218504?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhay Raj</b></sub></a><br /><a href="https://github.com/tusharjain0022/GeekNote/commits?author=Abhayraj1707" title="Code">💻</a> <a href="#ideas-Abhayraj1707" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-Abhayraj1707" title="Mentoring">🧑‍🏫</a></td>
+    <td align="center"><a href="https://github.com/sandesh-08"><img src="https://avatars.githubusercontent.com/u/67503294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sandesh-08</b></sub></a><br /><a href="https://github.com/tusharjain0022/GeekNote/commits?author=sandesh-08" title="Code">💻</a> <a href="#ideas-sandesh-08" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-sandesh-08" title="Mentoring">🧑‍🏫</a></td>
   </tr>
 </table>
 
