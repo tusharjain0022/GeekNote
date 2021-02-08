@@ -59,6 +59,17 @@
         "ideas",
         "maintenance"
       ]
+    },
+    {
+      "login": "ShashankS1ngh",
+      "name": "Shashank Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60497411?v=4",
+      "profile": "https://github.com/ShashankS1ngh",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
