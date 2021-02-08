@@ -26,6 +26,17 @@
         "ideas",
         "maintenance"
       ]
+    },
+    {
+      "login": "Abhayraj1707",
+      "name": "Abhay Raj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62218504?v=4",
+      "profile": "https://github.com/Abhayraj1707",
+      "contributions": [
+        "code",
+        "ideas",
+        "mentoring"
+      ]
     }
   ],
   "contributorsPerLine": 7,
