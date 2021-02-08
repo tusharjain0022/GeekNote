@@ -48,6 +48,17 @@
         "ideas",
         "mentoring"
       ]
+    },
+    {
+      "login": "sourav1kumar",
+      "name": "Sourav Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56984144?v=4",
+      "profile": "https://github.com/sourav1kumar",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
