@@ -15,6 +15,17 @@
         "design",
         "mentoring"
       ]
+    },
+    {
+      "login": "Sahil-Gupta582",
+      "name": "Sahil Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56026206?v=4",
+      "profile": "https://github.com/Sahil-Gupta582",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
