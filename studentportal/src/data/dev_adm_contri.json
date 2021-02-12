@@ -3,7 +3,7 @@
       "id": 0,
       "developer": true,
       "admin": true,
-      "contributor_at": ["Web Development","App Development","Cloud Computing"],
+      "contributor_at": ["Web Development","App Development","Cloud Computing","3D Modelling"],
       "name": "Tushar Jain",
       "intro":"MERN stack Developer | PHP Fullstack Developer | Python enthusiast | Graphic designer | Sketch Artist",
       "image": "./images/tushar.jpeg",
@@ -29,7 +29,7 @@
       "id": 2,
       "developer": true,
       "admin": true,
-      "contributor_at": ["Machine Learning","Competitive Prorgramming"],
+      "contributor_at": ["Machine Learning","Competitive Programming"],
       "name": "Sandesh Dudhabaware",
       "intro":"Hello, I am Sandesh. I am currently pursuing B.tech degree in ECE from IIIT Ranchi. I love Competitive Programming ( C | C++ ).I also do Web-Development , wish to learn React-Native, Machine-Learning and Node-Modules",
       "image": "./images/Sandesh.jpeg",
@@ -38,8 +38,21 @@
       "mail": "sandeshdudhabaware16976@gmail.com            ",
       "instaLink": "https://google.com"
     },
+     {
+    "id": 3,
+    "developer": true,
+    "admin": true,
+    "contributor_at": ["Competitive Programming","AR/VR"],
+    "name": "Sahil Gupta",
+    "intro":"MERN Stack Developer | Java Developer | Data Structure and Algorithm Enthusiast",
+    "image": "./images/Sahil.jpg",
+    "githubLink": "https://github.com/Sahil-Gupta582",
+    "linkedinLink": "https://www.linkedin.com/in/sahil-gupta-765839122/",
+    "mail": "sahilgupta.btech.cs19@iiitranchi.ac.in",
+    "instaLink": "https://www.instagram.com/tending_to_infinity/"
+  },
     {
-      "id": 3,
+      "id": 4,
       "developer": false,
       "admin": true,
       "contributor_at": ["Robotics and IoT"],
@@ -52,7 +65,7 @@
       "instaLink": "https://google.com"
     },
     {
-      "id": 4,
+      "id": 5,
       "developer": false,
       "admin": true,
       "contributor_at": ["Robotics and IoT"],
