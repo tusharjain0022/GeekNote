@@ -31,7 +31,7 @@ const SubjectCard = (props) => {
                     return (
                       <li>
                         <a
-                          href="/add_links_of_blogs"
+                          href={learn_list.ref_link}
                           style={{ color: "black" }}
                         >
                           {learn_list.title}

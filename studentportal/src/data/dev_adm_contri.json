@@ -44,7 +44,7 @@
     "admin": false,
     "contributor_at": "null",
     "name": "Sahil Gupta",
-    "intro":"lorem ipsum lorem ipsum v lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "intro":"MERN Stack Developer | Java Developer | Data Structure and Algorithm Enthusiast",
     "image": "./images/Sahil.jpg",
     "githubLink": "https://github.com/Sahil-Gupta582",
     "linkedinLink": "https://www.linkedin.com/in/sahil-gupta-765839122/",
@@ -170,16 +170,16 @@
     },
     {
       "id": 13,
-      "developer": false,
+      "developer": true,
       "admin": false,
-      "contributor_at":"App Development",
+      "contributor_at": "null",
       "name": "Sahil Gupta",
-      "intro": "lorem ipsum lorem ipsum v lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-      "image": "./images/tushar.jpeg",
-      "githubLink": "https://google.com",
-      "linkedinLink": "https://google.com",
-      "mail": "https://google.com",
-      "instaLink": "https://google.com"
+      "intro":"MERN Stack Developer | Java Developer | Data Structure and Algorithm Enthusiast",
+      "image": "./images/Sahil.jpg",
+      "githubLink": "https://github.com/Sahil-Gupta582",
+      "linkedinLink": "https://www.linkedin.com/in/sahil-gupta-765839122/",
+      "mail": "sahilgupta.btech.cs19@iiitranchi.ac.in",
+      "instaLink": "https://www.instagram.com/tending_to_infinity/"
     },
     {
       "id": 14,
@@ -248,16 +248,16 @@
     },
     {
       "id": 19,
-      "developer": false,
+      "developer": true,
       "admin": false,
-      "contributor_at":"Competitive Programming",
+      "contributor_at": "null",
       "name": "Sahil Gupta",
-      "intro": "lorem ipsum lorem ipsum v lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-      "image": "./images/tushar.jpeg",
-      "githubLink": "https://google.com",
-      "linkedinLink": "https://google.com",
-      "mail": "https://google.com",
-      "instaLink": "https://google.com"
+      "intro":"MERN Stack Developer | Java Developer | Data Structure and Algorithm Enthusiast",
+      "image": "./images/Sahil.jpg",
+      "githubLink": "https://github.com/Sahil-Gupta582",
+      "linkedinLink": "https://www.linkedin.com/in/sahil-gupta-765839122/",
+      "mail": "sahilgupta.btech.cs19@iiitranchi.ac.in",
+      "instaLink": "https://www.instagram.com/tending_to_infinity/"
     },
     {
       "id": 20,
