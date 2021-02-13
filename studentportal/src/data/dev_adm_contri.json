@@ -31,7 +31,7 @@
       "admin": true,
       "contributor_at": ["Machine Learning","Competitive Programming"],
       "name": "Sandesh Dudhabaware",
-      "intro":"Hello, I am Sandesh. I am currently pursuing B.tech degree in ECE from IIIT Ranchi. I love Competitive Programming ( C | C++ ).I also do Web-Development , wish to learn React-Native, Machine-Learning and Node-Modules",
+      "intro":"I am currently pursuing B.tech degree in ECE from IIIT Ranchi. I love Competitive Programming ( C | C++ ).I also do Web-Development , wish to learn React-Native, Machine-Learning and Node-Modules",
       "image": "./images/Sandesh.jpeg",
       "githubLink": " https://github.com/sandesh-08   ",
       "linkedinLink": "https://www.linkedin.com/in/sandesh-dudhabaware-3b5839196   ",
@@ -75,6 +75,19 @@
       "githubLink": "https://github.com/RishavMz",
       "linkedinLink": "https://in.linkedin.com/public-profile/in/rishav-mazumdar-38b869192",
       "mail": "rishav.mazumdar123@gmail.com",
+      "instaLink": "https://google.com"
+    },
+    {
+      "id": 6,
+      "developer": true,
+      "admin": true,
+      "contributor_at": ["App Development","Cloud Computing"],
+      "name": "Shashank Singh",
+      "intro":"Java programmer | Android developer | Python | Sql |Data science enthusiast",
+      "image": "./images/Shashank.jpeg",
+      "githubLink": "https://github.com/ShashankS1ngh",
+      "linkedinLink": "https://www.linkedin.com/in/shashank-singh-0269841a0",
+      "mail": "sshashank628@gmail.com",
       "instaLink": "https://google.com"
     } 
 ]
