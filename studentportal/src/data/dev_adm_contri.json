@@ -94,6 +94,7 @@
       "id": 7,
       "developer": true,
       "admin": false,
+      "contributor_at": ["null"],
       "name": "Sourav Kumar",
       "intro":"MERN Developer | C++ programmer | Competitive Coder | React Enthusiast | ML Enthusiast",
       "image": "./images/Sourav.jfif",
