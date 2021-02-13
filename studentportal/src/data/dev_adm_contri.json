@@ -89,5 +89,17 @@
       "linkedinLink": "https://www.linkedin.com/in/shashank-singh-0269841a0",
       "mail": "sshashank628@gmail.com",
       "instaLink": "https://google.com"
+    } ,
+    {
+      "id": 7,
+      "developer": true,
+      "admin": false,
+      "name": "Sourav Kumar",
+      "intro":"",
+      "image": "./images/Sourav.jfif",
+      "githubLink": "https://github.com/sourav1kumar",
+      "linkedinLink": "https://www.linkedin.com/in/sourav-kumar-6a884b194/",
+      "mail": "saurav.saw2@gmail.com",
+      "instaLink": "https://google.com"
     } 
 ]
