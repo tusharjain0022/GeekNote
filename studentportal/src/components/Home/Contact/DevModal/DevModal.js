@@ -35,8 +35,7 @@ function DevModal() {
 
             {/* rendering developer's here */}
             {dev_adm_contri.map((dev_info, idx) => {
-              if(dev_info.developer===true)
-              {
+              if (dev_info.developer === true) {
                 return (
                   <div className="col-12 px-5 my-3" key={`${idx}`}>
                     <div className="row">
@@ -68,16 +67,17 @@ function DevModal() {
                           <a href={"mailto:" + dev_info.mail} className="mr-3">
                             <img src={mail} alt="mail" />
                           </a>
-                          <a href={dev_info.instaLink} className="mr-3">
-                            <img src={instagram} alt="instagram" />
-                          </a>
+                          {dev_info.instaLink !== "null" && (
+                            <a href={dev_info.instaLink} className="mr-3">
+                              <img src={instagram} alt="instagram" />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
                 );
-              }
-              else{
+              } else {
                 return null;
               }
             })}
