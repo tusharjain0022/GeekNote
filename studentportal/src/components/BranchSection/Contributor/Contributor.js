@@ -37,9 +37,11 @@ function Contributor(props) {
                     >
                       <img src={mail} alt="mail" />
                     </a>
-                    <a href={contributor_info.instaLink} className="mr-3">
-                      <img src={instagram} alt="instagram" />
-                    </a>
+                    {contributor_info.instaLink !== "null" && (
+                      <a href={contributor_info.instaLink} className="mr-3">
+                        <img src={instagram} alt="instagram" />
+                      </a>
+                    )}
                   </div>
                   <p className="dev-intro"> {contributor_info.intro}</p>
                 </div>

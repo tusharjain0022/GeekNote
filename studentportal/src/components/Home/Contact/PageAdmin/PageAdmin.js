@@ -3,7 +3,7 @@ import github from "../../../../images/GitHub_logo.svg";
 import instagram from "../../../../images/Instagram_logo.svg";
 import linkedin from "../../../../images/LinkedIn_logo.svg";
 import "../DevModal/DevModal.css";
-import dev_adm_contri from "../../../../data/dev_adm_contri.json"
+import dev_adm_contri from "../../../../data/dev_adm_contri.json";
 
 function PageAdminModal() {
   return (
@@ -35,8 +35,7 @@ function PageAdminModal() {
 
             {/* Rendering Page Admin's here */}
             {dev_adm_contri.map((admin_info, idx) => {
-              if(admin_info.admin===true)
-              {
+              if (admin_info.admin === true) {
                 return (
                   <div className="col-12 px-5 my-3" key={`${idx}`}>
                     <div className="row">
@@ -65,19 +64,23 @@ function PageAdminModal() {
                           <a href={admin_info.linkedinLink} className="mr-3">
                             <img src={linkedin} alt="LinkedIn" />
                           </a>
-                          <a href={"mailto:" + admin_info.mail} className="mr-3">
+                          <a
+                            href={"mailto:" + admin_info.mail}
+                            className="mr-3"
+                          >
                             <img src={mail} alt="mail" />
                           </a>
-                          <a href={admin_info.instaLink} className="mr-3">
-                            <img src={instagram} alt="Instagram" />
-                          </a>
+                          {admin_info.instaLink !== "null" && (
+                            <a href={admin_info.instaLink} className="mr-3">
+                              <img src={instagram} alt="Instagram" />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
                 );
-              }
-              else{
+              } else {
                 return null;
               }
             })}
