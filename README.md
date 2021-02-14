@@ -4,9 +4,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # GeekNote
-
-GeekNote : Place for all your learning
-We've got all the resources that you'll require to get a dive into any Computer Science related field.we've a separate blog space for the users where anyone can post thier blogs and share thier knowledge with other devs as well. Our registered users/bloggers will also get access to our discord channel.
+##### Place for all your learning
+We've got all the resources that you'll require to get a dive into any Computer Science related field.We've a separate blog space for the users where anyone can post their blogs and share their knowledge with other devs as well. Our registered users/bloggers will also get access to our discord channel.
 Give it a try, you will really get benefited 😉😉.
 
 
