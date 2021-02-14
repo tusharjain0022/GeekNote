@@ -1,6 +1,6 @@
 import "./LandingPage.css";
-import landing from "../../../images/Blocklanding.svg";
-import mlanding from "./mob-landing.svg";
+import landing from "../../../images/LandingPage/landing.png";
+import mlanding from "../../../images/LandingPage/mob-landing.png";
 // import SlackButton from "./slackButton";
 
 function LandingPage() {

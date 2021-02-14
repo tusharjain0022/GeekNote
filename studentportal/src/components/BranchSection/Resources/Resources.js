@@ -31,7 +31,7 @@ const SubjectCard = (props) => {
                     return (
                       <li>
                         <a
-                          href="/add_links_of_blogs"
+                          href={learn_list.ref_link}
                           style={{ color: "black" }}
                         >
                           {learn_list.title}
@@ -49,7 +49,7 @@ const SubjectCard = (props) => {
                 {props.learning_videos.map((learn_list) => {
                   return (
                     <li>
-                      <a href="/add_links_of_blogs" style={{ color: "black" }}>
+                      <a href={learn_list.ref_link} style={{ color: "black" }}>
                         {learn_list.title}
                       </a>
                     </li>
