@@ -2,7 +2,7 @@ import "./BranchSection.css";
 import Landing from "./LandingSection/Landing";
 import LinkedBlog from "./LinkedBlog/LinkedBlog";
 import Calendar from "./Calendar/Calendar";
-import CRDetails from "./CRDetails/CRDetails";
+import Contributor from "./Contributor/Contributor";
 
 function BranchSection(props) {
   return (
@@ -10,7 +10,7 @@ function BranchSection(props) {
       <Landing name={props.name} intro={props.intro}/>
       <LinkedBlog name={props.name} />
       <Calendar />
-      <CRDetails name={props.name} />
+      <Contributor name={props.name} />
     </div>
   );
 }
