@@ -4,8 +4,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # GeekNote
+##### Place for all your learning
+We've got all the resources that you'll require to get a dive into any Computer Science related field.We've a separate blog space for the users where anyone can post their blogs and share their knowledge with other devs as well. Our registered users/bloggers will also get access to our discord channel.
+Give it a try, you will really get benefited 😉😉.
 
-This project provides a single platform with a attractive user interface to organize all your study materials and classworks you also get reminder later at the right time. Members of IIIT RANCHI(email-xyz@iiitranchi.ac.in) can deliver their thoughts as well as study materials with everyone by publishing the blog posts and also interested people can discuss it.
 
 ## Getting started
 
@@ -13,7 +15,7 @@ This project provides a single platform with a attractive user interface to orga
 - Clone it to your machine.
 - Open your terminal/cmd in the `GeekNote/studentportal` folder.
 - Run `npm install` there.
-- wait for sometime it may take little bit of time.
+- Wait for sometime it may take little bit of time.
 - After completion run `npm start` to start the development server.
 
 ### congratulation!! 🥇 You have Run the server in your local machine!!
