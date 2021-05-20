@@ -1,0 +1,52 @@
+[
+    {
+        "id":"0",
+        "tag":"All",
+        "color": "#1DBB7A"
+    },
+    {
+        "id":"1",
+        "tag":"Competitive Programming",
+        "color": "#FFCEA9"
+    },
+    {
+        "id":"2",
+        "tag":"Robotics",
+        "color": "#9C73FF"
+    },
+    {
+        "id":"3",
+        "tag":"Machine Learning",
+        "color": "#FBBC04"
+    },
+    {
+        "id":"4",
+        "tag":"Web Development",
+        "color": "#F55A4D"
+    },
+    {
+        "id":"5",
+        "tag":"App Development",
+        "color": "#1DBB7A"
+    },
+    {
+        "id":"6",
+        "tag":"3D Modelling",
+        "color": "#FBBC04"
+    },
+    {
+        "id":"7",
+        "tag":"Robotics and IoT",
+        "color": "#4285F4"
+    },
+    {
+        "id":"8",
+        "tag":"Cloud Computing",
+        "color": "#6723F4"
+    },
+    {
+        "id":"9",
+        "tag":"AR/VR",
+        "color": "#4285F4"
+    }
+]

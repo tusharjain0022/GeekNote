@@ -1,0 +1,507 @@
+[
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Cloud Computing",
+            "Machine Learning",
+            "Web Development",
+            "App Development",
+            "Robotics"
+        ],
+        "title": "1 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "AR/VR",
+            "Machine Learning",
+            "Robotics and IoT",
+            "Web Development"
+        ],
+        "title": "2 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Robotics"
+        ],
+        "title": "3 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "App Development"
+        ],
+        "title": "4 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Robotics and IoT",
+            "Web Development"
+        ],
+        "title": "5 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Competitive Programming",
+            "Web Development",
+            "Robotics"
+        ],
+        "title": "6 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "App Development"
+        ],
+        "title": "7 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Competitive Programming"
+        ],
+        "title": "8 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Robotics and IoT",
+            "Web Development"
+        ],
+        "title": "9 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Web Development",
+            "Machine Learning",
+            "App Development",
+            "Robotics"
+        ],
+        "title": "10 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "App Development",
+            "3D Modelling"
+        ],
+        "title": "11 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Competitive Programming",
+            "Robotics"
+        ],
+        "title": "12 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Competitive Programming",
+            "App Development"
+        ],
+        "title": "13 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development"
+        ],
+        "title": "14 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Cloud Computing"
+        ],
+        "title": "15 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Robotics and IoT",
+            "Robotics"
+        ],
+        "title": "16 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "App Development"
+        ],
+        "title": "17 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "App Development"
+        ],
+        "title": "18 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Machine Learning",
+            "Robotics"
+        ],
+        "title": "19 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development"
+        ],
+        "title": "20 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "App Development"
+        ],
+        "title": "21 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "App Development",
+            "Web Development"
+        ],
+        "title": "22 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Robotics"
+        ],
+        "title": "23 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "id": 24,
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "App Development",
+            "Web Development",
+            "Robotics and IoT"
+        ],
+        "title": "24 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "App Development",
+            "Web Development"
+        ],
+        "title": "25 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": true,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "App Development",
+            "3D Modelling",
+            "Web Development",
+            "AR/VR",
+            "Robotics"
+        ],
+        "title": "26 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": false,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "AR/VR",
+            "Web Development"
+        ],
+        "title": "27 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "AR/VR"
+        ],
+        "title": "28 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    },
+    {
+        "by_student": false,
+        "by_admin": true,
+        "upvote": 0,
+        "downvote": 0,
+        "tags": [
+            "All",
+            "Machine Learning",
+            "Web Development",
+            "Robotics and IoT",
+            "App Development"
+        ],
+        "title": "29 Lorep ipsum lorep ipsum lorep ipsum lorep ipsum",
+        "intro_para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent",
+        "author": " Abhay Raj Singh",
+        "posting_date": "12:00 AM , 10th January 2020",
+        "brief_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentvLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. PraesentLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet a ligula ac tincidunt. Nullam faucibus felis eget dolor interdum, at scelerisque arcu fringilla. Praesent"
+    }
+]

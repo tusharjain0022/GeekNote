@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Web Development",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/web-development"
+    },
+    {
+        "name": "App Development",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/app-development"
+    },
+    {
+        "name": "Robotics and IoT",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/robotics"
+    },
+    {
+        "name": "Machine Learning",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/machine-learning"
+    },
+    {
+        "name": "Competitive Programming",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/competitive-programming"
+    },
+    {
+        "name": "AR/VR",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/ar-vr"
+    },
+    {
+        "name": "3D Modelling",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/3d-modelling"
+    },
+    {
+        "name": "Cloud Computing",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet tempor massa. Praesent at lacinia nisi, faucibus finibus mauris.",
+        "link": "/cloud-computing"
+    }
+]
