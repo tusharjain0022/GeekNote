@@ -1,19 +1,19 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const branchSchema = mongoose.Schema({
   name: {
     type: String,
-    required: [true, "A branch must have name"],
+    required: [true, 'A branch must have name'],
   },
   intro: {
     type: String,
-    required: [true, "A branch must have an intro"],
+    required: [true, 'A branch must have an intro'],
   },
   link: {
     type: String,
-    required: [true, "A branch must have a link"],
+    required: [true, 'A branch must have a link'],
   },
 });
 
-const Branch = mongoose.model("Branch", branchSchema);
+const Branch = mongoose.model('Branch', branchSchema);
 module.exports = Branch;

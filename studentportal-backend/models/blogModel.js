@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const blogSchema = new mongoose.Schema({
   createdAt: {
@@ -27,26 +27,26 @@ const blogSchema = new mongoose.Schema({
   },
   title: {
     type: String,
-    required: [true, "A blog must have title"],
+    required: [true, 'A blog must have title'],
   },
   intro_para: {
     type: String,
-    required: [true, "A blog must have introduction paragraph"],
+    required: [true, 'A blog must have introduction paragraph'],
   },
   author: {
     type: String,
-    required: [true, "A blog must have author"],
+    required: [true, 'A blog must have author'],
   },
   posting_date: {
     type: String,
-    required: [true, "A blog must have posting date"],
+    required: [true, 'A blog must have posting date'],
   },
   brief_info: {
     type: String,
-    required: [true, "A blog must have posting date"],
+    required: [true, 'A blog must have posting date'],
   },
 });
 
-const Blog = mongoose.model("Blog", blogSchema);
+const Blog = mongoose.model('Blog', blogSchema);
 
 module.exports = Blog;

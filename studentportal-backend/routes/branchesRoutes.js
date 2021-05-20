@@ -1,15 +1,15 @@
-const express = require("express");
-const branchController = require("./../controllers/branchController");
+const express = require('express');
+const branchController = require('./../controllers/branchController');
 
 const router = express.Router();
 
 router
-  .route("/")
+  .route('/')
   .get(branchController.getAllBranches)
   .post(branchController.createBranch);
 
 router
-  .route("/:id")
+  .route('/:id')
   .get(branchController.getBranch)
   .patch(branchController.updateBranch)
   .delete(branchController.deleteBranch);
