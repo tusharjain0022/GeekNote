@@ -1,9 +1,47 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
 const Blog = require('./../models/blogModel');
 
 exports.getAllBlogs = async (req, res) => {
   try {
-    const blogs = await Blog.find();
+    //Build Query
 
+    //Filtering
+    const queryObj = { ...req.query };
+    const excludedFields = ['page', 'sort', 'limit', 'fields'];
+    excludedFields.forEach((el) => delete queryObj[el]);
+
+    // Advanced Filtering
+    let queryStr = JSON.stringify(queryObj);
+    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
+
+    let query = Blog.find(JSON.parse(queryStr));
+
+    //Sorting
+    if (req.query.sort) {
+      const sortBy = req.query.sort.split(',').join(' ');
+      query = query.sort(sortBy);
+    } else {
+      query = query.sort('-createdAt');
+    }
+
+    query = query.select('-__v');
+
+    //Pagination
+    const page = req.query.page * 1 || 1;
+    const limit = req.query.limit * 1 || 10;
+    const skip = limit * (page - 1);
+
+    query = query.skip(skip).limit(limit);
+
+    if (req.query.page) {
+      const numTours = await Blog.countDocuments();
+      if (skip >= numTours) throw new Error('This page does not exist');
+    }
+    //Execute Query
+    const blogs = await query;
+    // const blogs=await Blog.find();
+
+    // Send Response
     res.status(200).json({
       status: 'success',
       requestedAt: req.requestTime,
@@ -15,7 +53,7 @@ exports.getAllBlogs = async (req, res) => {
   } catch (err) {
     res.status(404).json({
       status: 'fail',
-      message: err,
+      message: err.message,
     });
   }
 };
