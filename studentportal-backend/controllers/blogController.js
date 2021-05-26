@@ -1,45 +1,22 @@
 /* eslint-disable node/no-unsupported-features/es-syntax */
 const Blog = require('./../models/blogModel');
+const APIFeatures = require('./../utils/apiFeatures');
+
+exports.aliasTopBlogs = (req, res, next) => {
+  req.query.limit = '5';
+  req.query.sort = '-upvote';
+  next();
+};
 
 exports.getAllBlogs = async (req, res) => {
   try {
-    //Build Query
-
-    //Filtering
-    const queryObj = { ...req.query };
-    const excludedFields = ['page', 'sort', 'limit', 'fields'];
-    excludedFields.forEach((el) => delete queryObj[el]);
-
-    // Advanced Filtering
-    let queryStr = JSON.stringify(queryObj);
-    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
-
-    let query = Blog.find(JSON.parse(queryStr));
-
-    //Sorting
-    if (req.query.sort) {
-      const sortBy = req.query.sort.split(',').join(' ');
-      query = query.sort(sortBy);
-    } else {
-      query = query.sort('-createdAt');
-    }
-
-    query = query.select('-__v');
-
-    //Pagination
-    const page = req.query.page * 1 || 1;
-    const limit = req.query.limit * 1 || 10;
-    const skip = limit * (page - 1);
-
-    query = query.skip(skip).limit(limit);
-
-    if (req.query.page) {
-      const numTours = await Blog.countDocuments();
-      if (skip >= numTours) throw new Error('This page does not exist');
-    }
     //Execute Query
-    const blogs = await query;
-    // const blogs=await Blog.find();
+    const features = new APIFeatures(Blog.find(), req.query)
+      .filter()
+      .sort()
+      .limitFields()
+      .paginate();
+    const blogs = await features.query;
 
     // Send Response
     res.status(200).json({
@@ -122,6 +99,39 @@ exports.deleteBlog = async (req, res) => {
       status: 'success',
       data: {
         blog: 'null',
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'fail',
+      message: err,
+    });
+  }
+};
+
+exports.getBlogStats = async (req, res) => {
+  try {
+    const stats = await Blog.aggregate([
+      {
+        $match: { upvote: { $gte: 5 } },
+      },
+      {
+        $group: {
+          _id: null,
+          numBlogs: { $sum: 1 },
+          avgUpvote: { $avg: '$upvote' },
+          avgDownvote: { $avg: '$downvote' },
+        },
+      },
+      {
+        $sort: { avgUpvote: 1 },
+      },
+    ]);
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        stats,
       },
     });
   } catch (err) {

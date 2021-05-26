@@ -47,6 +47,11 @@ const blogSchema = new mongoose.Schema({
   },
 });
 
+//DOCUMENT MIDDLEWARE: runs before .save)_ and .create()
+blogSchema.pre('save', function () {
+  console.log(this);
+});
+
 const Blog = mongoose.model('Blog', blogSchema);
 
 module.exports = Blog;
