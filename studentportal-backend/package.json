@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "3001",
   "license": "ISC",
@@ -16,7 +16,8 @@
     "jshint": "^2.12.0",
     "mongoose": "^5.12.10",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "slugify": "^1.5.3"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
