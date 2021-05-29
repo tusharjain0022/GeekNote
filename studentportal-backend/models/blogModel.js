@@ -79,7 +79,7 @@ blogSchema.pre(/^find/, function (next) {
 });
 
 blogSchema.post(/^find/, function (docs, next) {
-  console.log(docs);
+  // console.log(docs);
   next();
 });
 
