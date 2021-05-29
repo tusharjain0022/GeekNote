@@ -3,4 +3,4 @@ from = "/*"
 to = "/index.html"
 status = 200
 [build]
-   ignore = "/bin/false"
+  ignore = "/bin/false"

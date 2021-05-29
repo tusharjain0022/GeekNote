@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 
+const AppError = require('./utils/appError');
+const globalErrorHandler = require('./controllers/errorController');
 const blogRouter = require('./routes/blogRoutes');
 const branchRouter = require('./routes/branchesRoutes');
 
@@ -14,11 +16,6 @@ if (process.env.NODE_ENV === 'development') {
 app.use(express.json());
 
 app.use((req, res, next) => {
-  console.log('Hello from the middleware 👋👋');
-  next();
-});
-
-app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
 });
@@ -28,4 +25,9 @@ app.use((req, res, next) => {
 app.use('/api/v1/blogs', blogRouter); //Mounting Routers
 app.use('/api/v1/branches', branchRouter); //Mounting Routers
 
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));
+});
+
+app.use(globalErrorHandler);
 module.exports = app;
