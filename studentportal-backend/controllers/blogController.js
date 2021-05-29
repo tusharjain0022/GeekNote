@@ -1,9 +1,24 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
 const Blog = require('./../models/blogModel');
+const APIFeatures = require('./../utils/apiFeatures');
+
+exports.aliasTopBlogs = (req, res, next) => {
+  req.query.limit = '5';
+  req.query.sort = '-upvote';
+  next();
+};
 
 exports.getAllBlogs = async (req, res) => {
   try {
-    const blogs = await Blog.find();
+    //Execute Query
+    const features = new APIFeatures(Blog.find(), req.query)
+      .filter()
+      .sort()
+      .limitFields()
+      .paginate();
+    const blogs = await features.query;
 
+    // Send Response
     res.status(200).json({
       status: 'success',
       requestedAt: req.requestTime,
@@ -15,7 +30,7 @@ exports.getAllBlogs = async (req, res) => {
   } catch (err) {
     res.status(404).json({
       status: 'fail',
-      message: err,
+      message: err.message,
     });
   }
 };
@@ -60,6 +75,7 @@ exports.updateBlog = async (req, res) => {
   try {
     const blog = await Blog.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
+      runValidators: true,
     });
 
     res.status(200).json({
@@ -84,6 +100,39 @@ exports.deleteBlog = async (req, res) => {
       status: 'success',
       data: {
         blog: 'null',
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'fail',
+      message: err,
+    });
+  }
+};
+
+exports.getBlogStats = async (req, res) => {
+  try {
+    const stats = await Blog.aggregate([
+      {
+        $match: { upvote: { $gte: 5 } },
+      },
+      {
+        $group: {
+          _id: null,
+          numBlogs: { $sum: 1 },
+          avgUpvote: { $avg: '$upvote' },
+          avgDownvote: { $avg: '$downvote' },
+        },
+      },
+      {
+        $sort: { avgUpvote: 1 },
+      },
+    ]);
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        stats,
       },
     });
   } catch (err) {
