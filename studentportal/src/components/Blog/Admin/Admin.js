@@ -5,7 +5,7 @@ import left_arrow from "./svg_img/left_arrow.svg";
 import right_arrow from "./svg_img/right_arrow.svg";
 import Upvote from "./svg_img/upvote.svg";
 import Downvote from "./svg_img/downvote.svg";
-import { Component, useState } from "react";
+import { useState } from "react";
 import admin_logo from "./svg_img/admin_logo.svg";
 import tag_details from "../../../data/tag_details.json";
 import { useEffect } from "react";
