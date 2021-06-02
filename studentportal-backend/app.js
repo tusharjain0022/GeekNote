@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -7,6 +8,7 @@ const blogRouter = require('./routes/blogRoutes');
 const branchRouter = require('./routes/branchesRoutes');
 
 const app = express();
+app.use(cors());
 
 //Middlewares
 if (process.env.NODE_ENV === 'development') {
@@ -21,7 +23,6 @@ app.use((req, res, next) => {
 });
 
 // Routes
-
 app.use('/api/v1/blogs', blogRouter); //Mounting Routers
 app.use('/api/v1/branches', branchRouter); //Mounting Routers
 

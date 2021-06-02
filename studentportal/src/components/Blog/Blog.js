@@ -6,15 +6,14 @@ import AdminBlog from "./Admin/Admin";
 import SearchStats from "./SearchAndStats/SearchStats";
 import StudentBlog from "./Students/Student";
 import BlogFooter from "./BlogFooter/BlogFooter";
-import { useState } from 'react';
+import { useState } from "react";
 
 function Blog() {
-
-  const [global_tag, set_global_tag] = useState('All');
+  const [global_tag, set_global_tag] = useState("All");
 
   const transfer_data_tag = (new_tag) => {
     set_global_tag(new_tag);
-  }
+  };
 
   return (
     <div className="blog">

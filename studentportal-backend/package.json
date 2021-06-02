@@ -11,9 +11,10 @@
   "author": "3001",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "jshint": "^2.12.0",
+    "jshint": "^2.13.0",
     "mongoose": "^5.12.10",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
