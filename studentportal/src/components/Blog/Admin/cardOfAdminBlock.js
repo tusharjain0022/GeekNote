@@ -114,4 +114,4 @@ const CardofAdminBlock = ({
   );
 };
 
-module.exports = CardofAdminBlock;
+export default CardofAdminBlock;
