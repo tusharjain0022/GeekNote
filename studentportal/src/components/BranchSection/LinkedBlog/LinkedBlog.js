@@ -83,7 +83,7 @@ function LinkedBlog(props) {
             </div>
           </div>
 
-          {{ blogs_to_show }.map((blog_info, iteration_number) => {
+          {blogs_to_show.map((blog_info, iteration_number) => {
             if (iteration_number >= start && iteration_number <= end) {
               return <CardofLinkedblog key={blog_info.id} {...blog_info} />;
             } else {

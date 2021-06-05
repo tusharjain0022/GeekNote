@@ -98,7 +98,7 @@ function StudentBlog(props_tag_name) {
             </p>
           ) : null}
 
-          {{ blogs_to_show }.map((blog_info, iteration_number) => {
+          {blogs_to_show.map((blog_info, iteration_number) => {
             if (iteration_number >= start && iteration_number <= end) {
               return <CardofStudentblog key={blog_info.id} {...blog_info} />;
             } else {
