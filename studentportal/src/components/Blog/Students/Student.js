@@ -20,9 +20,9 @@ function StudentBlog(props_tag_name) {
   }, [propName]);
 
   var but_arr = [];
-  for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
+  for (var j = 0; j < { blogs_to_show }.length / 4; j++) but_arr.push(j + 1);
 
-  const total_blogs = blogs_to_show.length;
+  const total_blogs = { blogs_to_show }.length;
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 
@@ -92,13 +92,13 @@ function StudentBlog(props_tag_name) {
           <p style={{ color: "greenyellow" }}>
             showing results for:- {props_tag_name.tag}
           </p>
-          {blogs_to_show.length === 0 ? (
+          {{ blogs_to_show }.length === 0 ? (
             <p className="no_result_techgeek">
               NO RESULTS FOUND FOR :- "{props_tag_name.tag}"
             </p>
           ) : null}
 
-          {blogs_to_show.map((blog_info, iteration_number) => {
+          {{ blogs_to_show }.map((blog_info, iteration_number) => {
             if (iteration_number >= start && iteration_number <= end) {
               return <CardofStudentblog key={blog_info.id} {...blog_info} />;
             } else {
