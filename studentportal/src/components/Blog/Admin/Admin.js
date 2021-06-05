@@ -19,7 +19,9 @@ function AdminBlog(props_tag_name) {
 
         // console.log(response.data.data.blogs);
       });
-  }, []);
+  }, [propName]);
+
+  // console.log(blogs_to_show);
 
   var but_arr = [];
   for (var j = 0; j < { blogs_to_show }.length / 4; j++) but_arr.push(j + 1);
