@@ -79,6 +79,11 @@ function Navbar_Top() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/blog-editor">
+                Create Blog
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/#contact">
                 Contact us
               </Link>
