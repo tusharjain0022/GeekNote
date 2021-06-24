@@ -15,8 +15,8 @@ exports.getAllBlogs = catchAsync(async (req, res, next) => {
   const features = new APIFeatures(Blog.find(), req.query)
     .filter()
     .sort()
-    .limitFields()
-    .paginate();
+    .limitFields();
+  // .paginate();
   const blogs = await features.query;
 
   // Send Response

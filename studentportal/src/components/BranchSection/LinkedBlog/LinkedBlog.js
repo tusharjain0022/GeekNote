@@ -20,8 +20,8 @@ function LinkedBlog(props) {
   }, [propName]);
 
   var but_arr = [];
-  for (var j = 0; j < { blogs_to_show }.length / 4; j++) but_arr.push(j + 1);
-  const total_blogs = { blogs_to_show }.length - 1;
+  for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
+  const total_blogs = blogs_to_show.length - 1;
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 

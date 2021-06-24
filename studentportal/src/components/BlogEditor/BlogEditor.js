@@ -54,7 +54,7 @@ class BlogEditor extends React.Component {
                   className="form-control"
                   id="subject"
                   placeholder="Subject"
-                  maxlength="2000"
+                  maxLength="2000"
                   rows="19"
                   onChange={(e) =>
                     this.setState({ brief_para: e.target.value })
