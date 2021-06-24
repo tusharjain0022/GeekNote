@@ -12,13 +12,13 @@ router.route('/blog-stats').get(blogController.getBlogStats);
 
 router
   .route('/')
-  .get(authController.protect, blogController.getAllBlogs)
-  .post(blogController.createBlog);
+  .get(blogController.getAllBlogs)
+  .post(authController.protect, blogController.createBlog);
 
 router
   .route('/:id')
   .get(blogController.getBlog)
-  .patch(blogController.updateBlog)
-  .delete(blogController.deleteBlog);
+  .patch(authController.protect, blogController.updateBlog)
+  .delete(authController.protect, blogController.deleteBlog);
 
 module.exports = router;

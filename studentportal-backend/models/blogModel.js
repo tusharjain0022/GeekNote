@@ -37,6 +37,10 @@ const blogSchema = new mongoose.Schema({
     type: String,
     required: [true, 'A blog must have author'],
   },
+  userId: {
+    type: String,
+    required: [true, 'Please sign in to write a blog'],
+  },
   posting_date: {
     type: String,
     required: [true, 'A blog must have posting date'],

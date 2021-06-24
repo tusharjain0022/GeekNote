@@ -47,6 +47,7 @@ exports.getBlog = catchAsync(async (req, res, next) => {
 
 exports.createBlog = catchAsync(async (req, res, next) => {
   const newBlog = await Blog.create(req.body);
+  newBlog.userId = req.params.id;
 
   res.status(201).json({
     status: 'success',
