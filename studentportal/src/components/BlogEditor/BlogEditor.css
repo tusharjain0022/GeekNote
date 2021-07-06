@@ -1,0 +1,18 @@
+.blog-editor {
+    min-height:100vh;
+    padding: 50px;
+    margin-top: 40px;   
+    align-items: center;
+}
+.heading{
+    margin-bottom: 10px;
+    align-content: center;
+    color: aliceblue;
+}
+
+.submitbutton{
+    margin-top: 10px;
+}
+.writingArea{
+    margin-bottom:10px;
+}

@@ -11,7 +11,7 @@ function Features() {
           <img src={line} alt="line" className="line-pic"></img>
         </div> */}
         <div className="hline d-none d-lg-block">
-          <img src={hline} alt="hline" className="hline-pic"></img>
+          <img src={hline} alt="hline" className="hline-pic"/>
         </div>
         <div className="col-12">
           <h1 className="heading">
@@ -27,18 +27,18 @@ function Features() {
             Getting Started
           </h1>
           <hr
-            className="d-lg-none"
-            style={{ borderTop: "1px solid #ccd6f6", width: "70%" }}
-          ></hr>
+    className="d-lg-none"
+    style={{borderTop: "1px solid #ccd6f6", width: "70%"}}
+    />
         </div>
         <div className="col-12 ">
           <div className="iframe-home">
             {
               <iframe
-                title="getting started"
-                src="https://www.youtube.com/embed/jOYR3k1VhUQ?controls=0&start=41&loop=1"
-                style={{ width: "100%", height: "100%" }}
-              ></iframe>
+    title="getting started"
+    src="https://www.youtube.com/embed/jOYR3k1VhUQ?controls=0&start=41&loop=1"
+    style={{width: "100%", height: "100%"}}
+    />
             }
           </div>
         </div>

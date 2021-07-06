@@ -14,7 +14,7 @@ function ModalBox(props) {
     >
       <button
         type="button"
-        class="close"
+        className="close"
         data-dismiss="modal"
         aria-label="Close"
         style={{

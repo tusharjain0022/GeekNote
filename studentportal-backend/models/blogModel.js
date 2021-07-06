@@ -31,15 +31,15 @@ const blogSchema = new mongoose.Schema({
     type: String,
     required: [true, 'A blog must have title'],
     maxLength: [100, 'Blog title too big'],
-    minLength: [20, 'Blog title too small'],
-  },
-  intro_para: {
-    type: String,
-    required: [true, 'A blog must have introduction paragraph'],
+    minLength: [5, 'Blog title too small'],
   },
   author: {
     type: String,
     required: [true, 'A blog must have author'],
+  },
+  userId: {
+    type: String,
+    required: [true, 'Please sign in to write a blog'],
   },
   posting_date: {
     type: String,
@@ -51,11 +51,11 @@ const blogSchema = new mongoose.Schema({
   },
   brief_info: {
     type: String,
-    required: [true, 'A blog must have posting date'],
+    required: [true, 'A blog must have breif info'],
   },
 });
 
-//DOCUMENT MIDDLEWARE: runs before .save)_ and .create()
+//DOCUMENT MIDDLEWARE: runs before .save() and .create()
 blogSchema.pre('save', function (next) {
   this.slug = slugify(this.title, { lower: true });
   next();
