@@ -38,7 +38,7 @@ function Navbar_Top() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"/>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -76,6 +76,11 @@ function Navbar_Top() {
             <li className="nav-item">
               <Link className="nav-link" to="/blog">
                 Blog
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/blog-editor">
+                Create Blog
               </Link>
             </li>
             <li className="nav-item">

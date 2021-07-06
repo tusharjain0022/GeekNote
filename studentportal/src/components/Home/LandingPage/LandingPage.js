@@ -28,12 +28,12 @@ function LandingPage() {
           </div>
         </div>
         <div className="pic-div">
-          <img src={landing} className="pic" alt="default landing page"></img>
+          <img src={landing} className="pic" alt="default landing page"/>
         </div>
       </div>
       <div className="d-md-none m-landing">
         <div className="mob-pic-div">
-          <img src={mlanding} className="pic" alt="default landing page"></img>
+          <img src={mlanding} className="pic" alt="default landing page"/>
         </div>
       </div>
     </div>
