@@ -19,12 +19,14 @@ function AdminBlog(props_tag_name) {
 
         // console.log(response.data.data.blogs);
       });
-  }, []);
+  }, [propName]);
+
+  // console.log(blogs_to_show);
 
   var but_arr = [];
-  for (var j = 0; j < { blogs_to_show }.length / 4; j++) but_arr.push(j + 1);
+  for (var j = 0; j < blogs_to_show.length / 4; j++) but_arr.push(j + 1);
 
-  const total_blogs = { blogs_to_show }.length;
+  const total_blogs = blogs_to_show.length;
   const [start, set_start] = useState(0);
   const [end, set_end] = useState(3);
 
@@ -87,7 +89,7 @@ function AdminBlog(props_tag_name) {
       <p style={{ color: "greenyellow" }}>
         showing results for:- {props_tag_name.tag}
       </p>
-      {{ blogs_to_show }.length === 0 ? (
+      {blogs_to_show.length === 0 ? (
         <p className="no_result_admin">
           NO RESULTS FOUND FOR :- "{props_tag_name.tag}"
         </p>

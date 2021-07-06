@@ -44,7 +44,7 @@ function LoginBox(props) {
       <Button className="loginSignupButton" type="submit">
         Login
       </Button>
-      <p className="text-center smal-text">
+      <p className="text-center small-text">
         Don't have an account ? {"   "}
         <button
           type="button"
