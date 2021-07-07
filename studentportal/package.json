@@ -30,7 +30,7 @@
     "install-modules": "npm install",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run install-modules && npm run build",
-    "start": "npm run build && (cd ../studentportal-backend && npm install && npm run start:prod)"
+    "start": "(cd ../studentportal-backend && npm install && npm run start:prod)"
   },
   "eslintConfig": {
     "extends": [
