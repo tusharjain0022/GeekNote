@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const path = require('path');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -25,6 +26,9 @@ app.use((req, res, next) => {
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('./../studentportal/build'));
+  app.use((req, res, next) => {
+    res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
+  });
 }
 
 app.use(function (req, res, next) {
