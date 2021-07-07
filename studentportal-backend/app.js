@@ -27,9 +27,7 @@ app.use((req, res, next) => {
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('./../studentportal/build'));
   app.use((req, res, next) => {
-    res.sendFile(
-      path.join(__dirname, '..', 'studentportal', 'build', 'index.html')
-    );
+    res.sendFile(path.join('..', 'studentportal', 'build', 'index.html'));
   });
 }
 
