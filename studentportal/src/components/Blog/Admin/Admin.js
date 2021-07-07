@@ -13,7 +13,9 @@ function AdminBlog(props_tag_name) {
   const [blogs_to_show, setBlogs] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/v1/blogs/?tags=${propName}`)
+      .get(
+        `https://geeknote-dev-backend.herokuapp.com/api/v1/blogs/?tags=${propName}`
+      )
       .then((response) => {
         setBlogs(response.data.data.blogs);
 
