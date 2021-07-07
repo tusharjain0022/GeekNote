@@ -1,0 +1,23 @@
+{
+  "name": "geeknote",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/58057273-4871-4e38-a21b-efcedcec48b6/deploy-status)](https://app.netlify.com/sites/geeknote/deploys)\r <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->\r [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)\r <!-- ALL-CONTRIBUTORS-BADGE:END -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd studentportal && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil-Gupta582/GeekNote.git"
+  },
+  "author": "Sahil Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahil-Gupta582/GeekNote/issues"
+  },
+  "homepage": "https://github.com/Sahil-Gupta582/GeekNote#readme",
+  "dependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
