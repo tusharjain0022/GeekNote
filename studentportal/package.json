@@ -29,8 +29,8 @@
     "test": "react-scripts test",
     "install-client": "npm install",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run install-client",
-    "start": "npm run build && (cd ../studentportal-backend && npm run start:prod)"
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "(cd ../studentportal-backend && npm run start:prod)"
   },
   "eslintConfig": {
     "extends": [
