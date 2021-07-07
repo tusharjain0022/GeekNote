@@ -28,6 +28,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('./../studentportal/build'));
   app.use((req, res, next) => {
     res.sendFile('./../studentportal/build/index.html');
+    next();
   });
 }
 
