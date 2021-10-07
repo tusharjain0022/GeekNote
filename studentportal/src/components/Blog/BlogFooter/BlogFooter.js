@@ -16,17 +16,17 @@ function BlogFooter() {
         <div className="right_div">
           <div className="right_div_in">
             <p className="rd_text">Start Now</p>
-            <div class="button_of_div_2">
-              <button class="btn btn-link">
+            <div className="button_of_div_2">
+              <button className="btn btn-link">
                 <p>Link</p>
               </button>
-              <button class="btn btn-link">
+              <button className="btn btn-link">
                 <p>Blogs</p>
               </button>
-              <button class="btn btn-link">
+              <button className="btn btn-link">
                 <p>Edit</p>
               </button>
-              <button class="btn btn-link">
+              <button className="btn btn-link">
                 <p>Dashboard</p>
               </button>
             </div>
@@ -34,13 +34,19 @@ function BlogFooter() {
             <p className="rd_bottom">Register Now</p>
             <p className="rd_bottom_text">
               Already Registered ?
-              <button class="btn btn-link" style={{marginTop: "-1%", paddingLeft: "2%"}}>
+              <button
+                className="btn btn-link"
+                style={{ marginTop: "-1%", paddingLeft: "2%" }}
+              >
                 <p>Login here</p>
               </button>
             </p>
             <p className="rd_bottom_most_text">
               Have any query ?
-              <button class="btn btn-link" style={{marginTop: "-1%", paddingLeft: "2%"}}>
+              <button
+                className="btn btn-link"
+                style={{ marginTop: "-1%", paddingLeft: "2%" }}
+              >
                 <p>Contact Us</p>
               </button>
             </p>

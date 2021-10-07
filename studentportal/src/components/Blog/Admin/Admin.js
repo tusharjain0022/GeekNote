@@ -9,13 +9,12 @@ import CardofAdminBlock from "./cardOfAdminBlock";
 //testing live share
 
 function AdminBlog(props_tag_name) {
+  console.log("I am here");
   const propName = props_tag_name.tag.split(" ").join("%20");
   const [blogs_to_show, setBlogs] = useState([]);
   useEffect(() => {
     axios
-      .get(
-        `https://geeknote-dev-backend.herokuapp.com/api/v1/blogs/?tags=${propName}`
-      )
+      .get(`http://localhost:5000/api/v1/blogs/?tags=${propName}`)
       .then((response) => {
         setBlogs(response.data.data.blogs);
 

@@ -38,7 +38,7 @@ function Navbar_Top() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"/>
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -66,7 +66,7 @@ function Navbar_Top() {
               >
                 {branches.map((obj) => {
                   return (
-                    <Link className="dropdown-item" to={obj.link}>
+                    <Link className="dropdown-item" key={obj.id} to={obj.link}>
                       {obj.name}
                     </Link>
                   );

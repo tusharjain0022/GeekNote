@@ -34,7 +34,7 @@ function ModalBox(props) {
               <div className="backgroundImage">
                 <button
                   type="button"
-                  class="close"
+                  className="close"
                   className="back-button"
                   data-dismiss="modal"
                   aria-label="Close"

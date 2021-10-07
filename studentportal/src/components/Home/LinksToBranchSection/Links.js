@@ -22,7 +22,7 @@ function Links() {
     <section className="resource-section container">
       <div className="row">
         <div className="hline d-none d-lg-block">
-          <img src={hline} alt="hline" className="hline-pic"/>
+          <img src={hline} alt="hline" className="hline-pic" />
         </div>
         <div className="col-12">
           <h1 className="heading">
@@ -38,9 +38,9 @@ function Links() {
             Resources
           </h1>
           <hr
-    className="d-lg-none"
-    style={{borderTop: "1px solid #ccd6f6", width: "70%"}}
-    />
+            className="d-lg-none"
+            style={{ borderTop: "1px solid #ccd6f6", width: "70%" }}
+          />
         </div>
         <div className="col-12">
           <div className="allcards">

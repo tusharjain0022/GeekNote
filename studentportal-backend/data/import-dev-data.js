@@ -4,7 +4,7 @@ const Branch = require('./../models/branchModel');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const { pathToFileURL } = require('url');
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: '../config.env' });
 
 const DB = process.env.DATABASE.replace(
   '<PASSWORD>',

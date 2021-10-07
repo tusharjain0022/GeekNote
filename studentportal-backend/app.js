@@ -45,9 +45,9 @@ app.use(function (req, res, next) {
 });
 
 // Routes
-app.use(`/api/v1/blogs`, blogRouter); //Mounting Routers
-app.use(`/api/v1/branches`, branchRouter); //Mounting Routers
-app.use(`/api/v1/users`, userRouter); //Mounting Routers
+app.use(`/api/v1/blogs/`, blogRouter); //Mounting Routers
+app.use(`/api/v1/branches/`, branchRouter); //Mounting Routers
+app.use(`/api/v1/users/`, userRouter); //Mounting Routers
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));

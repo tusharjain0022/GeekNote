@@ -14,7 +14,7 @@ class BlogEditor extends React.Component {
 
   addBlog = async () => {
     await axios
-      .post("http://localhost:5000/api/v1/blogs/", {
+      .post("http://localhost:5000/api/v1/blogs", {
         createdAt: Date.now(),
         title: this.state.title,
         author: "Tester",

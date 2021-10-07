@@ -24,13 +24,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start-client": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "install-modules": "npm install",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run install-modules && npm run build",
-    "start": "(cd ../studentportal-backend && npm install && npm run start:prod)"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

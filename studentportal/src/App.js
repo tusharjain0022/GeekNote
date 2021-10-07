@@ -26,6 +26,7 @@ function App() {
                 <Route
                   exact
                   path={obj.link}
+                  key={obj.id}
                   component={() => (
                     <BranchSection name={obj.name} intro={obj.intro} />
                   )}
